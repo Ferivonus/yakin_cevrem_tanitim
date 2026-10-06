@@ -1,0 +1,86 @@
+[
+  {
+    "title": "About this policy",
+    "paragraphs": [
+      "This privacy policy explains how the Yakın Çevrem app processes your personal data under the Turkish Personal Data Protection Law No. 6698 (KVKK).",
+      "The data controller is the developer of the Yakın Çevrem app. You can send questions and requests to {email}."
+    ]
+  },
+  {
+    "title": "What data we process",
+    "paragraphs": [
+      "Account: your email address, first name, last name and username. Your password is stored irreversibly (hashed) by the sign-in service; we cannot see it.",
+      "Profile (all optional): photo, about text, birthday, phone number, city, gender, interests, school or work status, favorites and love language result. You choose who can see each of them in Privacy settings; \"prefer not to say\" is always available.",
+      "Connections: your close ones, your partner connection, sharing permissions, people you blocked and nicknames you set (only you see your nicknames).",
+      "Plans and content: weekly schedule, status, meetups and poll votes, tasks, to-dos, projects (items, pages, images and notes) and comments.",
+      "Messages: your direct and group messages, photos you send and reactions. Message texts are stored encrypted with AES-256 on the server.",
+      "Couple space: memories and their photos, time capsules, photo days, games, shared lists and plans, daily question answers and relationship dates.",
+      "Device and technical data: push notification token, a key generated on your device to encrypt notification previews, app version and last seen time.",
+      "Error logs: if the app crashes, the error text, app version, platform, language and a random ID generated on your phone. These logs are not linked to your account and contain no message content or personal information.",
+      "Reports: reports you send and reports made about you."
+    ]
+  },
+  {
+    "title": "Why we process it",
+    "paragraphs": [
+      "To provide the service: to create your account and let you share schedules, status, meetups, messages and a couple space with your close ones (performance of a contract, KVKK art. 5/2-c).",
+      "Optional profile details: only if you enter them, and only to show them to the people you choose (your explicit consent; you can delete or hide them at any time).",
+      "Phone number: for one-tap call, SMS and WhatsApp shortcuts with your partner and close ones. By default only your partner can see it.",
+      "Notifications: to deliver new messages, requests and reminders to you.",
+      "Safety: to review reports, remove content that breaks the rules and restrict accounts (legitimate interest, KVKK art. 5/2-f).",
+      "Keeping the app working: to find and fix crashes using error logs.",
+      "We don't show ads, we don't sell your data and we don't use it for advertising or profiling."
+    ]
+  },
+  {
+    "title": "Who can see it",
+    "paragraphs": [
+      "Content you share is visible only to the people you choose: your connections, your partner, or the members of your chat or project.",
+      "The app's moderators and administrators can only see reported content (for example the single reported message) and information about the report; they don't see your other messages. Administrators can also see error logs that are not linked to your account and totals such as the number of users."
+    ]
+  },
+  {
+    "title": "Service providers and transfers abroad",
+    "paragraphs": [
+      "Data is stored on Supabase (database, sign-in and file storage). Phone notifications are delivered through Google Firebase Cloud Messaging; only technical data is placed in a notification, message previews are encrypted with your device's key and Google cannot see the content.",
+      "These providers' servers may be located abroad. Transfers are made in line with KVKK art. 9 and only to the extent needed to provide the service.",
+      "We don't share your data with any other third party, except where required by law (for example a court or authority request)."
+    ]
+  },
+  {
+    "title": "How long we keep it",
+    "paragraphs": [
+      "Your data is kept while your account is open. When you delete your account, your profile, the messages you sent and the data linked to your account are deleted.",
+      "Some data is deleted automatically: expired statuses; read notifications after 90 days; unused notification tokens after 60 days; error logs after 30 days; activity history after 180 days.",
+      "When a partner connection is removed, the couple space stays in a read-only archive for 30 days and is then deleted. You can delete it right away with \"Delete archive now\".",
+      "Files of deleted content may remain in storage for a while for technical reasons; they are cleaned up regularly."
+    ]
+  },
+  {
+    "title": "Security",
+    "paragraphs": [
+      "The connection between the app and the server is encrypted (HTTPS). Message texts are stored encrypted. Every table has row-level access rules, so everyone can only read data they are allowed to see. Photos are kept in private storage and opened with time-limited links.",
+      "No system is perfect. If a data breach happens, we will notify the authority and you as required by KVKK."
+    ]
+  },
+  {
+    "title": "Your rights",
+    "paragraphs": [
+      "Under KVKK art. 11 you have the right to learn whether your data is processed, request information, learn the purpose and the recipients, ask for correction or deletion, object, and claim compensation for damages.",
+      "Inside the app you can edit your profile, change visibility settings, get a copy of your data with Settings → Account → \"Download my data\", and permanently delete your account.",
+      "For other requests write to {email}; we reply within 30 days at the latest."
+    ]
+  },
+  {
+    "title": "Age limit",
+    "paragraphs": [
+      "Yakın Çevrem isn't designed for people under {minimumAge}; they should not create an account."
+    ]
+  },
+  {
+    "title": "Changes",
+    "paragraphs": [
+      "If this policy changes materially, the new version is shown when you open the app and your consent is asked again."
+    ]
+  }
+]

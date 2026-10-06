@@ -1,0 +1,77 @@
+[
+  {
+    "title": "Kabul",
+    "paragraphs": [
+      "Yakın Çevrem'de hesap açarak bu kullanım koşullarını ve gizlilik politikasını kabul etmiş olursun. Kabul etmiyorsan uygulamayı kullanmamalısın."
+    ]
+  },
+  {
+    "title": "Hizmet",
+    "paragraphs": [
+      "Yakın Çevrem, yakın arkadaş grupları ve sevgililer için haftalık program, anlık durum, buluşma, mesajlaşma, sevgili alanı ve proje araçları sunar. Uygulama ücretsizdir; özellikler zamanla değişebilir, eklenebilir ya da kaldırılabilir."
+    ]
+  },
+  {
+    "title": "Hesabın",
+    "paragraphs": [
+      "Hesap açmak için en az {minimumAge} yaşında olmalısın.",
+      "Bilgilerini doğru vermeli, başkasını taklit etmemelisin. Her kişi kendi hesabını kullanır; hesabını başkasına devredemezsin.",
+      "Şifrenin güvenliği senin sorumluluğundadır. Hesabının izinsiz kullanıldığını düşünüyorsan şifreni değiştir ve bize yaz."
+    ]
+  },
+  {
+    "title": "Kabul edilmeyen içerik ve davranış",
+    "paragraphs": [
+      "Taciz, tehdit, zorbalık ve nefret söylemi.",
+      "Başkasının izni olmadan kişisel bilgilerini, fotoğraflarını ya da özel konuşmalarını paylaşmak.",
+      "Çıplaklık ve cinsel içerik; çocukları içeren her türlü istismar içeriği (yetkili makamlara bildirilir).",
+      "Şiddeti, kendine zarar vermeyi ya da yasa dışı faaliyeti özendirmek.",
+      "Spam, dolandırıcılık, sahte hesap ve başkasının yerine geçmek.",
+      "Uygulamanın güvenliğini aşmaya, başkasının verisine erişmeye ya da otomatik araçlarla hizmeti zorlamaya çalışmak."
+    ]
+  },
+  {
+    "title": "İçeriğin",
+    "paragraphs": [
+      "Paylaştığın içerik sana aittir. Bize yalnızca içeriği saklamak, seçtiğin kişilere göstermek ve hizmeti sunmak için gereken sınırlı izni verirsin.",
+      "Paylaştığın içerikten sen sorumlusun."
+    ]
+  },
+  {
+    "title": "Şikayet, engelleme ve denetim",
+    "paragraphs": [
+      "Rahatsız olduğun kişiyi engelleyebilir, kişiyi ya da içeriği şikayet edebilirsin. Şikayet edilen kişiye kimin şikayet ettiği söylenmez.",
+      "Şikayetler uygulamanın denetçileri tarafından incelenir. Kurallara aykırı mesaj, yorum ya da paylaşılan şablon kaldırılabilir; hesap 1 gün, 7 gün, 30 gün ya da süresiz kısıtlanabilir.",
+      "Kısıtlı hesap mesaj, yorum ve bağlantı isteği gönderemez; buluşma ve grup açamaz, şablon paylaşamaz. Uygulamayı görmeye ve verilerini indirmeye devam eder.",
+      "Bir kısıtlamaya itiraz etmek için {email} adresine yazabilirsin."
+    ]
+  },
+  {
+    "title": "Hesabın kapatılması",
+    "paragraphs": [
+      "Hesabını istediğin zaman Ayarlar → Hesap'tan kalıcı olarak silebilirsin.",
+      "Ağır ya da tekrarlanan ihlallerde hesabını kapatma hakkımız saklıdır."
+    ]
+  },
+  {
+    "title": "Sorumluluğun sınırı",
+    "paragraphs": [
+      "Uygulama \"olduğu gibi\" sunulur; kesintisiz ve hatasız çalışacağını garanti etmeyiz.",
+      "Kullanıcıların birbirine karşı davranışlarından ve uygulama dışında yaptıkları buluşmalardan sorumlu değiliz.",
+      "Önemli verilerinin bir kopyasını \"Verilerimi indir\" ile saklamanı öneririz."
+    ]
+  },
+  {
+    "title": "Değişiklikler",
+    "paragraphs": [
+      "Koşullar esaslı olarak değişirse yeni hali uygulamada gösterilir ve onayın istenir. Kabul etmezsen hesabını silebilirsin."
+    ]
+  },
+  {
+    "title": "Uygulanacak hukuk ve iletişim",
+    "paragraphs": [
+      "Bu koşullara Türkiye Cumhuriyeti hukuku uygulanır.",
+      "İletişim: {email}"
+    ]
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "title": "Acceptance",
+    "paragraphs": [
+      "By creating an account on Yakın Çevrem you accept these terms of use and the privacy policy. If you don't accept them, you shouldn't use the app."
+    ]
+  },
+  {
+    "title": "The service",
+    "paragraphs": [
+      "Yakın Çevrem offers weekly schedules, status, meetups, messaging, a couple space and project tools for close friend groups and couples. The app is free; features may change, be added or be removed over time."
+    ]
+  },
+  {
+    "title": "Your account",
+    "paragraphs": [
+      "You must be at least {minimumAge} years old to create an account.",
+      "Give accurate information and don't impersonate anyone. Everyone uses their own account; you can't transfer yours.",
+      "You're responsible for keeping your password safe. If you think your account was used without permission, change your password and write to us."
+    ]
+  },
+  {
+    "title": "Content and behaviour that are not allowed",
+    "paragraphs": [
+      "Harassment, threats, bullying and hate speech.",
+      "Sharing someone else's personal information, photos or private conversations without their permission.",
+      "Nudity and sexual content; any abusive content involving children (reported to the authorities).",
+      "Encouraging violence, self-harm or illegal activity.",
+      "Spam, fraud, fake accounts and pretending to be someone else.",
+      "Trying to bypass the app's security, access other people's data or overload the service with automated tools."
+    ]
+  },
+  {
+    "title": "Your content",
+    "paragraphs": [
+      "Content you share belongs to you. You only give us the limited permission needed to store it, show it to the people you choose and provide the service.",
+      "You're responsible for the content you share."
+    ]
+  },
+  {
+    "title": "Reports, blocking and moderation",
+    "paragraphs": [
+      "You can block anyone who bothers you and report a person or content. The reported person isn't told who reported them.",
+      "Reports are reviewed by the app's moderators. Messages, comments or shared templates that break the rules may be removed, and accounts may be restricted for 1 day, 7 days, 30 days or indefinitely.",
+      "A restricted account can't send messages, comments or connection requests, create meetups or groups, or share templates. It can still view the app and download its data.",
+      "To appeal a restriction, write to {email}."
+    ]
+  },
+  {
+    "title": "Closing your account",
+    "paragraphs": [
+      "You can permanently delete your account at any time from Settings → Account.",
+      "We may close accounts for serious or repeated violations."
+    ]
+  },
+  {
+    "title": "Limitation of liability",
+    "paragraphs": [
+      "The app is provided \"as is\"; we don't guarantee it will work without interruptions or errors.",
+      "We aren't responsible for how users behave towards each other or for meetups outside the app.",
+      "We recommend keeping a copy of your important data with \"Download my data\"."
+    ]
+  },
+  {
+    "title": "Changes",
+    "paragraphs": [
+      "If the terms change materially, the new version is shown in the app and your consent is asked. If you don't accept, you can delete your account."
+    ]
+  },
+  {
+    "title": "Governing law and contact",
+    "paragraphs": [
+      "These terms are governed by the laws of the Republic of Türkiye.",
+      "Contact: {email}"
+    ]
+  }
+]

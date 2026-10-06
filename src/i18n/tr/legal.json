@@ -1,0 +1,28 @@
+{
+  "version": "Sürüm {version} · Son güncelleme {date}",
+  "toc": "İçindekiler",
+  "inApp": "Bu metin uygulamada da Ayarlar → Hesap bölümünde bulunur.",
+  "contact": "Soruların için:",
+  "website": {
+    "title": "Bu web sitesi",
+    "paragraphs": [
+      "Bu web sitesi çerez kullanmaz, reklam ya da izleme aracı içermez ve form aracılığıyla veri toplamaz.",
+      "Yalnızca dil önerisi şeridini kapattığını hatırlamak için tarayıcında küçük bir kayıt tutulur; bu kayıt bize gönderilmez.",
+      "Sitenin barındırıldığı hizmet sağlayıcı (Vercel), güvenlik ve işletim amacıyla kısa süreli sunucu kayıtları tutabilir."
+    ]
+  },
+  "deleteAccount": {
+    "eyebrow": "Hesap",
+    "title": "Hesabını silmek",
+    "text": "Hesabını istediğin zaman kalıcı olarak silebilirsin. İşte nasıl:",
+    "steps": [
+      "Uygulamada Profil → Ayarlar → Hesap → Hesabı sil'e dokun.",
+      "Onayla. Hesabın, profilin, sana bağlı veriler ve gönderdiğin mesajlar kalıcı olarak silinir.",
+      "Uygulamaya ulaşamıyorsan {email} adresine kayıtlı e-postandan yaz; talebini en geç 30 gün içinde yerine getiririz."
+    ],
+    "tip": "Silmeden önce Ayarlar → Hesap → \"Verilerimi indir\" ile bir kopyasını alabilirsin.",
+    "retentionTitle": "Ne silinir, ne kadar kalır",
+    "retentionSource": "Gizlilik politikasının \"Ne kadar saklıyoruz\" bölümünden.",
+    "mailSubject": "Hesap silme talebi"
+  }
+}

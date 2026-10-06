@@ -1,0 +1,169 @@
+{
+  "schedule": {
+    "eyebrow": "Friends · Teams · Families · Couples",
+    "title": "No more asking who's free when",
+    "text": "Add your week and share it with whoever you like. The app finds the gap; tap \"Plan\" and the meetup is ready.",
+    "rows": {
+      "week": {
+        "title": "Your week on one screen",
+        "text": "Classes, work, gym; enter it once and it repeats. With your partner, see both weeks together in the \"Together\" view.",
+        "bullets": ["Repeating entries", "Me · Partner · Together", "You choose who sees your schedule"]
+      },
+      "people": {
+        "title": "Your people, one tap away",
+        "text": "Message, nudge, check their week or find free time from their profile.",
+        "bullets": ["Add by username", "Live status and nudges", "Birthday and special-day reminders"]
+      }
+    }
+  },
+  "plans": {
+    "eyebrow": "Friends · Families · Flatmates",
+    "title": "Everyone knows their part",
+    "text": "Meetups, to-dos and tasks in one place. Who's coming, who's doing what, what's done; all at a glance.",
+    "rows": {
+      "poll": {
+        "title": "Put the date to a vote",
+        "text": "Suggest a few days and places; everyone ticks what works and the favourite rises to the top.",
+        "bullets": ["Date and place polls", "Remote join link", "Add to calendar"]
+      },
+      "todos": {
+        "title": "Shared to-dos",
+        "text": "Groceries, chores, the picnic list. Whoever you share with sees it, and you see who ticked what.",
+        "bullets": ["Shareable lists", "Me · Partner · Together progress", "Tick things off even offline"]
+      },
+      "tasks": {
+        "title": "Tasks for things with a deadline",
+        "text": "Jobs with a priority, a date and progress; your phone reminds you when it's time.",
+        "bullets": ["Priority and progress", "Deadline reminders", "Just for you, or shared"]
+      }
+    },
+    "cards": {
+      "reminders": {
+        "title": "Reminders",
+        "text": "Meetups, deadlines, birthdays. Your phone tells you when it's time."
+      },
+      "offline": {
+        "title": "Works offline too",
+        "text": "Messages and ticks you make offline aren't lost; they're sent when you're back."
+      }
+    }
+  },
+  "projects": {
+    "eyebrow": "For teams",
+    "title": "A proper workspace for the things you build together",
+    "text": "Assignments, events, apps, moving house. Hand out roles, split the work into weeks, see what's waiting on what.",
+    "rows": {
+      "review": {
+        "title": "Finished work comes to you",
+        "text": "Members \"Send for review\" when they're done; the lead approves it or sends it back with a note.",
+        "bullets": ["Lead · Manager · Member · Viewer", "Assigned to me", "Workload per person"]
+      },
+      "timeline": {
+        "title": "Timeline and critical path",
+        "text": "The app works out which task would delay everything and lays the work out across the days.",
+        "bullets": ["List, Kanban board and Gantt timeline", "Dependencies and delay warnings", "Weekend and working-hours settings"]
+      }
+    },
+    "cards": {
+      "roadmap": {
+        "title": "Roadmap and strategy",
+        "text": "Week-by-week plans, priorities, acceptance criteria; brief, SWOT, risks."
+      },
+      "pages": {
+        "title": "Page plans and designs",
+        "text": "For web and mobile: page-by-page plans, designs, notes pinned on the image."
+      },
+      "templates": {
+        "title": "Templates",
+        "text": "Start from 8 ready-made templates or one shared by your friends."
+      }
+    }
+  },
+  "chat": {
+    "eyebrow": "For everyone",
+    "title": "The plan is right there while you talk",
+    "text": "Tag the meetup, plan, task or schedule in chat; no more \"which Friday?\".",
+    "rows": {
+      "circles": {
+        "title": "A chat for every circle",
+        "text": "Friends, team, flatmates, partner. Every chat gets its own theme.",
+        "bullets": ["Reactions, replies, edits, delete for everyone", "Photos, search, pinned messages", "Read ticks, typing, online"]
+      },
+      "notifications": {
+        "title": "Nothing important slips by",
+        "text": "Notifications are colour-coded by type: meetups, your people, your partner, projects. You set the quiet hours.",
+        "bullets": ["Reply from the notification, mute", "Turn types on and off", "Previews encrypted with your device's key"]
+      }
+    },
+    "cards": {
+      "talkAbout": {
+        "title": "Talk about it",
+        "text": "Attach the meetup, shared plan, project or task to a message. You can even start a group with everyone involved in one tap."
+      },
+      "theme": {
+        "title": "A shared chat theme",
+        "text": "Colour, pattern and font; everyone in the chat sees the same theme."
+      },
+      "encrypted": {
+        "title": "Stored encrypted",
+        "text": "Messages are stored encrypted on the server. It isn't end-to-end encryption, and we say so plainly."
+      }
+    }
+  },
+  "couples": {
+    "eyebrow": "If you have a partner",
+    "title": "A little corner that's yours",
+    "text": "Add someone as your partner and a space just for the two of you opens on top of everything else.",
+    "rows": {
+      "plans": {
+        "title": "\"This or that?\"",
+        "text": "Suggest two options for tonight and let them choose. Or just \"you decide\".",
+        "bullets": ["Two-option suggestions", "Approve with a new time", "Shared lists"]
+      },
+      "games": {
+        "title": "Play together",
+        "text": "Draw and guess, How well do you know me?, This or that and more. Play at the same time.",
+        "bullets": ["Tic-tac-toe, Connect four, Finish the story", "Live drawing and reactions", "Our game memories"]
+      },
+      "moments": {
+        "title": "A small moment every day",
+        "text": "A daily photo theme, a daily question, your important dates and a love-language quiz.",
+        "bullets": ["Photos revealed together, with streaks", "First met, first date and countdowns", "Plan ideas for your love languages"]
+      }
+    },
+    "cards": {
+      "memories": {
+        "title": "Memories and a time capsule",
+        "text": "A photo journal, \"a year ago today\" and a capsule that opens in the future."
+      },
+      "lists": {
+        "title": "Shared lists and tasks",
+        "text": "Watchlists, places to go, chores; your progress at a glance."
+      }
+    }
+  },
+  "trust": {
+    "eyebrow": "For everyone",
+    "title": "You choose who sees what",
+    "text": "Share your schedule, status and tasks person by person; personal details are always optional.",
+    "cards": {
+      "encrypted": {
+        "title": "Messages stored encrypted",
+        "text": "Message texts are encrypted on the server; notification previews open only with your device's key. It isn't end-to-end encryption."
+      },
+      "block": {
+        "title": "Block and report",
+        "text": "Reports are reviewed by a moderation team and accounts can be restricted. Nobody is told who reported them."
+      },
+      "download": {
+        "title": "Download your data",
+        "text": "Get a copy of your data from Settings → Account → \"Download my data\"."
+      },
+      "delete": {
+        "title": "Delete your account for good",
+        "text": "Any time from the app, or by email if you can't get in."
+      }
+    },
+    "documents": "Documents"
+  }
+}

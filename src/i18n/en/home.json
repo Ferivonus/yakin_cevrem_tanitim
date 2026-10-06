@@ -1,0 +1,233 @@
+{
+  "ids": {
+    "inside": "inside",
+    "how": "how-it-works",
+    "who": "who",
+    "pricing": "pricing",
+    "faq": "faq",
+    "download": "download",
+    "web": "web"
+  },
+  "hero": {
+    "eyebrow": "For friends, teams, families and couples",
+    "title": "Your schedule, your plans and your people, in one place.",
+    "titleMark": "in one place.",
+    "text": "Share your week, find free time together, set up the meetup, split the work. All right next to the chat where you talk about it.",
+    "ctaSecondary": "What's inside?",
+    "sticker": {
+      "listTitle": "Flat · Shopping",
+      "item": "Bread",
+      "itemBy": "Olivia got it",
+      "statusName": "Noah",
+      "status": "Free tonight"
+    }
+  },
+  "problem": {
+    "eyebrow": "Sound familiar?",
+    "bubbles": {
+      "friends": {
+        "from": "Friday Crew",
+        "text": "Who's coming Saturday? 🙃"
+      },
+      "team": {
+        "from": "Final Project",
+        "text": "Who had the presentation slides?"
+      },
+      "family": {
+        "from": "Flat",
+        "text": "Who was getting the bread?"
+      },
+      "couple": {
+        "from": "Leo",
+        "text": "What are we doing tonight?"
+      }
+    },
+    "typing": "typing",
+    "text": "Schedules in the calendar, plans in the chat, tasks in a notes app. Yakın Çevrem brings them together."
+  },
+  "how": {
+    "eyebrow": "How it works",
+    "title": "From schedules to plans in three steps",
+    "steps": {
+      "add": {
+        "title": "Add your week",
+        "text": "Classes, work, gym; enter it once."
+      },
+      "find": {
+        "title": "Find the gap",
+        "text": "See when everyone is free."
+      },
+      "plan": {
+        "title": "Plan it, vote on it",
+        "text": "One tap for a meetup or a date poll."
+      }
+    }
+  },
+  "who": {
+    "eyebrow": "Who with",
+    "title": "One app for everyone in your life",
+    "legend": "Choose who you'll use it with",
+    "go": "Go to {page}",
+    "tabs": {
+      "friends": {
+        "label": "With friends",
+        "hash": "who-friends",
+        "title": "The group plan, in one place",
+        "text": "Who's free, who's coming Saturday, who's bringing what? Find the time, run a vote, talk it over.",
+        "chips": [
+          "Free time together",
+          "Date and place polls",
+          "Group chat"
+        ]
+      },
+      "team": {
+        "label": "With your team",
+        "hash": "who-team",
+        "title": "Always know who did what",
+        "text": "Add your team, assign the work. Finished work goes for review and the lead approves. Board, timeline and \"Assigned to me\" included.",
+        "chips": [
+          "School assignments",
+          "Clubs and volunteer groups",
+          "Side projects"
+        ]
+      },
+      "family": {
+        "label": "With family",
+        "hash": "who-family",
+        "title": "Share the household load",
+        "text": "Shopping lists, chores, reminders. Everyone sees who took what and who's done.",
+        "chips": [
+          "Shopping lists",
+          "Chores",
+          "Flatmates"
+        ]
+      },
+      "couple": {
+        "label": "With your partner",
+        "hash": "who-partner",
+        "title": "Your shared notebook",
+        "text": "Shared to-dos and plans, plus a space just for you two: memories, games, a daily question.",
+        "chips": [
+          "This or that?",
+          "Memories",
+          "Games together"
+        ]
+      }
+    }
+  },
+  "topics": {
+    "eyebrow": "What's inside?",
+    "title": "A place for everything",
+    "text": "Six areas, one app. Start with whichever you're curious about.",
+    "cards": {
+      "schedule": "Everyone's week side by side, free time in one tap.",
+      "plans": "Meetups, polls, to-dos and tasks.",
+      "projects": "Roles, assignments, approvals, board and timeline.",
+      "chat": "Tag the plan in chat so everyone's on the same page.",
+      "couples": "Shared plans, memories and games, just for you two.",
+      "trust": "You choose who sees what."
+    }
+  },
+  "pricing": {
+    "eyebrow": "Plans",
+    "title": "Everything is free today. Pro is coming with calls.",
+    "text": "Schedule, plans, projects, the couple space and messaging stay free. Pro adds voice and video calls; get it for yourself, with your partner or with your team.",
+    "priceSoon": "Price coming soon",
+    "free": "Free",
+    "now": "Now",
+    "plans": {
+      "free": {
+        "name": "Normal",
+        "tagline": "For everyone, from today",
+        "seats": "Everyone",
+        "features": [
+          "Schedules and free time together",
+          "Meetups, polls, to-dos and tasks",
+          "Projects: board, timeline and approvals",
+          "One-to-one and group chat",
+          "Couple space, memories and games"
+        ]
+      },
+      "pro": {
+        "name": "Pro",
+        "tagline": "For yourself",
+        "seats": "1 person · 1 Pro membership",
+        "features": [
+          "Everything in Normal",
+          "Voice calls",
+          "Video calls"
+        ]
+      },
+      "couple": {
+        "name": "Couple",
+        "tagline": "You and your partner",
+        "seats": "2 people · 2 Pro memberships",
+        "features": [
+          "Pro for two: one of you buys, both of you use it",
+          "Voice and video calls for both of you",
+          "Close even when you're apart"
+        ]
+      },
+      "team": {
+        "name": "Team",
+        "tagline": "Your team, group or family",
+        "seats": "5 people · 5 Pro memberships",
+        "features": [
+          "Pro for five, in one plan",
+          "Voice and video calls for all five",
+          "For a friend group, a project team or a family"
+        ]
+      }
+    },
+    "note": "Prices will be announced when Pro arrives in the app. Planned, subject to change.",
+    "notify": "Tell me when Pro arrives",
+    "notifySubject": "Tell me when Pro arrives"
+  },
+  "soon": {
+    "title": "What's next?",
+    "items": [
+      "Tag to-dos and tasks in chat",
+      "Voice and video calls (Pro)",
+      "Polls in group chats",
+      "Invite your people with a link",
+      "New games with your partner"
+    ],
+    "text": "From the app's own \"What's next?\" list, each one to make planning with your people a little easier."
+  },
+  "web": {
+    "eyebrow": "On the way: the web version",
+    "title": "Soon in your browser, too.",
+    "titleMark": "browser, too.",
+    "text": "We're building a web version of Yakın Çevrem. At your desk, you'll reach your schedule, plans and chats with the same account.",
+    "points": {
+      "account": {
+        "title": "Same account, same people",
+        "text": "Whatever is on your phone is on your computer, nothing extra to install."
+      },
+      "wide": {
+        "title": "Your week on a big screen",
+        "text": "See your schedule and shared free time in one roomy table."
+      },
+      "desk": {
+        "title": "Plan from your desk",
+        "text": "Write, assign and tick things off while you study or work, without reaching for your phone."
+      }
+    },
+    "note": "Planned; timing and scope may change. Right now the app is Android-only.",
+    "notify": "Tell me when web is ready",
+    "notifySubject": "Tell me when the web version is ready",
+    "mock": {
+      "url": "yakincevrem.app",
+      "title": "This week",
+      "free": "Shared free time",
+      "soon": "Soon"
+    }
+  },
+  "faqTeaser": {
+    "title": "Questions people ask"
+  },
+  "finalCta": {
+    "title": "\"What are we doing this week?\" Now in one place.",
+    "text": "Your people are already there. Let your plans be too."
+  }
+}

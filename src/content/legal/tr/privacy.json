@@ -1,0 +1,86 @@
+[
+  {
+    "title": "Bu metin hakkında",
+    "paragraphs": [
+      "Bu gizlilik politikası, Yakın Çevrem uygulamasının kişisel verilerini nasıl işlediğini 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) kapsamında açıklar.",
+      "Veri sorumlusu Yakın Çevrem uygulamasının geliştiricisidir. Sorularını ve taleplerini {email} adresine yazabilirsin."
+    ]
+  },
+  {
+    "title": "Hangi verileri işliyoruz",
+    "paragraphs": [
+      "Hesap: e-posta adresin, adın, soyadın ve kullanıcı adın. Şifren giriş hizmetinde geri çevrilemez biçimde (özetlenmiş) saklanır; biz göremeyiz.",
+      "Profil (hepsi isteğe bağlı): fotoğraf, hakkımda yazısı, doğum günü, telefon numarası, yaşadığın il, cinsiyet, ilgi alanları, okul ya da iş durumu, favoriler ve sevgi dili sonucu. Her birinin kimlere görüneceğini Gizlilik ayarlarından seçersin; \"belirtmek istemiyorum\" seçeneği her zaman vardır.",
+      "Bağlantılar: yakınların, sevgili bağlantın, paylaşım izinlerin, engellediğin kişiler ve koyduğun lakaplar (lakapları yalnızca sen görürsün).",
+      "Planlar ve içerik: haftalık program, anlık durum, buluşmalar ve anket oyları, görevler, yapılacaklar, projeler (işler, sayfalar, görseller ve notlar) ve yorumlar.",
+      "Mesajlar: birebir ve grup mesajların, gönderdiğin fotoğraflar ve tepkiler. Mesaj metinleri sunucuda AES-256 ile şifreli saklanır.",
+      "Sevgili alanı: anılar ve fotoğrafları, zaman kapsülleri, fotoğraf günleri, oyunlar, ortak listeler ve planlar, günün sorusu cevapları ve ilişki tarihleri.",
+      "Cihaz ve teknik bilgiler: bildirim (push) anahtarı, bildirim önizlemesini şifrelemek için cihazında üretilen anahtar, uygulama sürümü ve son görülme zamanı.",
+      "Hata kayıtları: uygulama çökerse hata metni, uygulama sürümü, platform, dil ve telefonunda üretilen rastgele bir kimlik. Bu kayıtlar hesabınla ilişkilendirilmez; mesaj içeriği ya da kişisel bilgi içermez.",
+      "Şikayetler: gönderdiğin şikayetler ve hakkında yapılan şikayetler."
+    ]
+  },
+  {
+    "title": "Neden işliyoruz",
+    "paragraphs": [
+      "Hizmeti sunmak: hesabını açmak ve yakınlarınla program, durum, buluşma, mesaj ve ortak alan paylaşmanı sağlamak (sözleşmenin kurulması ve ifası, KVKK m. 5/2-c).",
+      "İsteğe bağlı profil bilgileri: yalnızca sen girersen ve seçtiğin kişilere göstermek için (açık rızan; istediğin zaman silebilir ya da gizleyebilirsin).",
+      "Telefon numarası: sevgilinle ve yakınlarınla tek dokunuşla arama, SMS ve WhatsApp kısayolu için. Varsayılan olarak yalnızca sevgilin görür.",
+      "Bildirimler: yeni mesajları, istekleri ve hatırlatmaları sana iletmek.",
+      "Güvenlik: şikayetleri incelemek, kurallara aykırı içeriği kaldırmak ve hesapları kısıtlamak (meşru menfaat, KVKK m. 5/2-f).",
+      "Uygulamanın düzgün çalışması: hata kayıtlarıyla çökmeleri bulmak ve düzeltmek.",
+      "Reklam göstermiyoruz; verilerini satmıyor, reklam ya da profil çıkarma amacıyla kullanmıyoruz."
+    ]
+  },
+  {
+    "title": "Kimler görebilir",
+    "paragraphs": [
+      "Paylaştığın içerik yalnızca seçtiğin kişilere görünür: bağlantıların, sevgilin, sohbetin ya da projenin üyeleri.",
+      "Uygulamanın denetçileri ve tam yetkilileri yalnızca şikayet edilen içeriği (ör. şikayet edilen tek mesajı) ve şikayetle ilgili bilgileri görebilir; diğer mesajlarını görmez. Tam yetkililer ayrıca hesabınla ilişkilendirilmeyen hata kayıtlarını ve kullanıcı sayısı gibi toplam sayıları görür."
+    ]
+  },
+  {
+    "title": "Hizmet sağlayıcılar ve yurt dışına aktarım",
+    "paragraphs": [
+      "Veriler Supabase altyapısında (veritabanı, giriş ve dosya depolama) saklanır. Telefon bildirimleri Google Firebase Cloud Messaging ile iletilir; bildirime yalnızca teknik bilgi konur, mesaj önizlemesi cihazının anahtarıyla şifrelenir ve Google içeriği göremez.",
+      "Bu sağlayıcıların sunucuları yurt dışında olabilir. Aktarım KVKK m. 9'a uygun olarak ve yalnızca hizmetin sunulması için gereken ölçüde yapılır.",
+      "Verilerini başka hiçbir üçüncü tarafla paylaşmıyoruz. Mahkeme ya da yetkili kurum talebi gibi yasal zorunluluklar saklıdır."
+    ]
+  },
+  {
+    "title": "Ne kadar saklıyoruz",
+    "paragraphs": [
+      "Verilerin hesabın açık olduğu sürece saklanır. Hesabını sildiğinde profilin, gönderdiğin mesajlar ve hesabına bağlı veriler silinir.",
+      "Bazı veriler kendiliğinden silinir: süresi dolan anlık durumlar; okunmuş bildirimler 90 gün; kullanılmayan bildirim anahtarları 60 gün; hata kayıtları 30 gün; işlem geçmişi 180 gün sonra.",
+      "Sevgili bağlantısı kaldırılınca ortak alan 30 gün salt okunur arşivde kalır, sonra silinir. \"Arşivi şimdi sil\" ile beklemeden silebilirsin.",
+      "Silinen içeriğin depodaki dosyaları teknik nedenlerle bir süre daha kalabilir; düzenli olarak temizlenir."
+    ]
+  },
+  {
+    "title": "Güvenlik",
+    "paragraphs": [
+      "Uygulama ile sunucu arasındaki bağlantı şifrelidir (HTTPS). Mesaj metinleri sunucuda şifreli tutulur. Her tabloda satır düzeyinde erişim kuralları vardır; herkes yalnızca görmeye yetkili olduğu veriyi okuyabilir. Fotoğraflar özel depolarda tutulur ve süreli bağlantılarla açılır.",
+      "Hiçbir sistem kusursuz değildir. Bir veri ihlali olursa KVKK'nın öngördüğü şekilde Kurula ve sana bildiririz."
+    ]
+  },
+  {
+    "title": "Hakların",
+    "paragraphs": [
+      "KVKK m. 11 uyarınca verilerinin işlenip işlenmediğini öğrenme, bilgi isteme, işlenme amacını ve aktarıldığı kişileri öğrenme, düzeltilmesini ya da silinmesini isteme, itiraz etme ve zararının giderilmesini talep etme hakların vardır.",
+      "Uygulama içinden profilini düzenleyebilir, görünürlük ayarlarını değiştirebilir, Ayarlar → Hesap → \"Verilerimi indir\" ile verinin bir kopyasını alabilir ve hesabını kalıcı olarak silebilirsin.",
+      "Diğer talepler için {email} adresine yaz; başvurunu en geç 30 gün içinde yanıtlarız."
+    ]
+  },
+  {
+    "title": "Yaş sınırı",
+    "paragraphs": [
+      "Yakın Çevrem {minimumAge} yaşından küçükler için tasarlanmamıştır; bu yaştan küçükler hesap açmamalıdır."
+    ]
+  },
+  {
+    "title": "Değişiklikler",
+    "paragraphs": [
+      "Bu metin esaslı olarak değişirse uygulamayı açtığında yeni hali gösterilir ve onayın yeniden istenir."
+    ]
+  }
+]

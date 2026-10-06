@@ -1,0 +1,285 @@
+@import 'tailwindcss';
+
+:root {
+  color-scheme: light dark;
+  --bg: light-dark(#f3f9fb, #0a1620);
+  --surface: light-dark(#ffffff, #0f2130);
+  --surface-2: light-dark(#e8f3f7, #15293a);
+  --ink: light-dark(#0e2433, #e4f1f7);
+  --muted: light-dark(#4b6577, #98b4c4);
+  --line: light-dark(#d6e7ee, #1f3a4d);
+  --brand: light-dark(#1670cc, #1a74d0);
+  --brand-ink: light-dark(#0b58a8, #8ccaff);
+  --brand-soft: light-dark(#dff0fd, #123552);
+  --accent: light-dark(#22b07d, #45d29c);
+  --accent-ink: light-dark(#11744f, #7fe3b8);
+  --accent-soft: light-dark(#daf5e8, #12382b);
+  --sun: light-dark(#ffcf5c, #ffd56b);
+  --sun-ink: light-dark(#7a5300, #ffd98a);
+  --sun-soft: light-dark(#fff3cc, #3a3212);
+  --success: light-dark(#1e9e63, #4cc38a);
+  --love: light-dark(#e85d8e, #ff8fb4);
+  --love-deep: light-dark(#7a1f45, #ffd6e4);
+  --love-text: light-dark(#5b1631, #ffe3ec);
+  --love-muted: light-dark(#9c5a74, #d9a3b8);
+  --love-blush: light-dark(#fff4f8, #2a1720);
+  --love-petal: light-dark(#ffdde9, #4a2335);
+  --love-surface: light-dark(#ffffff, #331c27);
+  --night: light-dark(#0b2a4a, #123552);
+  --night-2: light-dark(#12304f, #0c1d2c);
+  --sky-1: light-dark(#6ec0f2, #071830);
+  --sky-2: light-dark(#b6e0f8, #0d2847);
+  --sky-3: light-dark(#e6f7ee, #0f3a48);
+  --glow: light-dark(#fff2c2, #2b5f80);
+  --star: light-dark(transparent, #ffffff);
+  --cloud: light-dark(#ffffff, #1b3a58);
+  --cloud-shade: light-dark(#cfe7f5, #132e48);
+  --grass-1: light-dark(#5cc184, #134236);
+  --grass-2: light-dark(#a3dd9b, #1b4f3c);
+  --dusk-1: light-dark(#0a2a4f, #050f1f);
+  --dusk-2: light-dark(#11507e, #0a2846);
+  --dusk-3: light-dark(#1b8a86, #12585e);
+  --shadow-a: light-dark(rgb(20 86 130 / 0.06), rgb(0 0 0 / 0.3));
+  --shadow-b: light-dark(rgb(20 86 130 / 0.2), rgb(0 0 0 / 0.55));
+  --shadow: 0 1px 2px var(--shadow-a), 0 14px 34px -18px var(--shadow-b);
+  --phone-shadow: 0 40px 70px -34px var(--shadow-b), 0 14px 28px -18px var(--shadow-b);
+  --ease-soft: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-breeze: cubic-bezier(0.45, 0, 0.25, 1);
+}
+
+:root[data-theme='light'] {
+  color-scheme: light;
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+}
+
+@theme inline {
+  --font-sans: 'Plus Jakarta Sans Variable', ui-sans-serif, system-ui, sans-serif;
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-brand: var(--brand);
+  --color-brand-ink: var(--brand-ink);
+  --color-brand-soft: var(--brand-soft);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-accent-ink: var(--accent-ink);
+  --color-sun: var(--sun);
+  --color-sun-ink: var(--sun-ink);
+  --color-sun-soft: var(--sun-soft);
+  --color-success: var(--success);
+  --color-love: var(--love);
+  --color-love-deep: var(--love-deep);
+  --color-love-text: var(--love-text);
+  --color-love-muted: var(--love-muted);
+  --color-love-blush: var(--love-blush);
+  --color-love-petal: var(--love-petal);
+  --color-love-surface: var(--love-surface);
+  --color-night: var(--night);
+  --color-night-2: var(--night-2);
+  --shadow-soft: var(--shadow);
+  --shadow-phone: var(--phone-shadow);
+  --radius-card: 1.5rem;
+  --font-serif: 'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif;
+}
+
+@utility wrap {
+  width: 100%;
+  max-width: 70rem;
+  margin-inline: auto;
+  padding-inline: 1rem;
+  @media (width >= 40rem) {
+    padding-inline: 1.5rem;
+  }
+}
+
+@utility section-y {
+  padding-block: clamp(4rem, 9vw, 7.5rem);
+}
+
+@utility eyebrow {
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: var(--brand-ink);
+}
+
+@utility h-display {
+  font-size: clamp(2.25rem, 6vw, 4rem);
+  line-height: 1.06;
+  font-weight: 780;
+  letter-spacing: -0.035em;
+  text-wrap: balance;
+}
+
+@utility h-section {
+  font-size: clamp(1.75rem, 4vw, 2.75rem);
+  line-height: 1.12;
+  font-weight: 770;
+  letter-spacing: -0.028em;
+  text-wrap: balance;
+}
+
+@utility lead {
+  font-size: clamp(1.0625rem, 1.6vw, 1.1875rem);
+  line-height: 1.6;
+  color: var(--muted);
+  text-wrap: pretty;
+}
+
+@utility serif-mark {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+@utility float-slow {
+  animation: float 7s var(--ease-breeze) infinite alternate;
+}
+
+@utility float-slower {
+  animation: float 9s var(--ease-breeze) -3s infinite alternate;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-padding-top: 5.5rem;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--bg);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.1 0 0 0 0 0.3 0 0 0 0 0.4 0 0 0 0.04 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    color: var(--ink);
+    font-family: var(--font-sans);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: clip;
+    transition:
+      background-color 0.6s var(--ease-soft),
+      color 0.6s var(--ease-soft);
+  }
+
+  .theme-switching,
+  .theme-switching * {
+    transition:
+      background-color 0.6s var(--ease-soft),
+      border-color 0.6s var(--ease-soft),
+      color 0.6s var(--ease-soft),
+      fill 0.6s var(--ease-soft) !important;
+  }
+
+  :lang(tr) {
+    hyphens: manual;
+  }
+
+  :focus-visible {
+    outline: 2.5px solid var(--brand);
+    outline-offset: 3px;
+    border-radius: 0.5rem;
+  }
+
+  ::selection {
+    background: var(--brand-soft);
+    color: var(--ink);
+  }
+
+  a,
+  button,
+  summary,
+  label {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+.reveal-ready {
+  opacity: 0;
+  transform: translateY(26px);
+  filter: blur(6px);
+}
+
+.reveal-ready.is-visible {
+  opacity: 1;
+  transform: none;
+  filter: none;
+  transition:
+    opacity 1s var(--ease-soft),
+    transform 1.2s var(--ease-soft),
+    filter 1s var(--ease-soft);
+  transition-delay: var(--reveal-delay, 0ms);
+}
+
+.page-enter-active {
+  transition:
+    opacity 0.55s var(--ease-soft),
+    transform 0.7s var(--ease-soft);
+}
+
+.page-leave-active {
+  transition: opacity 0.22s ease;
+}
+
+.page-enter-from {
+  opacity: 0;
+  transform: translateY(14px);
+}
+
+.page-leave-to {
+  opacity: 0;
+}
+
+@keyframes float {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(0, -10px, 0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-delay: 0ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    transition-delay: 0ms !important;
+  }
+
+  .reveal-ready {
+    opacity: 1;
+    transform: none;
+    filter: none;
+  }
+}
+
+.theme-love {
+  --bg: var(--love-blush);
+  --surface: var(--love-surface);
+  --surface-2: var(--love-petal);
+  --ink: var(--love-text);
+  --muted: var(--love-muted);
+  --line: var(--love-petal);
+  --brand: var(--love);
+  --brand-ink: var(--love-deep);
+  --brand-soft: var(--love-petal);
+  --sky-1: var(--love-petal);
+  --sky-2: var(--love-blush);
+  --cloud: light-dark(#ffffff, #4a2a3a);
+  --cloud-shade: var(--love-petal);
+  --grass-1: var(--love-petal);
+  --grass-2: var(--love-petal);
+}

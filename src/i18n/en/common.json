@@ -1,0 +1,226 @@
+{
+  "meta": {
+    "siteName": "Yakın Çevrem",
+    "home": {
+      "title": "Yakın Çevrem · Your schedule, your plans and your people, in one place",
+      "description": "Weekly schedule, meetups, to-dos, tasks, projects and chat with your friends, team, family and partner, all in one app."
+    },
+    "schedule": {
+      "title": "Shared schedules and free time · Yakın Çevrem",
+      "description": "Share your week, find free time with friends and set up a meetup in one tap."
+    },
+    "plans": {
+      "title": "Meetups, to-dos and tasks · Yakın Çevrem",
+      "description": "Meetups with date polls, shared to-do lists and tasks with reminders."
+    },
+    "projects": {
+      "title": "Projects for teams · Yakın Çevrem",
+      "description": "Assign work, send it for review, approve it; Kanban board, timeline and critical path."
+    },
+    "chat": {
+      "title": "Talk the plan through · Yakın Çevrem",
+      "description": "Tag the meetup, the plan or the task in your group chat; messages are stored encrypted."
+    },
+    "couples": {
+      "title": "A shared space for couples · Yakın Çevrem",
+      "description": "Shared plans, memories, photo days and games you play at the same time."
+    },
+    "trust": {
+      "title": "Privacy and control · Yakın Çevrem",
+      "description": "You choose who sees what; blocking, reporting, downloading your data and deleting your account."
+    },
+    "features": {
+      "title": "All features · Yakın Çevrem",
+      "description": "Schedules, free time together, meetup polls, tasks, projects, encrypted message storage and a couple space."
+    },
+    "faq": {
+      "title": "Frequently asked questions · Yakın Çevrem",
+      "description": "Everything people ask about Yakın Çevrem."
+    },
+    "privacy": {
+      "title": "Privacy policy · Yakın Çevrem",
+      "description": "What data Yakın Çevrem processes, why, who can see it and how long it is kept."
+    },
+    "terms": {
+      "title": "Terms of use · Yakın Çevrem",
+      "description": "The terms for using Yakın Çevrem."
+    },
+    "deleteAccount": {
+      "title": "Account deletion · Yakın Çevrem",
+      "description": "How to delete your Yakın Çevrem account and data."
+    },
+    "notFound": {
+      "title": "Page not found · Yakın Çevrem",
+      "description": "The page you're looking for isn't here."
+    }
+  },
+  "nav": {
+    "home": "Yakın Çevrem home",
+    "main": "Main menu",
+    "schedule": "Schedule",
+    "plans": "Plans",
+    "projects": "Projects",
+    "chat": "Chat",
+    "couples": "Couples",
+    "trust": "Trust",
+    "features": "All features",
+    "faq": "FAQ",
+    "pricing": "Plans & pricing",
+    "download": "Download",
+    "menu": "Open menu",
+    "close": "Close menu",
+    "language": "Türkçe",
+    "languageShort": "TR",
+    "languageLabel": "Switch to Turkish",
+    "skip": "Skip to content",
+    "hint": {
+      "schedule": "Find free time together",
+      "plans": "Meetups, to-dos, tasks",
+      "projects": "Split the work with your team",
+      "chat": "Talk the plan through",
+      "couples": "A space for the two of you",
+      "trust": "Who sees what"
+    },
+    "themeLight": "Switch to light theme",
+    "themeDark": "Switch to dark theme"
+  },
+  "store": {
+    "get": "Get it on Google Play",
+    "soon": "Coming soon to Google Play",
+    "platform": "Android app",
+    "note": "Free · Turkish and English · Android"
+  },
+  "badge": {
+    "soon": "Coming soon",
+    "pro": "Pro"
+  },
+  "common": {
+    "soonHint": "Planned, subject to change.",
+    "next": "Next",
+    "allFeatures": "See all features",
+    "allQuestions": "All questions",
+    "details": "Details",
+    "forWhom": "For",
+    "related": "Good to know",
+    "everything": "Everything in this area",
+    "comingSoon": "On the way",
+    "backHome": "Back to home"
+  },
+  "audience": {
+    "everyone": "Everyone",
+    "friends": "Friends",
+    "team": "Teams",
+    "family": "Families",
+    "couples": "Couples"
+  },
+  "footer": {
+    "tagline": "Your schedule, your plans and your people, in one place.",
+    "app": "The app",
+    "trust": "Trust",
+    "help": "Help",
+    "download": "Download",
+    "trustPage": "Trust and control",
+    "privacy": "Privacy policy",
+    "terms": "Terms of use",
+    "deleteAccount": "Account deletion",
+    "contact": "Contact",
+    "madeIn": "Made in Türkiye.",
+    "copyright": "© 2026 Yakın Çevrem"
+  },
+  "langHint": {
+    "text": "Bu sitenin Türkçesi de var.",
+    "action": "Türkçeye geç",
+    "dismiss": "Kapat"
+  },
+  "notFound": {
+    "code": "404",
+    "title": "This page wasn't in the plan. 🙃",
+    "text": "The link may be out of date or the address may be mistyped."
+  },
+  "shots": {
+    "01": {
+      "alt": "Home screen with Emma and Leo's couple card and pending items",
+      "caption": "Everything about you two, on your home screen."
+    },
+    "02": {
+      "alt": "Weekly schedule showing office and pilates on Tuesday",
+      "caption": "Add your week, share it with whoever you like."
+    },
+    "03": {
+      "alt": "List of free time slots shared with Noah",
+      "caption": "The app finds the gap; you make the plan."
+    },
+    "04": {
+      "alt": "Four upcoming meetups and who is coming",
+      "caption": "See who's coming at a glance."
+    },
+    "05": {
+      "alt": "Three date options for a movie night with votes",
+      "caption": "Friday or Saturday? Let everyone vote."
+    },
+    "06": {
+      "alt": "Shared to-do list with progress",
+      "caption": "A shared list where you see who did what."
+    },
+    "07": {
+      "alt": "Tasks with dates and priorities",
+      "caption": "Your phone reminds you when it's due."
+    },
+    "10": {
+      "alt": "Project board with work items and dependencies",
+      "caption": "The board shows what's waiting on what."
+    },
+    "11": {
+      "alt": "Project timeline with work spread across days",
+      "caption": "Critical path and timeline, built in."
+    },
+    "13": {
+      "alt": "Work item waiting for review with approve buttons",
+      "caption": "Finished work comes to you for approval."
+    },
+    "14": {
+      "alt": "Chat list with groups and people",
+      "caption": "Friends, team and flatmates, all here."
+    },
+    "15": {
+      "alt": "Group chat with a meetup card and messages",
+      "caption": "The plan lives inside the chat."
+    },
+    "16": {
+      "alt": "Leo's cinema suggestion with two options",
+      "caption": "Suggest two options, let them choose."
+    },
+    "18": {
+      "alt": "Today's photo theme and a 23-day streak",
+      "caption": "One theme, two photos, revealed together."
+    },
+    "19": {
+      "alt": "Couple games with one waiting for your turn",
+      "caption": "Play together, at the same time."
+    },
+    "22": {
+      "alt": "Important dates and love language results",
+      "caption": "Your dates and your love languages."
+    },
+    "24": {
+      "alt": "A friend's profile with quick actions",
+      "caption": "Message, meet up or find free time in one tap."
+    },
+    "25": {
+      "alt": "Privacy settings",
+      "caption": "You choose who sees what."
+    },
+    "26": {
+      "alt": "Notifications for meetups, people, partner and projects",
+      "caption": "Colour-coded, so what matters stands out."
+    },
+    "27": {
+      "alt": "Appearance settings",
+      "caption": "Make it yours."
+    },
+    "28": {
+      "alt": "Home screen with your people, an upcoming birthday and meetups",
+      "caption": "Your people, your plans, your day; one screen."
+    }
+  }
+}

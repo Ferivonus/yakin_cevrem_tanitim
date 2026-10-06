@@ -1,0 +1,102 @@
+{
+  "page": {
+    "eyebrow": "FAQ",
+    "title": "Frequently asked questions",
+    "text": "Can't find your answer? Write to us and we'll get back to you soon.",
+    "contact": "Write to us"
+  },
+  "groups": {
+    "general": "General",
+    "planning": "Planning",
+    "privacy": "Privacy",
+    "couple": "Couples",
+    "account": "Account"
+  },
+  "items": {
+    "whatFor": {
+      "slug": "what-is-it",
+      "q": "What is Yakın Çevrem for?",
+      "a": "You share your schedule, meetups, to-dos, tasks and projects with the people around you, and talk about all of it in the same place. Friend group, team, family or partner; whoever you're planning with."
+    },
+    "free": {
+      "slug": "is-it-free",
+      "q": "Is it free?",
+      "a": "Yes. Schedule, plans, projects, the couple space and messaging are free. Voice and video calls will come later with the Pro plans (Pro, Couple, Team); what's free stays free."
+    },
+    "iphone": {
+      "slug": "iphone",
+      "q": "Is it on iPhone?",
+      "a": "For now it's only on Android."
+    },
+    "web": {
+      "slug": "web",
+      "q": "Will I be able to use it on a computer?",
+      "a": "A web version is planned; once it's ready you'll be able to use it in your browser with the same account. For now the app is Android-only."
+    },
+    "languages": {
+      "slug": "languages",
+      "q": "Which languages does it support?",
+      "a": "Turkish and English. It opens in your phone's language and you can change it in Settings."
+    },
+    "solo": {
+      "slug": "on-my-own",
+      "q": "Can I use it on my own?",
+      "a": "Yes, for your schedule, tasks and to-dos. But it really shines once you add your people."
+    },
+    "noPartner": {
+      "slug": "no-partner",
+      "q": "Is it useful if I don't have a partner?",
+      "a": "Of course. Most of the app is for friend groups, teams and families. The couple space is an extra that only opens when you add someone as your partner."
+    },
+    "difference": {
+      "slug": "tasks-todos-projects",
+      "q": "What's the difference between tasks, to-dos and projects?",
+      "a": "To-dos are a quick list: groceries, chores. Tasks have a date and a reminder. Projects are for teamwork: roles, assignments, approvals, a board and a timeline."
+    },
+    "projectTools": {
+      "slug": "project-tools",
+      "q": "Can it replace project management tools?",
+      "a": "For work with friends, at school or with a small team, yes: roles, approvals, a board, Gantt and critical path are built in. It isn't designed for big company processes."
+    },
+    "visibility": {
+      "slug": "who-sees-my-schedule",
+      "q": "Can everyone see my schedule?",
+      "a": "No. You choose, person by person, who sees your schedule, your status and your tasks."
+    },
+    "messagesSafe": {
+      "slug": "are-messages-safe",
+      "q": "Are my messages safe?",
+      "a": "Messages are stored encrypted on the server, and notification previews open only with your device's key. It isn't end-to-end encryption, and we say so plainly."
+    },
+    "harassment": {
+      "slug": "someone-bothers-me",
+      "q": "What if someone bothers me?",
+      "a": "You can block and report them. Reports are reviewed and accounts can be restricted; nobody is told who reported them."
+    },
+    "partnerSees": {
+      "slug": "does-my-partner-see-everything",
+      "q": "Does my partner see everything?",
+      "a": "No. You both see the memories and plans in your shared space; for your schedule, status and tasks, you decide what to share."
+    },
+    "breakup": {
+      "slug": "if-we-break-up",
+      "q": "What happens to the shared space if we break up?",
+      "a": "It isn't deleted right away; it stays in a read-only archive for 30 days so you can download your memories. You can also delete it straight away with \"Delete archive now\"."
+    },
+    "longDistance": {
+      "slug": "long-distance",
+      "q": "Does it work for long-distance couples?",
+      "a": "Yes. Photo days, the daily question and games you play at the same time all work from afar, and you can see your partner's local time. Voice and video calls are coming with Pro."
+    },
+    "deleteData": {
+      "slug": "delete-my-data",
+      "q": "Can I delete my data?",
+      "a": "Yes. In Settings → Account you can download your data or permanently delete your account."
+    },
+    "age": {
+      "slug": "age-limit",
+      "q": "How old do I need to be?",
+      "a": "16 or older."
+    }
+  }
+}

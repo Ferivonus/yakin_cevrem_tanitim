@@ -1,0 +1,102 @@
+{
+  "page": {
+    "eyebrow": "SSS",
+    "title": "Sık sorulan sorular",
+    "text": "Cevabını bulamadığın bir şey varsa yaz, kısa sürede dönelim.",
+    "contact": "Bize yaz"
+  },
+  "groups": {
+    "general": "Genel",
+    "planning": "Planlama",
+    "privacy": "Gizlilik",
+    "couple": "Sevgilinle",
+    "account": "Hesap"
+  },
+  "items": {
+    "whatFor": {
+      "slug": "ne-ise-yarar",
+      "q": "Yakın Çevrem ne işe yarar?",
+      "a": "Programını, buluşmalarını, yapılacaklarını, görevlerini ve projelerini çevrendeki insanlarla paylaşırsın ve hepsini aynı yerde konuşursun. Arkadaş grubu, ekip, aile ya da sevgili; kiminle planlıyorsan."
+    },
+    "free": {
+      "slug": "ucretsiz-mi",
+      "q": "Ücretsiz mi?",
+      "a": "Evet. Program, planlar, projeler, sevgili alanı ve mesajlaşma ücretsiz. İleride sesli ve görüntülü arama Pro paketlerle (Pro, Couple, Team) gelecek; ücretsiz olanlar ücretsiz kalır."
+    },
+    "iphone": {
+      "slug": "iphone",
+      "q": "iPhone'da var mı?",
+      "a": "Şimdilik yalnızca Android'de."
+    },
+    "web": {
+      "slug": "web",
+      "q": "Bilgisayardan kullanabilecek miyim?",
+      "a": "Web sürümü planlanıyor; hazır olduğunda aynı hesapla tarayıcıdan da kullanabileceksin. Şimdilik uygulama yalnızca Android'de."
+    },
+    "languages": {
+      "slug": "diller",
+      "q": "Hangi dilleri destekliyor?",
+      "a": "Türkçe ve İngilizce. Telefonunun diliyle açılır, Ayarlar'dan değiştirebilirsin."
+    },
+    "solo": {
+      "slug": "tek-basima",
+      "q": "Tek başıma kullanabilir miyim?",
+      "a": "Evet; programın, görevlerin ve yapılacakların için. Ama yakınlarını ekleyince asıl işe yarar."
+    },
+    "noPartner": {
+      "slug": "sevgilim-yoksa",
+      "q": "Sevgilim yoksa işime yarar mı?",
+      "a": "Elbette. Uygulamanın çoğu arkadaş grupları, ekipler ve aileler için. Sevgili alanı yalnızca birini \"Sevgili\" olarak eklediğinde açılan ek bir bölüm."
+    },
+    "difference": {
+      "slug": "gorev-yapilacak-proje",
+      "q": "Görevler, yapılacaklar ve projeler arasında fark ne?",
+      "a": "Yapılacaklar hızlı bir liste: alınacaklar, ev işleri. Görevlerin tarihi ve hatırlatması var. Projeler ekip işi için: roller, iş atama, onay, pano ve çizelge."
+    },
+    "projectTools": {
+      "slug": "proje-araclari",
+      "q": "Proje araçlarının yerini tutar mı?",
+      "a": "Arkadaşlarınla, okulda ya da küçük bir ekiple yaptığın işler için evet: roller, onay, pano, Gantt, kritik yol hazır. Büyük şirket süreçleri için tasarlanmadı."
+    },
+    "visibility": {
+      "slug": "programimi-kim-gorur",
+      "q": "Programımı herkes görür mü?",
+      "a": "Hayır. Programını, durumunu, işlerini kimin göreceğini kişi kişi seçersin."
+    },
+    "messagesSafe": {
+      "slug": "mesajlar-guvende-mi",
+      "q": "Mesajlarım güvende mi?",
+      "a": "Mesajlar sunucuda şifreli saklanır; telefon bildirimindeki önizleme yalnızca senin cihazının anahtarıyla açılır. Uçtan uca şifreleme değildir; bunu açıkça söylüyoruz."
+    },
+    "harassment": {
+      "slug": "rahatsiz-ederse",
+      "q": "Biri beni rahatsız ederse?",
+      "a": "Engelleyebilir ve şikayet edebilirsin. Şikayetler incelenir, gerekirse hesap kısıtlanır; kimin şikayet ettiği söylenmez."
+    },
+    "partnerSees": {
+      "slug": "sevgilim-her-seyimi-gorur-mu",
+      "q": "Sevgilim her şeyimi görür mü?",
+      "a": "Hayır. Ortak alandaki anıları ve planları ikiniz de görürsünüz; programın, durumun ve işlerin içinse paylaşımı sen açıp kapatırsın."
+    },
+    "breakup": {
+      "slug": "ayrilirsak",
+      "q": "Sevgilimden ayrılırsam ortak alan ne olur?",
+      "a": "Hemen silinmez; 30 gün salt okunur arşivde kalır. Bu sürede anılarını indirebilirsin. İstersen \"Arşivi şimdi sil\" ile beklemeden silebilirsin."
+    },
+    "longDistance": {
+      "slug": "uzak-iliski",
+      "q": "Uzak ilişkide işe yarar mı?",
+      "a": "Evet. Fotoğraf günleri, günün sorusu ve aynı anda oynanan oyunlar uzaktan da çalışır; yakının başka saat dilimindeyse onun saatini görürsün. Sesli ve görüntülü arama Pro ile gelecek."
+    },
+    "deleteData": {
+      "slug": "verilerimi-silebilir-miyim",
+      "q": "Verilerimi silebilir miyim?",
+      "a": "Evet. Ayarlar → Hesap'tan verilerini indirebilir ya da hesabını kalıcı olarak silebilirsin."
+    },
+    "age": {
+      "slug": "yas-siniri",
+      "q": "Kaç yaşında kullanabilirim?",
+      "a": "16 yaş ve üstü."
+    }
+  }
+}

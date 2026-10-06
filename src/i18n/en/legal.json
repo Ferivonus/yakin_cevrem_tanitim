@@ -1,0 +1,28 @@
+{
+  "version": "Version {version} · Last updated {date}",
+  "toc": "Contents",
+  "inApp": "This text is also in the app, under Settings → Account.",
+  "contact": "Questions:",
+  "website": {
+    "title": "This website",
+    "paragraphs": [
+      "This website doesn't use cookies, contains no advertising or tracking tools and collects no data through forms.",
+      "A small entry is kept in your browser only to remember that you closed the language suggestion bar; it is never sent to us.",
+      "The hosting provider (Vercel) may keep short-lived server logs for security and operation."
+    ]
+  },
+  "deleteAccount": {
+    "eyebrow": "Account",
+    "title": "Deleting your account",
+    "text": "You can permanently delete your account at any time. Here's how:",
+    "steps": [
+      "In the app, tap Profile → Settings → Account → Delete account.",
+      "Confirm. Your account, profile, the data linked to you and the messages you sent are permanently deleted.",
+      "If you can't get into the app, write to {email} from your registered email address; we'll complete your request within 30 days at the latest."
+    ],
+    "tip": "Before deleting, you can get a copy with Settings → Account → \"Download my data\".",
+    "retentionTitle": "What gets deleted, and what stays for how long",
+    "retentionSource": "From the \"How long we keep it\" section of the privacy policy.",
+    "mailSubject": "Account deletion request"
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "schedule": {
+    "eyebrow": "Arkadaşlar · Ekipler · Aileler · Sevgililer",
+    "title": "Herkes ne zaman boş, artık sormana gerek yok",
+    "text": "Haftalık programını ekle, istediğinle paylaş. Ortak boşluğu uygulama bulur; \"Planla\"ya bas, buluşma hazır.",
+    "rows": {
+      "week": {
+        "title": "Haftan tek ekranda",
+        "text": "Ders, iş, spor; bir kez gir, her hafta tekrarlansın. Sevgilinle \"Birlikte\" görünümünde iki programı üst üste gör.",
+        "bullets": ["Tekrarlayan kayıtlar", "Ben · Sevgilim · Birlikte", "Programını kimin göreceğini sen seç"]
+      },
+      "people": {
+        "title": "Yakınların bir dokunuş uzakta",
+        "text": "Profilinden mesaj at, dürt, programına bak ya da ortak boş zamanı aç.",
+        "bullets": ["Kullanıcı adıyla ekle", "Anlık durum ve dürtme", "Doğum günü ve özel gün hatırlatmaları"]
+      }
+    }
+  },
+  "plans": {
+    "eyebrow": "Arkadaşlar · Aileler · Ev arkadaşları",
+    "title": "Herkesin payı belli",
+    "text": "Buluşmalar, yapılacaklar ve görevler aynı yerde. Kim geliyor, kim ne yapıyor, ne bitti; hepsi tek bakışta.",
+    "rows": {
+      "poll": {
+        "title": "Tarihi ankete aç",
+        "text": "Birkaç gün ve yer öner, herkes uyanları işaretlesin; en çok oy alan öne çıkar.",
+        "bullets": ["Tarih ve yer anketi", "Uzaktan katılım bağlantısı", "Takvime ekle"]
+      },
+      "todos": {
+        "title": "Ortak yapılacaklar",
+        "text": "Alınacaklar, ev işleri, piknik listesi. Paylaştığın kişi de görür, işaretleyen belli olur.",
+        "bullets": ["Paylaşılabilir liste", "Ben · Sevgilim · Birlikte ilerlemesi", "İnternet yokken de işaretlersin"]
+      },
+      "tasks": {
+        "title": "Tarihli işler için görevler",
+        "text": "Önceliği, tarihi ve ilerlemesi olan işler; zamanı gelince telefonun hatırlatır.",
+        "bullets": ["Öncelik ve ilerleme", "Teslim tarihi hatırlatması", "Kendin için ya da paylaşarak"]
+      }
+    },
+    "cards": {
+      "reminders": {
+        "title": "Hatırlatmalar",
+        "text": "Buluşma, teslim tarihi, doğum günü. Zamanı gelince telefonun söyler."
+      },
+      "offline": {
+        "title": "İnternet yokken de",
+        "text": "Yazdığın mesaj ve işaretlediğin iş kaybolmaz; bağlantı gelince gider."
+      }
+    }
+  },
+  "projects": {
+    "eyebrow": "Ekipler için",
+    "title": "Arkadaşlarınla yaptığın işler için ciddi bir alan",
+    "text": "Ödev, etkinlik, uygulama, taşınma. Rolleri ver, işleri haftalara böl, hangi iş neyi bekliyor gör.",
+    "rows": {
+      "review": {
+        "title": "Biten iş kontrole gelir",
+        "text": "Ekip üyesi işi bitirince \"Kontrole gönder\"ir; başkan onaylar ya da notuyla geri gönderir.",
+        "bullets": ["Başkan · Yönetici · Ekip üyesi · İzleyici", "Bana atanan işler", "Kişi başı iş yükü"]
+      },
+      "timeline": {
+        "title": "Çizelge ve kritik yol",
+        "text": "Hangi iş gecikirse her şey kayar, uygulama hesaplar; işler günlere yayılmış halde görünür.",
+        "bullets": ["Liste, Kanban panosu ve Gantt çizelgesi", "İş bağımlılıkları ve gecikme uyarısı", "Hafta sonu ve günlük çalışma saati ayarı"]
+      }
+    },
+    "cards": {
+      "roadmap": {
+        "title": "Yol haritası ve strateji",
+        "text": "Hafta hafta plan, öncelik, kabul kriterleri; künye, SWOT, riskler."
+      },
+      "pages": {
+        "title": "Sayfa planı ve görseller",
+        "text": "Web ve mobil projelerde sayfa sayfa plan, tasarım görselleri, görselin üstüne not."
+      },
+      "templates": {
+        "title": "Şablonlar",
+        "text": "8 hazır şablonla başla ya da yakınlarının paylaştığı şablonu kullan."
+      }
+    }
+  },
+  "chat": {
+    "eyebrow": "Herkes için",
+    "title": "Konuşurken plan önünde",
+    "text": "Sohbette buluşmayı, planı, işi ya da programı etiketle; \"hangi cuma?\" diye sormaya gerek kalmaz.",
+    "rows": {
+      "circles": {
+        "title": "Herkes için ayrı sohbet",
+        "text": "Arkadaş grubun, ekibin, ev arkadaşların, sevgilin. Her sohbetin kendi teması olur.",
+        "bullets": ["Tepki, yanıt, düzenleme, herkesten sil", "Fotoğraf, arama, sabitlenmiş mesaj", "Okundu tikleri, yazıyor, çevrimiçi"]
+      },
+      "notifications": {
+        "title": "Önemli olan kaçmaz",
+        "text": "Bildirimler türüne göre renkli: buluşmalar, yakınların, sevgilin, projeler. Sessiz saatleri sen belirlersin.",
+        "bullets": ["Bildirimden yanıtla, sessize al", "Türüne göre aç kapat", "Önizleme cihazının anahtarıyla şifreli"]
+      }
+    },
+    "cards": {
+      "talkAbout": {
+        "title": "Hakkında konuş",
+        "text": "Buluşmayı, ortak planı, projeyi ya da işi mesaja ekle. İlgili herkesle tek dokunuşla yeni grup bile kurabilirsin."
+      },
+      "theme": {
+        "title": "Ortak sohbet teması",
+        "text": "Renk, desen ve yazı tipi; sohbetteki herkes aynı temayı görür."
+      },
+      "encrypted": {
+        "title": "Şifreli saklanır",
+        "text": "Mesajlar sunucuda şifreli saklanır. Uçtan uca şifreleme değildir; bunu açıkça söylüyoruz."
+      }
+    }
+  },
+  "couples": {
+    "eyebrow": "Sevgilin varsa",
+    "title": "İkinize ait küçük bir köşe",
+    "text": "Birini \"Sevgili\" olarak eklediğinde, planlamanın üstüne ikinize özel bir alan açılır.",
+    "rows": {
+      "plans": {
+        "title": "\"Bunu mu, bunu mu?\"",
+        "text": "Bu akşam için iki seçenek öner, o seçsin. Ya da \"sen karar ver\".",
+        "bullets": ["İki seçenekli öneri", "Zamanı değiştirerek onay", "Ortak listeler"]
+      },
+      "games": {
+        "title": "Birlikte oyunlar",
+        "text": "Çiz tahmin et, Beni ne kadar tanıyorsun?, Bu mu o mu? ve dahası. Aynı anda oynayın.",
+        "bullets": ["XOX, Dörtlü bağla, Hikâyeyi tamamla", "Canlı çizim ve tepkiler", "Oyun anılarımız"]
+      },
+      "moments": {
+        "title": "Her gün küçük bir an",
+        "text": "Günün fotoğraf konusu, günün sorusu, önemli tarihleriniz ve sevgi dili testi.",
+        "bullets": ["Karşılıklı açılan fotoğraflar ve seri", "Tanışma, ilk buluşma ve geri sayım", "Sevgi diline uygun plan fikirleri"]
+      }
+    },
+    "cards": {
+      "memories": {
+        "title": "Anılar ve zaman kapsülü",
+        "text": "Fotoğraflı anı defteri, \"geçen yıl bugün\" ve gelecekte açılacak bir kapsül."
+      },
+      "lists": {
+        "title": "Ortak listeler ve işler",
+        "text": "İzlenecekler, gidilecekler, ev işleri; ikinizin ilerlemesi tek bakışta."
+      }
+    }
+  },
+  "trust": {
+    "eyebrow": "Herkes için",
+    "title": "Kim neyi görür, sen seçersin",
+    "text": "Programını, durumunu ve işlerini kişi kişi paylaşırsın; kişisel bilgiler hep isteğe bağlı.",
+    "cards": {
+      "encrypted": {
+        "title": "Mesajlar şifreli saklanır",
+        "text": "Mesaj metinleri sunucuda şifreli tutulur; bildirim önizlemesi yalnızca senin cihazının anahtarıyla açılır. Uçtan uca şifreleme değildir."
+      },
+      "block": {
+        "title": "Engelle ve şikayet et",
+        "text": "Şikayetler bir denetim ekibince incelenir, gerekirse hesap kısıtlanır. Kimin şikayet ettiği söylenmez."
+      },
+      "download": {
+        "title": "Verilerini indir",
+        "text": "Ayarlar → Hesap → \"Verilerimi indir\" ile verilerinin bir kopyasını al."
+      },
+      "delete": {
+        "title": "Hesabını kalıcı sil",
+        "text": "Ne zaman istersen uygulamadan, ulaşamıyorsan e-postayla."
+      }
+    },
+    "documents": "Belgeler"
+  }
+}

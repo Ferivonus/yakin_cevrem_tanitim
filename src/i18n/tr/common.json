@@ -1,0 +1,226 @@
+{
+  "meta": {
+    "siteName": "Yakın Çevrem",
+    "home": {
+      "title": "Yakın Çevrem · Programın, planların ve yakınların tek yerde",
+      "description": "Haftalık program, buluşmalar, yapılacaklar, görevler, projeler ve sohbet; arkadaşlarınla, ekibinle, ailenle ve sevgilinle tek uygulamada."
+    },
+    "schedule": {
+      "title": "Ortak program ve boş zaman · Yakın Çevrem",
+      "description": "Haftalık programını paylaş, arkadaşlarınla ortak boş zamanı bul, tek dokunuşla buluşma ayarla."
+    },
+    "plans": {
+      "title": "Buluşma, yapılacaklar ve görevler · Yakın Çevrem",
+      "description": "Tarih anketli buluşmalar, paylaşılan yapılacaklar ve hatırlatmalı görevler."
+    },
+    "projects": {
+      "title": "Ekipler için projeler · Yakın Çevrem",
+      "description": "İş ata, kontrole gönder, onayla; Kanban panosu, çizelge ve kritik yol."
+    },
+    "chat": {
+      "title": "Planı konuşarak yap · Yakın Çevrem",
+      "description": "Grup sohbetinde buluşmayı, planı ve işi etiketle; şifreli saklanan mesajlar."
+    },
+    "couples": {
+      "title": "Sevgilinle ortak alan · Yakın Çevrem",
+      "description": "Ortak planlar, anılar, fotoğraf günleri ve aynı anda oynanan oyunlar."
+    },
+    "trust": {
+      "title": "Gizlilik ve kontrol · Yakın Çevrem",
+      "description": "Kim neyi görür sen seçersin; engelleme, şikayet, verilerini indirme ve hesap silme."
+    },
+    "features": {
+      "title": "Tüm özellikler · Yakın Çevrem",
+      "description": "Program, ortak boş zaman, buluşma anketleri, görevler, projeler, şifreli saklanan sohbet ve sevgili alanı."
+    },
+    "faq": {
+      "title": "Sık sorulan sorular · Yakın Çevrem",
+      "description": "Yakın Çevrem hakkında merak edilenler."
+    },
+    "privacy": {
+      "title": "Gizlilik politikası · Yakın Çevrem",
+      "description": "Yakın Çevrem hangi verileri neden işler, kimler görür, ne kadar saklar."
+    },
+    "terms": {
+      "title": "Kullanım koşulları · Yakın Çevrem",
+      "description": "Yakın Çevrem'i kullanma koşulları."
+    },
+    "deleteAccount": {
+      "title": "Hesap silme · Yakın Çevrem",
+      "description": "Yakın Çevrem hesabını ve verilerini nasıl silersin."
+    },
+    "notFound": {
+      "title": "Sayfa bulunamadı · Yakın Çevrem",
+      "description": "Aradığın sayfa burada değil."
+    }
+  },
+  "nav": {
+    "home": "Yakın Çevrem ana sayfası",
+    "main": "Ana menü",
+    "schedule": "Program",
+    "plans": "Planlar",
+    "projects": "Projeler",
+    "chat": "Sohbet",
+    "couples": "Sevgilinle",
+    "trust": "Güven",
+    "features": "Tüm özellikler",
+    "faq": "SSS",
+    "pricing": "Paketler",
+    "download": "İndir",
+    "menu": "Menüyü aç",
+    "close": "Menüyü kapat",
+    "language": "English",
+    "languageShort": "EN",
+    "languageLabel": "Dili İngilizce yap",
+    "skip": "İçeriğe geç",
+    "hint": {
+      "schedule": "Ortak boş zamanı bul",
+      "plans": "Buluşma, yapılacak, görev",
+      "projects": "Ekibinle iş dağıt",
+      "chat": "Planı konuşarak yap",
+      "couples": "İkinize özel alan",
+      "trust": "Kim neyi görür"
+    },
+    "themeLight": "Aydınlık temaya geç",
+    "themeDark": "Karanlık temaya geç"
+  },
+  "store": {
+    "get": "Google Play'den indir",
+    "soon": "Yakında Google Play'de",
+    "platform": "Android uygulaması",
+    "note": "Ücretsiz · Türkçe ve İngilizce · Android"
+  },
+  "badge": {
+    "soon": "Yakında",
+    "pro": "Pro"
+  },
+  "common": {
+    "soonHint": "Planlanıyor, değişebilir.",
+    "next": "Sıradaki",
+    "allFeatures": "Tüm özellikleri gör",
+    "allQuestions": "Tüm sorular",
+    "details": "Ayrıntılar",
+    "forWhom": "Kimin için",
+    "related": "Merak edilenler",
+    "everything": "Bu alanda her şey",
+    "comingSoon": "Yolda olanlar",
+    "backHome": "Ana sayfaya dön"
+  },
+  "audience": {
+    "everyone": "Herkes",
+    "friends": "Arkadaşlar",
+    "team": "Ekipler",
+    "family": "Aileler",
+    "couples": "Sevgililer"
+  },
+  "footer": {
+    "tagline": "Programın, planların ve yakınların tek yerde.",
+    "app": "Uygulama",
+    "trust": "Güven",
+    "help": "Yardım",
+    "download": "İndir",
+    "trustPage": "Güven ve kontrol",
+    "privacy": "Gizlilik politikası",
+    "terms": "Kullanım koşulları",
+    "deleteAccount": "Hesap silme",
+    "contact": "İletişim",
+    "madeIn": "Türkiye'de yapıldı.",
+    "copyright": "© 2026 Yakın Çevrem"
+  },
+  "langHint": {
+    "text": "This site is also available in English.",
+    "action": "Switch to English",
+    "dismiss": "Close"
+  },
+  "notFound": {
+    "code": "404",
+    "title": "Bu sayfa planlarda yoktu. 🙃",
+    "text": "Bağlantı eskimiş ya da adres yanlış yazılmış olabilir."
+  },
+  "shots": {
+    "01": {
+      "alt": "Ana sayfada Ayşe ve Mert'in sevgili kartı ve bekleyen işleri",
+      "caption": "İkinizle ilgili her şey ana sayfada."
+    },
+    "02": {
+      "alt": "Haftalık programda salı günü ofis ve pilates",
+      "caption": "Haftanı ekle, istediğinle paylaş."
+    },
+    "03": {
+      "alt": "Deniz ile ortak boş saatler listesi",
+      "caption": "Ortak boşluğu uygulama bulur, sen planlarsın."
+    },
+    "04": {
+      "alt": "Yaklaşan dört buluşma ve katılım durumları",
+      "caption": "Kim geliyor, tek bakışta."
+    },
+    "05": {
+      "alt": "Film gecesi için üç tarih seçeneği ve oylar",
+      "caption": "Cuma mı cumartesi mi? Herkes oylasın."
+    },
+    "06": {
+      "alt": "Paylaşılan yapılacaklar listesi ve ilerleme",
+      "caption": "Ortak liste, kim ne yaptı belli."
+    },
+    "07": {
+      "alt": "Tarihli ve öncelikli görevler",
+      "caption": "Tarihi gelen işi telefonun hatırlatır."
+    },
+    "10": {
+      "alt": "Proje panosunda yapılacak işler ve bağımlılıklar",
+      "caption": "Hangi iş neyi bekliyor, pano söyler."
+    },
+    "11": {
+      "alt": "Proje çizelgesinde günlere yayılmış işler",
+      "caption": "Kritik yol ve çizelge hazır."
+    },
+    "13": {
+      "alt": "Kontrol bekleyen iş ve onay düğmeleri",
+      "caption": "Biten iş kontrole gelir, sen onaylarsın."
+    },
+    "14": {
+      "alt": "Gruplar ve kişilerle sohbet listesi",
+      "caption": "Arkadaşların, ekibin, evin; hepsi burada."
+    },
+    "15": {
+      "alt": "Grup sohbetinde buluşma kartı ve mesajlar",
+      "caption": "Plan, konuştuğun sohbetin içinde."
+    },
+    "16": {
+      "alt": "Mert'in iki seçenekli sinema önerisi",
+      "caption": "İki seçenek öner, o seçsin."
+    },
+    "18": {
+      "alt": "Günün fotoğraf konusu ve 23 günlük seri",
+      "caption": "Aynı konu, iki fotoğraf, aynı anda açılır."
+    },
+    "19": {
+      "alt": "Sevgiliyle oyunlar ve sıra bekleyen oyun",
+      "caption": "Aynı anda oynayın."
+    },
+    "22": {
+      "alt": "Önemli tarihler ve sevgi dili sonuçları",
+      "caption": "Önemli günleriniz ve sevgi diliniz."
+    },
+    "24": {
+      "alt": "Arkadaş profili ve hızlı eylemler",
+      "caption": "Tek dokunuşla mesaj, buluşma, ortak boş zaman."
+    },
+    "25": {
+      "alt": "Gizlilik ayarları",
+      "caption": "Kim neyi görür, sen seçersin."
+    },
+    "26": {
+      "alt": "Buluşma, yakınlar, sevgili ve proje bildirimleri",
+      "caption": "Önemli olan, renginden belli."
+    },
+    "27": {
+      "alt": "Görünüm ayarları",
+      "caption": "Sana göre ayarla."
+    },
+    "28": {
+      "alt": "Ana sayfada yakınlar, yaklaşan doğum günü ve buluşmalar",
+      "caption": "Yakınların, planların, bugünün; tek ekranda."
+    }
+  }
+}
