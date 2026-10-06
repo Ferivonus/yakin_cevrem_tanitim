@@ -44,7 +44,7 @@
       },
       "offline": {
         "title": "Works offline too",
-        "text": "Messages and ticks you make offline aren't lost; they're sent when you're back."
+        "text": "Messages, to-dos and schedule entries you add offline aren't lost; they're sent when you're back."
       }
     }
   },
@@ -82,12 +82,12 @@
   "chat": {
     "eyebrow": "For everyone",
     "title": "The plan is right there while you talk",
-    "text": "Tag the meetup, plan, task or schedule in chat; no more \"which Friday?\".",
+    "text": "Tag the meetup, to-do, task, project week or schedule entry in chat; no more \"which Friday?\".",
     "rows": {
       "circles": {
         "title": "A chat for every circle",
         "text": "Friends, team, flatmates, partner. Every chat gets its own theme.",
-        "bullets": ["Reactions, replies, edits, delete for everyone", "Photos, search, pinned messages", "Read ticks, typing, online"]
+        "bullets": ["Reactions, replies, edits, delete for everyone", "Photos, search, pinned messages", "Read ticks, typing, last seen"]
       },
       "notifications": {
         "title": "Nothing important slips by",
@@ -98,7 +98,7 @@
     "cards": {
       "talkAbout": {
         "title": "Talk about it",
-        "text": "Attach the meetup, shared plan, project or task to a message. You can even start a group with everyone involved in one tap."
+        "text": "Attach the meetup, to-do, task, project week, memory or a comment to a message; its status and progress show on the card. You can even start a group with everyone involved in one tap."
       },
       "theme": {
         "title": "A shared chat theme",

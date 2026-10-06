@@ -44,7 +44,7 @@
       },
       "offline": {
         "title": "İnternet yokken de",
-        "text": "Yazdığın mesaj ve işaretlediğin iş kaybolmaz; bağlantı gelince gider."
+        "text": "Yazdığın mesaj, eklediğin yapılacak ya da program kaydı kaybolmaz; bağlantı gelince gider."
       }
     }
   },
@@ -82,12 +82,12 @@
   "chat": {
     "eyebrow": "Herkes için",
     "title": "Konuşurken plan önünde",
-    "text": "Sohbette buluşmayı, planı, işi ya da programı etiketle; \"hangi cuma?\" diye sormaya gerek kalmaz.",
+    "text": "Sohbette buluşmayı, yapılacağı, görevi, proje haftasını ya da program kaydını etiketle; \"hangi cuma?\" diye sormaya gerek kalmaz.",
     "rows": {
       "circles": {
         "title": "Herkes için ayrı sohbet",
         "text": "Arkadaş grubun, ekibin, ev arkadaşların, sevgilin. Her sohbetin kendi teması olur.",
-        "bullets": ["Tepki, yanıt, düzenleme, herkesten sil", "Fotoğraf, arama, sabitlenmiş mesaj", "Okundu tikleri, yazıyor, çevrimiçi"]
+        "bullets": ["Tepki, yanıt, düzenleme, herkesten sil", "Fotoğraf, arama, sabitlenmiş mesaj", "Okundu tikleri, yazıyor, son görülme"]
       },
       "notifications": {
         "title": "Önemli olan kaçmaz",
@@ -98,7 +98,7 @@
     "cards": {
       "talkAbout": {
         "title": "Hakkında konuş",
-        "text": "Buluşmayı, ortak planı, projeyi ya da işi mesaja ekle. İlgili herkesle tek dokunuşla yeni grup bile kurabilirsin."
+        "text": "Buluşmayı, yapılacağı, görevi, proje haftasını, anıyı ya da bir yorumu mesaja ekle; kartta durumu ve ilerlemesi görünür. İlgili herkesle tek dokunuşla yeni grup bile kurabilirsin."
       },
       "theme": {
         "title": "Ortak sohbet teması",
