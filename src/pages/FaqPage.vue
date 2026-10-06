@@ -6,11 +6,13 @@ import SectionHeading from '@/components/common/SectionHeading.vue'
 import FaqItem from '@/components/faq/FaqItem.vue'
 import { useT } from '@/i18n/useT'
 import { usePageHead } from '@/composables/usePageHead'
+import { useFaqStructuredData } from '@/composables/useStructuredData'
 import { faqGroups } from '@/config/faq'
 import { app } from '@/config/app'
 
 const t = useT()
 usePageHead()
+useFaqStructuredData()
 
 onMounted(() => {
   const target = location.hash && document.getElementById(decodeURIComponent(location.hash.slice(1)))

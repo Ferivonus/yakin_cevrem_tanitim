@@ -10,8 +10,10 @@ import WebSection from '@/components/home/WebSection.vue'
 import FaqTeaser from '@/components/home/FaqTeaser.vue'
 import FinalCta from '@/components/common/FinalCta.vue'
 import { usePageHead } from '@/composables/usePageHead'
+import { useAppStructuredData } from '@/composables/useStructuredData'
 
 usePageHead()
+useAppStructuredData()
 </script>
 
 <template>

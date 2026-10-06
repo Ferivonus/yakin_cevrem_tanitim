@@ -217,7 +217,7 @@
     "notify": "Tell me when web is ready",
     "notifySubject": "Tell me when the web version is ready",
     "mock": {
-      "url": "yakincevrem.app",
+      "url": "yakin-cevrem.vercel.app",
       "title": "This week",
       "free": "Shared free time",
       "soon": "Soon"

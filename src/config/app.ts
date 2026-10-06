@@ -1,4 +1,4 @@
-export const siteUrl = 'https://yakincevrem.app'
+export const siteUrl = 'https://yakin-cevrem.vercel.app'
 
 export const app = {
   name: 'Yakın Çevrem',

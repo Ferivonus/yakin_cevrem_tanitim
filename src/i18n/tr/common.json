@@ -1,53 +1,57 @@
 {
   "meta": {
     "siteName": "Yakın Çevrem",
+    "image": {
+      "home": "Yakın Çevrem: ana sayfa ve grup sohbeti ekranları",
+      "couples": "Yakın Çevrem: sevgili alanı ve ortak planlar ekranları"
+    },
     "home": {
-      "title": "Yakın Çevrem · Programın, planların ve yakınların tek yerde",
-      "description": "Haftalık program, buluşmalar, yapılacaklar, görevler, projeler ve sohbet; arkadaşlarınla, ekibinle, ailenle ve sevgilinle tek uygulamada."
+      "title": "Yakın Çevrem · Ortak program ve plan yapma uygulaması",
+      "description": "Arkadaşlarınla, ekibinle, ailenle ve sevgilinle ortak program, boş zaman, buluşma, yapılacaklar, görevler, projeler ve sohbet tek uygulamada. Ücretsiz."
     },
     "schedule": {
-      "title": "Ortak program ve boş zaman · Yakın Çevrem",
-      "description": "Haftalık programını paylaş, arkadaşlarınla ortak boş zamanı bul, tek dokunuşla buluşma ayarla."
+      "title": "Ortak boş zaman bulma ve paylaşılan program · Yakın Çevrem",
+      "description": "Haftalık programını paylaş, arkadaşlarınla ortak boş zamanı uygulama bulsun, tek dokunuşla buluşma ayarla. Kimin ne göreceğini sen seç."
     },
     "plans": {
-      "title": "Buluşma, yapılacaklar ve görevler · Yakın Çevrem",
-      "description": "Tarih anketli buluşmalar, paylaşılan yapılacaklar ve hatırlatmalı görevler."
+      "title": "Arkadaşlarla plan yapma ve ortak yapılacaklar · Yakın Çevrem",
+      "description": "Tarih anketiyle buluşma ayarla, ortak yapılacaklar listesini paylaş, hatırlatmalı görevlerle kimin ne yapacağı belli olsun."
     },
     "projects": {
-      "title": "Ekipler için projeler · Yakın Çevrem",
-      "description": "İş ata, kontrole gönder, onayla; Kanban panosu, çizelge ve kritik yol."
+      "title": "Proje ekibi görev takibi: Kanban ve Gantt · Yakın Çevrem",
+      "description": "Küçük ekipler için görev atama, kontrole gönderme ve onay; Kanban panosu, Gantt çizelgesi ve kritik yol. Okulda, işte ya da arkadaşlarınla."
     },
     "chat": {
-      "title": "Planı konuşarak yap · Yakın Çevrem",
-      "description": "Grup sohbetinde buluşmayı, planı ve işi etiketle; şifreli saklanan mesajlar."
+      "title": "Grup sohbetinde plan yapma · Yakın Çevrem",
+      "description": "Grup sohbetinde buluşmayı, planı ve işi etiketle; herkes aynı yerde konuşsun. Mesajlar sunucuda şifreli saklanır."
     },
     "couples": {
-      "title": "Sevgilinle ortak alan · Yakın Çevrem",
-      "description": "Ortak planlar, anılar, fotoğraf günleri ve aynı anda oynanan oyunlar."
+      "title": "Sevgililer için ortak plan uygulaması · Yakın Çevrem",
+      "description": "Sevgilinle ortak planlar, anılar, fotoğraf günleri ve aynı anda oynanan oyunlar; ikinize özel bir alan."
     },
     "trust": {
-      "title": "Gizlilik ve kontrol · Yakın Çevrem",
-      "description": "Kim neyi görür sen seçersin; engelleme, şikayet, verilerini indirme ve hesap silme."
+      "title": "Gizlilik ve kontrol: kim neyi görür · Yakın Çevrem",
+      "description": "Programını ve durumunu kimin göreceğini kişi kişi sen seçersin; engelleme, şikayet, verilerini indirme ve hesap silme."
     },
     "features": {
-      "title": "Tüm özellikler · Yakın Çevrem",
-      "description": "Program, ortak boş zaman, buluşma anketleri, görevler, projeler, şifreli saklanan sohbet ve sevgili alanı."
+      "title": "Tüm özellikler: program, planlar, projeler · Yakın Çevrem",
+      "description": "Ortak program, boş zaman bulma, buluşma anketleri, ortak yapılacaklar, görevler, projeler, şifreli saklanan sohbet ve sevgili alanı; hepsi tek listede."
     },
     "faq": {
       "title": "Sık sorulan sorular · Yakın Çevrem",
-      "description": "Yakın Çevrem hakkında merak edilenler."
+      "description": "Yakın Çevrem ücretsiz mi, iPhone'da var mı, programımı kim görür, mesajlarım güvende mi? Merak edilenlerin cevapları."
     },
     "privacy": {
       "title": "Gizlilik politikası · Yakın Çevrem",
-      "description": "Yakın Çevrem hangi verileri neden işler, kimler görür, ne kadar saklar."
+      "description": "Yakın Çevrem hangi verileri neden işler, kimler görür, ne kadar saklar ve haklarını nasıl kullanırsın."
     },
     "terms": {
       "title": "Kullanım koşulları · Yakın Çevrem",
-      "description": "Yakın Çevrem'i kullanma koşulları."
+      "description": "Yakın Çevrem'i kullanırken geçerli olan kurallar ve koşullar."
     },
     "deleteAccount": {
       "title": "Hesap silme · Yakın Çevrem",
-      "description": "Yakın Çevrem hesabını ve verilerini nasıl silersin."
+      "description": "Yakın Çevrem hesabını ve verilerini nasıl silersin; neyin silinip neyin ne kadar saklandığı."
     },
     "notFound": {
       "title": "Sayfa bulunamadı · Yakın Çevrem",

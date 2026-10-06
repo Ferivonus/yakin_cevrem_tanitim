@@ -217,7 +217,7 @@
     "notify": "Web gelince haber ver",
     "notifySubject": "Web sürümü gelince haber ver",
     "mock": {
-      "url": "yakincevrem.app",
+      "url": "yakin-cevrem.vercel.app",
       "title": "Bu hafta",
       "free": "Ortak boşluk",
       "soon": "Yakında"
