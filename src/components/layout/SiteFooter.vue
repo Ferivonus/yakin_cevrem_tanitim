@@ -13,6 +13,7 @@ const { otherLang, otherLangPath, topicLinks, homePath } = useNav()
 const appLinks = computed(() => [
   ...topicLinks.value.filter((link) => link.key !== 'trust').map(({ to, label }) => ({ to, label })),
   { to: pathFor('features', t.lang.value), label: t('nav.features') },
+  { to: pathFor('roadmap', t.lang.value), label: t('nav.roadmap') },
 ])
 
 const trustLinks = computed(() => [

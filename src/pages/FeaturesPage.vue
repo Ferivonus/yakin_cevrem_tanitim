@@ -35,6 +35,13 @@ usePageHead()
       <div class="mt-6 flex flex-col gap-2 text-sm text-muted sm:flex-row sm:gap-6">
         <p class="flex items-center gap-2"><AppBadge status="soon" /> {{ t('features.page.legendSoon') }}</p>
         <p class="flex items-center gap-2"><AppBadge status="pro" /> {{ t('features.page.legendPro') }}</p>
+        <RouterLink
+          :to="pathFor('roadmap', t.lang.value)"
+          class="inline-flex items-center gap-1.5 font-bold text-brand-ink hover:underline hover:underline-offset-4"
+        >
+          {{ t('roadmap.banner.link') }}
+          <AppIcon name="arrowRight" class="size-4" />
+        </RouterLink>
       </div>
 
       <div class="mt-14 grid gap-6">

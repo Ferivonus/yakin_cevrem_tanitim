@@ -71,7 +71,7 @@ export const topics: Topic[] = [
       { id: 'templates', icon: 'copy' },
     ],
     areas: ['projects'],
-    faq: ['projectTools', 'difference'],
+    faq: ['projectTools', 'roadmap', 'freelance'],
   },
   {
     key: 'chat',

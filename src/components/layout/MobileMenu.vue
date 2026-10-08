@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import AppIcon from '@/components/common/AppIcon.vue'
+import ThemeToggle from './ThemeToggle.vue'
 import { useT } from '@/i18n/useT'
 import { useNav } from '@/composables/useNav'
 import { pathFor } from '@/router/pages'
@@ -32,23 +33,29 @@ const { otherLang, otherLangPath, topicLinks } = useNav()
           </RouterLink>
         </li>
       </ul>
-      <div class="mt-4 grid grid-cols-2 gap-2 border-t border-line pt-4 text-sm font-semibold">
-        <RouterLink :to="pathFor('features', t.lang.value)" class="rounded-xl p-3 text-ink active:bg-surface-2">
+      <div class="mt-4 grid grid-cols-3 gap-2 border-t border-line pt-4 text-center text-sm font-semibold">
+        <RouterLink :to="pathFor('features', t.lang.value)" class="rounded-xl px-2 py-3 text-ink active:bg-surface-2">
           {{ t('nav.features') }}
         </RouterLink>
-        <RouterLink :to="pathFor('faq', t.lang.value)" class="rounded-xl p-3 text-ink active:bg-surface-2">
+        <RouterLink :to="pathFor('faq', t.lang.value)" class="rounded-xl px-2 py-3 text-ink active:bg-surface-2">
           {{ t('nav.faq') }}
         </RouterLink>
+        <RouterLink :to="pathFor('roadmap', t.lang.value)" class="rounded-xl px-2 py-3 text-ink active:bg-surface-2">
+          {{ t('nav.roadmap') }}
+        </RouterLink>
       </div>
-      <RouterLink
-        :to="otherLangPath"
-        :hreflang="otherLang"
-        :lang="otherLang"
-        class="mt-auto flex items-center justify-center gap-2 rounded-2xl border border-line p-3.5 font-bold text-ink"
-      >
-        <AppIcon name="globe" class="size-5" />
-        {{ t('nav.language') }}
-      </RouterLink>
+      <div class="mt-auto flex items-center gap-2">
+        <RouterLink
+          :to="otherLangPath"
+          :hreflang="otherLang"
+          :lang="otherLang"
+          class="flex flex-1 items-center justify-center gap-2 rounded-2xl border border-line p-3.5 font-bold text-ink"
+        >
+          <AppIcon name="globe" class="size-5" />
+          {{ t('nav.language') }}
+        </RouterLink>
+        <span class="grid size-13 shrink-0 place-items-center rounded-2xl border border-line"><ThemeToggle /></span>
+      </div>
     </nav>
   </div>
 </template>

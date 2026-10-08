@@ -27,7 +27,7 @@ const notifyHref = () => `mailto:${app.supportEmail}?subject=${encodeURIComponen
 
 <template>
   <section :id="t('home.ids.web')" class="section-y">
-    <div class="wrap grid items-center gap-16 lg:grid-cols-[0.95fr_1.05fr]">
+    <div class="wrap grid grid-cols-1 items-center gap-16 lg:grid-cols-[0.95fr_1.05fr]">
       <div v-reveal>
         <p class="eyebrow mb-3 inline-flex items-center gap-2">
           <AppIcon name="monitor" class="size-4" />

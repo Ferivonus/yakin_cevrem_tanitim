@@ -7,6 +7,7 @@ import MobileMenu from './MobileMenu.vue'
 import ThemeToggle from './ThemeToggle.vue'
 import { useT } from '@/i18n/useT'
 import { useNav } from '@/composables/useNav'
+import { app } from '@/config/app'
 
 const t = useT()
 const route = useRoute()
@@ -19,7 +20,7 @@ watch(open, (value) => document.documentElement.classList.toggle('overflow-hidde
 
 <template>
   <header class="sticky top-0 z-40 border-b border-line/50 bg-bg/70 backdrop-blur-xl backdrop-saturate-150">
-    <div class="wrap flex h-16 items-center gap-4">
+    <div class="wrap flex h-16 items-center gap-3 sm:gap-4">
       <RouterLink :to="homePath" class="mr-auto shrink-0 lg:mr-0" :aria-label="t('nav.home')">
         <SiteLogo />
       </RouterLink>
@@ -45,8 +46,8 @@ watch(open, (value) => document.documentElement.classList.toggle('overflow-hidde
         </ul>
       </nav>
 
-      <div class="flex items-center gap-2">
-        <ThemeToggle />
+      <div class="flex items-center gap-1.5 sm:gap-2">
+        <span class="hidden sm:block"><ThemeToggle /></span>
         <RouterLink
           :to="otherLangPath"
           :hreflang="otherLang"
@@ -57,12 +58,14 @@ watch(open, (value) => document.documentElement.classList.toggle('overflow-hidde
           <AppIcon name="globe" class="size-4.5" />
           {{ t('nav.languageShort') }}
         </RouterLink>
-        <RouterLink
-          :to="downloadPath"
+        <component
+          :is="app.playStoreUrl ? 'a' : 'RouterLink'"
+          :href="app.playStoreUrl || undefined"
+          :to="app.playStoreUrl ? undefined : downloadPath"
           class="rounded-full bg-brand px-4 py-2 text-sm font-bold text-white shadow-[0_8px_20px_-10px_var(--brand)] transition duration-500 ease-[var(--ease-soft)] hover:-translate-y-0.5 hover:shadow-[0_14px_26px_-12px_var(--brand)]"
         >
           {{ t('nav.download') }}
-        </RouterLink>
+        </component>
         <button
           type="button"
           class="-mr-2 grid size-11 place-items-center rounded-full text-ink lg:hidden"

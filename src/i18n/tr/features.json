@@ -47,7 +47,15 @@
     "templates": "Şablon kütüphanesi: 8 hazır şablon ve yakınlarının paylaştıkları",
     "weeklyDigest": "Hafta sonu özet bildirimi",
     "partnerProjects": "Sevgilinin adına proje açma, sevgilinin projelerini izleme",
-    "projectInvites": "Davetle üyelik, süre kaydı, birden çok sorumlu",
+    "aiExport": "Planı yapay zekâya verilebilir .md dosyası olarak indirme",
+    "startGuide": "Proje başlatma rehberi: yöntemi sen seçersin; \"Standartlarımı uygula\"",
+    "guidedTools": "Rehberli analiz araçları: persona, rakip tablosu, SWOT → TOWS, Lean Canvas, SMART hedef, MVP kapsamı, risk matrisi",
+    "revenuePlan": "Gelir-gider ve nakit planı, ücret hesaplayıcı, \"Uygulamamı nasıl yaptırırım?\" rehberi",
+    "projectInvites": "E-postayla davet ve ekip alanı: freelancer, küçük ekip, şirket, topluluk",
+    "clientSpace": "Müşteri alanı: paylaşım, istekler, onay ve teslim kabulü",
+    "timeTracking": "Saat kaydı, müşteri onaylı saat özeti, ödeme aşamaları",
+    "narratives": "Müşteri, işletme ve mühendislik için ayrı metinler; \"Bu hâlâ doğru mu?\" denetimi",
+    "sprints": "Kendi iş akışın, sprint, backlog, retrospektif; birden çok sorumlu ve ekler",
     "chats": "Birebir ve grup sohbeti",
     "talkAbout": "\"Hakkında konuş\": buluşma, ortak plan, proje, sayfa, iş ya da programı etiketleme; \"Hepsiyle yeni grup kur\"",
     "tagTodos": "Yapılacak, görev, proje haftası ve işi, program kaydı, anı, ortak liste ve yorumları sohbette etiketleme; kartta durum ve ilerleme",
@@ -96,6 +104,8 @@
     "onboarding": "İlk açılış tanıtımı, profil rehberi, yardım sayfası",
     "releaseNotes": "Sürüm notları ve \"Sırada ne var?\" uygulama içinde",
     "android": "Android",
+    "webApp": "Web sürümü: aynı hesapla tarayıcıdan",
+    "desktopApp": "Windows için bilgisayar uygulaması",
     "perPerson": "Kişi bazlı paylaşım: program, durum, projeler, görevler, yapılacaklar",
     "optionalInfo": "Kişisel bilgiler isteğe bağlı, her birinin görünürlüğü ayrı",
     "blockReport": "Engelleme ve şikayet: kişi, mesaj, yorum, buluşma, anı, şablon",
@@ -104,6 +114,7 @@
     "deleteAccount": "Kalıcı hesap silme, şifre değiştirme, şifremi unuttum",
     "legalInApp": "Gizlilik politikası ve kullanım koşulları uygulamada ve bu sitede",
     "age": "16 yaş ve üstü için",
-    "appLock": "Uygulama kilidi, tüm cihazlardan çıkış"
+    "appLock": "Uygulama kilidi, tüm cihazlardan çıkış",
+    "twoFactor": "İki adımlı doğrulama, açık oturumların listesi"
   }
 }

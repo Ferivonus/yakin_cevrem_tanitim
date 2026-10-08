@@ -15,7 +15,7 @@ usePageHead('notFound')
     <section class="wrap grid min-h-[60vh] place-items-center py-20 text-center">
       <div>
         <p class="text-[clamp(5rem,18vw,9rem)] leading-none font-extrabold tracking-tighter text-brand/20">{{ t('notFound.code') }}</p>
-        <h1 class="h-section mt-2">{{ t('notFound.title') }} 🙃</h1>
+        <h1 class="h-section mt-2">{{ t('notFound.title') }}</h1>
         <p class="lead mt-3">{{ t('notFound.text') }}</p>
         <RouterLink
           :to="pathFor('home', t.lang.value)"

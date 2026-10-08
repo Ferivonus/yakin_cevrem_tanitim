@@ -36,7 +36,7 @@ watch(selected, (id) => {
     <div class="wrap">
       <SectionHeading v-reveal center :eyebrow="t('home.who.eyebrow')" :title="t('home.who.title')" />
 
-      <fieldset class="mt-10">
+      <fieldset class="mt-10 min-w-0">
         <legend class="sr-only">{{ t('home.who.legend') }}</legend>
         <div class="-mx-4 overflow-x-auto px-4 pb-1 sm:mx-0 sm:px-0">
           <div class="mx-auto flex w-max gap-1 rounded-full border border-line/70 bg-surface/80 p-1.5 shadow-soft backdrop-blur-md">

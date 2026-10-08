@@ -31,7 +31,7 @@
     "web": {
       "slug": "web",
       "q": "Will I be able to use it on a computer?",
-      "a": "A web version is planned; once it's ready you'll be able to use it in your browser with the same account. For now the app is Android-only."
+      "a": "A web version is planned; once it's ready you'll be able to use it in your browser with the same account. A desktop app for Windows is planned after that. For now the app is Android-only."
     },
     "languages": {
       "slug": "languages",
@@ -56,7 +56,17 @@
     "projectTools": {
       "slug": "project-tools",
       "q": "Can it replace project management tools?",
-      "a": "For work with friends, at school or with a small team, yes: roles, approvals, a board, Gantt and critical path are built in. It isn't designed for big company processes."
+      "a": "For work with friends, at school or with a small team, yes: roles, approvals, a board, Gantt and critical path are built in. It isn't designed for big company processes. Our roadmap explains what's planned for more professional use."
+    },
+    "roadmap": {
+      "slug": "roadmap",
+      "q": "What's next, will projects grow?",
+      "a": "Yes. The next stage brings guided tools that turn your idea into a business plan one question at a time (SWOT, Lean Canvas, a revenue plan and more) and a way to download the plan as a file you can hand to an AI. Then web and Windows apps, then a space for working with your clients and your team. All of it is planned and may change; we don't give dates. The revenue plan won't replace financial advice; it reminds you what to think about."
+    },
+    "freelance": {
+      "slug": "freelancer",
+      "q": "Can I use it with my clients as a freelancer?",
+      "a": "Today you can only add your connections to a project, and a viewer sees the whole project, so there's no client-only view yet. A client space is on the roadmap: your client will see only what you share, make requests and sign off deliveries, and your notes to the team won't be visible to them."
     },
     "visibility": {
       "slug": "who-sees-my-schedule",

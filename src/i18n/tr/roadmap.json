@@ -1,0 +1,130 @@
+{
+  "hero": {
+    "eyebrow": "Yol haritası",
+    "title": "Fikrinden profesyonel bir plana, adım adım.",
+    "titleMark": "adım adım.",
+    "text": "Yakın Çevrem bugün herkesin plan ve program uygulaması. Sırada, bir fikri ya da bir müşteri işini baştan sona planlayabileceğin araçlar var: rehberli analizler, gelir planı, web ve bilgisayar uygulaması, müşterinle paylaştığın proje alanı.",
+    "note": "Planlanıyor, değişebilir. Tarih vermiyoruz; her aşama bir öncekinin üstüne kurulur."
+  },
+  "mock": {
+    "project": "Kafe sipariş uygulaması",
+    "progress": "İş planı hazırlığı",
+    "steps": ["Problem ve persona", "Rakipler", "SWOT → TOWS", "Gelir planı"],
+    "now": "Sırada",
+    "unknown": "2 varsayım doğrulanacak",
+    "file": "kafe-siparis.md",
+    "fileHint": "Yapay zekâya ver",
+    "soon": "Yakında"
+  },
+  "principles": {
+    "title": "Neye göre büyüyor?",
+    "items": {
+      "choice": {
+        "title": "Seçimi sen yaparsın",
+        "text": "Uygulama senin yerine yöntem ya da araç seçmez. Her seçeneğin ne işe yaradığını, ne zaman gereksiz olduğunu ve atlarsan ne olacağını anlatır; kararı sen verirsin."
+      },
+      "simple": {
+        "title": "Kişisel kullanım sade kalır",
+        "text": "Program, planlar, sohbet ve sevgili alanı olduğu gibi kalır. Profesyonel araçlar yalnızca sen açtığında görünür."
+      },
+      "yours": {
+        "title": "Planın senin",
+        "text": "Hazırladığın plan tek bir dosya olarak indirilebilecek; istediğin yere, istediğin yapay zekâ aracına verebileceksin."
+      }
+    }
+  },
+  "stages": {
+    "title": "Aşama aşama ne geliyor?",
+    "text": "Her aşama belli bir kişiye işe yarar bir şey verir; biri bitmeden sonrakine geçilmez.",
+    "steps": {
+      "plan": {
+        "label": "Sıradaki",
+        "title": "Fikrinden plana",
+        "text": "Yazılım ya da işletme bilmesen de soru soru ilerleyerek profesyonel bir plan çıkar.",
+        "items": [
+          "Planı yapay zekâya verilebilir tek bir .md dosyası olarak indirme",
+          "Proje başlatma rehberi: Planlı, Kanban, Scrum, karma ya da keşif; \"Standartlarımı uygula\" ve \"Hızlı başla\"",
+          "Rehberli araçlar: persona, rakip tablosu, SWOT → TOWS, Lean Canvas, SMART hedef, kullanıcı hikâyesi, MVP kapsamı, risk matrisi",
+          "\"Bilmiyorum\" dediğin soru kaybolmaz; doğrulanacak varsayım olarak kaydedilir",
+          "Gelir-gider ve nakit planı, freelancer için ücret hesaplayıcı",
+          "\"Uygulamamı nasıl yaptırırım?\" rehberi: ihtiyacı yazmaktan yazılımcı seçmeye ve teslim almaya",
+          "İş numaraları, projede arama ve çöp kutusu"
+        ]
+      },
+      "everywhere": {
+        "label": "Ardından",
+        "title": "Her ekranda",
+        "text": "Aynı hesap, aynı plan; telefonda, tarayıcıda ve bilgisayarda.",
+        "items": [
+          "Web sürümü: geniş ekran, klavye kısayolları, liste görünümü",
+          "Windows için bilgisayar uygulaması",
+          "İki adımlı doğrulama ve açık oturumların listesi"
+        ]
+      },
+      "clients": {
+        "label": "Sonra",
+        "title": "Müşterinle ve ekibinle",
+        "text": "Müşteriye iş yapanlar ve küçük ekipler için.",
+        "items": [
+          "Ekip alanı: freelancer, küçük ekip, şirket ya da topluluk için ayrı düzen",
+          "Projeye e-postayla davet; katılanın yakının olması gerekmez",
+          "Müşteri alanı: işini müşterinle bir dokümanı paylaşır gibi paylaş",
+          "\"Ekibe not\" ile \"Müşteriye yanıt\" ayrı; paylaşmadan önce \"Müşteri gözüyle gör\"",
+          "Müşteriden istek, değişikliğin etkisi ve onayı, teslim kabulü",
+          "Haftalık durum raporu e-postası",
+          "Saat kaydı, müşteri onaylı saat özeti, ödeme aşamaları"
+        ]
+      },
+      "depth": {
+        "label": "Daha ileride",
+        "title": "Ekiple derinleşme",
+        "text": "Ekip büyüdükçe gereken araçlar.",
+        "items": [
+          "Müşteri, işletme ve mühendislik için ayrı metinler; biri değişince diğerlerinde \"Bu hâlâ doğru mu?\"",
+          "Kendi iş akışını kurma",
+          "Sprint, backlog ve retrospektif",
+          "İşe dosya ekleme, etiketler ve @bahsetme"
+        ]
+      }
+    }
+  },
+  "paths": {
+    "title": "Hangisi sana benziyor?",
+    "text": "Aynı uygulama, farklı başlangıç noktaları.",
+    "items": {
+      "builder": {
+        "title": "Yazılım biliyorum, işletme tarafını bilmiyorum",
+        "text": "Fiyat, rakipler, hedefler ve gelir planı; her biri örnekli sorularla."
+      },
+      "business": {
+        "title": "İşim var, yazılım tarafını bilmiyorum",
+        "text": "İhtiyacını yazmak, ilk sürümü belirlemek, yazılımcı seçmek ve işi teslim almak."
+      },
+      "freelance": {
+        "title": "Müşteriye iş yapıyorum",
+        "text": "Müşterinin neyi göreceğini sen seçersin; istekler, onaylar ve saatler tek yerde."
+      },
+      "team": {
+        "title": "Ekibim, kulübüm ya da derneğim var",
+        "text": "Roller, ortak program ve kararlar; kendi düzeninizle."
+      }
+    }
+  },
+  "foundation": {
+    "title": "Temeli bugünden hazır",
+    "text": "Pano, Gantt çizelgesi, kritik yol, onay akışı, SWOT, sayfa planı ve şablonlar bugün uygulamada. Yol haritası bunların üstüne kuruluyor.",
+    "link": "Projeler'de bugün neler var?"
+  },
+  "pilot": {
+    "title": "Erken denemek ister misin?",
+    "text": "Yeni araçları önce küçük bir grupla denemek istiyoruz: kendi fikrinin planını çıkarmak isteyenler, müşterisiyle çalışan freelancer'lar, küçük ekipler ve dernekler. Bize yaz, sırası gelince haber verelim.",
+    "action": "Erken denemek istiyorum",
+    "subject": "Yol haritası: erken denemek istiyorum"
+  },
+  "banner": {
+    "eyebrow": "Yol haritası",
+    "title": "Projeler büyüyor.",
+    "text": "Sırada fikrini aşama aşama plana dönüştüren araçlar, web ve bilgisayar uygulaması ve müşterinle paylaştığın proje alanı var.",
+    "link": "Yol haritasının tamamı"
+  }
+}

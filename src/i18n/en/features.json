@@ -47,7 +47,15 @@
     "templates": "Template library: 8 ready-made templates plus ones shared by your people",
     "weeklyDigest": "End-of-week summary notification",
     "partnerProjects": "Start a project for your partner, follow your partner's projects",
-    "projectInvites": "Membership by invite, time tracking, multiple assignees",
+    "aiExport": "Download a plan as an .md file you can hand to an AI",
+    "startGuide": "Project start guide: you choose the method; \"Apply my standards\"",
+    "guidedTools": "Guided analysis tools: persona, competitor table, SWOT → TOWS, Lean Canvas, SMART goals, MVP scope, risk matrix",
+    "revenuePlan": "Revenue, cost and cash plan, rate calculator, \"How do I get my app built?\" guide",
+    "projectInvites": "Email invites and workspaces for freelancers, small teams, companies and communities",
+    "clientSpace": "Client space: sharing, requests, approvals and delivery sign-off",
+    "timeTracking": "Time tracking, client-approved time summaries, payment milestones",
+    "narratives": "Separate write-ups for client, business and engineering; \"Is this still right?\" checks",
+    "sprints": "Your own workflow, sprints, backlog, retrospectives; multiple assignees and attachments",
     "chats": "One-to-one and group chats",
     "talkAbout": "\"Talk about it\": tag a meetup, shared plan, project, page, task or schedule; \"Start a group with everyone\"",
     "tagTodos": "Tag to-dos, tasks, project weeks and items, schedule entries, memories, shared lists and comments in chat; status and progress on the card",
@@ -96,6 +104,8 @@
     "onboarding": "First-run intro, profile guide, help page",
     "releaseNotes": "Release notes and \"What's next?\" inside the app",
     "android": "Android",
+    "webApp": "Web version: the same account in your browser",
+    "desktopApp": "Desktop app for Windows",
     "perPerson": "Per-person sharing: schedule, status, projects, tasks, to-dos",
     "optionalInfo": "Personal details are optional, each with its own visibility",
     "blockReport": "Block and report: people, messages, comments, meetups, memories, templates",
@@ -104,6 +114,7 @@
     "deleteAccount": "Permanent account deletion, password change, forgot password",
     "legalInApp": "Privacy policy and terms of use in the app and on this site",
     "age": "For ages 16 and up",
-    "appLock": "App lock, sign out of all devices"
+    "appLock": "App lock, sign out of all devices",
+    "twoFactor": "Two-step verification, list of signed-in sessions"
   }
 }

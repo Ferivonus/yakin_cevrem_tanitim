@@ -5,7 +5,7 @@ export type FaqGroupId = keyof Messages['faq']['groups']
 
 export const faqGroups: { id: FaqGroupId; items: FaqId[] }[] = [
   { id: 'general', items: ['whatFor', 'free', 'iphone', 'web', 'languages', 'solo'] },
-  { id: 'planning', items: ['noPartner', 'difference', 'projectTools'] },
+  { id: 'planning', items: ['noPartner', 'difference', 'projectTools', 'roadmap', 'freelance'] },
   { id: 'privacy', items: ['visibility', 'messagesSafe', 'harassment'] },
   { id: 'couple', items: ['partnerSees', 'breakup', 'longDistance'] },
   { id: 'account', items: ['deleteData', 'age'] },

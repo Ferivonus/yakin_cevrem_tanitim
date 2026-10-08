@@ -38,7 +38,7 @@ const statusInitial = computed(() => t('home.hero.sticker.statusName').charAt(0)
       <div class="hero-art relative mx-auto w-full max-w-[26rem] lg:max-w-none">
         <div class="relative mx-auto aspect-[10/13] w-full max-w-[30rem] sm:aspect-[10/12]">
           <div class="absolute top-[6%] right-[2%] hidden w-[46%] rotate-[8deg] sm:block">
-            <PhoneFrame shot="15" decorative sizes="(min-width: 1024px) 240px, 45vw" class="float-slower opacity-95" />
+            <PhoneFrame shot="15" decorative eager sizes="(min-width: 1024px) 240px, 45vw" class="float-slower opacity-95" />
           </div>
           <div class="absolute top-0 left-1/2 w-[58%] -translate-x-1/2 sm:left-[14%] sm:w-[52%] sm:translate-x-0">
             <PhoneFrame shot="28" eager sizes="(min-width: 1024px) 270px, 60vw" class="float-slow" />

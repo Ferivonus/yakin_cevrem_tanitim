@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import AppIcon from '@/components/common/AppIcon.vue'
+import RoadmapBanner from '@/components/roadmap/RoadmapBanner.vue'
 import { useT } from '@/i18n/useT'
 
 const t = useT()
@@ -26,6 +27,7 @@ const t = useT()
           <span class="font-semibold">{{ item }}</span>
         </li>
       </ul>
+      <RoadmapBanner class="mt-6" />
     </div>
   </section>
 </template>

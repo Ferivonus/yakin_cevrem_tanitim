@@ -31,7 +31,7 @@
     "web": {
       "slug": "web",
       "q": "Bilgisayardan kullanabilecek miyim?",
-      "a": "Web sürümü planlanıyor; hazır olduğunda aynı hesapla tarayıcıdan da kullanabileceksin. Şimdilik uygulama yalnızca Android'de."
+      "a": "Web sürümü planlanıyor; hazır olduğunda aynı hesapla tarayıcıdan da kullanabileceksin. Ardından Windows için bir bilgisayar uygulaması da planlanıyor. Şimdilik uygulama yalnızca Android'de."
     },
     "languages": {
       "slug": "diller",
@@ -56,7 +56,17 @@
     "projectTools": {
       "slug": "proje-araclari",
       "q": "Proje araçlarının yerini tutar mı?",
-      "a": "Arkadaşlarınla, okulda ya da küçük bir ekiple yaptığın işler için evet: roller, onay, pano, Gantt, kritik yol hazır. Büyük şirket süreçleri için tasarlanmadı."
+      "a": "Arkadaşlarınla, okulda ya da küçük bir ekiple yaptığın işler için evet: roller, onay, pano, Gantt, kritik yol hazır. Büyük şirket süreçleri için tasarlanmadı. Daha profesyonel kullanım için neler planlandığını yol haritasında anlatıyoruz."
+    },
+    "roadmap": {
+      "slug": "yol-haritasi",
+      "q": "Sırada ne var, projeler gelişecek mi?",
+      "a": "Evet. Sıradaki aşamada fikrini soru soru iş planına dönüştüren rehberli araçlar (SWOT, Lean Canvas, gelir planı gibi) ve planı yapay zekâya verilebilir bir dosya olarak indirme var. Ardından web ve Windows uygulaması, sonra müşterinle ve ekibinle çalışma alanı geliyor. Hepsi planlanıyor, değişebilir; tarih vermiyoruz. Gelir planı finansal danışmanlık yerine geçmeyecek, düşünmen gereken kalemleri hatırlatacak."
+    },
+    "freelance": {
+      "slug": "freelancer",
+      "q": "Freelancer olarak müşterimle kullanabilir miyim?",
+      "a": "Bugün projeye yalnızca yakınlarını ekleyebilirsin ve izleyici projenin tamamını görür; yani müşteriye özel bir görünüm henüz yok. Müşteri alanı yol haritasında: müşterin yalnızca senin paylaştığını görecek, istekte bulunup teslimi onaylayabilecek; ekibe yazdığın notlar ona görünmeyecek."
     },
     "visibility": {
       "slug": "programimi-kim-gorur",

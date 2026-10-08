@@ -6,6 +6,7 @@ import FeatureRow from '@/components/topic/FeatureRow.vue'
 import FeatureCards from '@/components/topic/FeatureCards.vue'
 import TrustDocuments from '@/components/topic/TrustDocuments.vue'
 import AreaFeatures from '@/components/topic/AreaFeatures.vue'
+import RoadmapBanner from '@/components/roadmap/RoadmapBanner.vue'
 import RelatedFaq from '@/components/topic/RelatedFaq.vue'
 import NextTopic from '@/components/topic/NextTopic.vue'
 import FinalCta from '@/components/common/FinalCta.vue'
@@ -34,6 +35,7 @@ usePageHead()
         <FeatureCards :topic="topic.key" :cards="topic.cards" />
         <TrustDocuments v-if="topic.key === 'trust'" />
       </div>
+      <RoadmapBanner v-if="topic.key === 'projects'" />
       <AreaFeatures :areas="topic.areas" />
       <RelatedFaq :items="topic.faq" />
       <NextTopic :current="topic.key" />

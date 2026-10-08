@@ -12,7 +12,7 @@ const parts = computed(() => {
 
 <template>
   <component :is="tag">
-    {{ parts.before }}<span v-if="parts.mark" class="serif-mark relative inline-block pr-[0.08em] whitespace-nowrap text-brand-ink">
+    {{ parts.before }}<span v-if="parts.mark" class="serif-mark relative inline-block pr-[0.08em] text-brand-ink sm:whitespace-nowrap">
       {{ parts.mark }}
       <svg
         class="squiggle absolute -bottom-[0.18em] left-0 h-[0.32em] w-full text-accent"

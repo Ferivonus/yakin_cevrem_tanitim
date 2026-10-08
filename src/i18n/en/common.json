@@ -37,6 +37,10 @@
       "title": "All features: schedules, plans, projects · Yakın Çevrem",
       "description": "Shared schedules, free time, meetup polls, shared to-dos, tasks, projects, encrypted message storage and a couple space, all in one list."
     },
+    "roadmap": {
+      "title": "Roadmap: what's coming next · Yakın Çevrem",
+      "description": "Guided business plan tools, a revenue plan, a plan file you can hand to an AI, web and Windows apps, and a project space shared with your client. What's planned for Yakın Çevrem?"
+    },
     "faq": {
       "title": "Frequently asked questions · Yakın Çevrem",
       "description": "Is Yakın Çevrem free, is it on iPhone, who sees my schedule, are my messages safe? Answers to what people ask."
@@ -69,6 +73,7 @@
     "trust": "Trust",
     "features": "All features",
     "faq": "FAQ",
+    "roadmap": "Roadmap",
     "pricing": "Plans & pricing",
     "download": "Download",
     "menu": "Open menu",

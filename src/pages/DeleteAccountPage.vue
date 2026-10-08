@@ -33,7 +33,7 @@ usePageHead()
       <ol class="mt-10 grid gap-4">
         <li v-for="(step, index) in steps" :key="step" class="flex gap-4 rounded-card border border-line bg-surface p-5">
           <span class="grid size-9 shrink-0 place-items-center rounded-full bg-brand text-white font-extrabold">{{ index + 1 }}</span>
-          <p class="pt-1 text-[1.0625rem]">{{ step }}</p>
+          <p class="min-w-0 pt-1 text-[1.0625rem] [overflow-wrap:anywhere]">{{ step }}</p>
         </li>
       </ol>
 

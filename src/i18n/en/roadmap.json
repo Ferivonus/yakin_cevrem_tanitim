@@ -1,0 +1,130 @@
+{
+  "hero": {
+    "eyebrow": "Roadmap",
+    "title": "From an idea to a professional plan, step by step.",
+    "titleMark": "step by step.",
+    "text": "Today Yakın Çevrem is a planning and schedule app for everyone. Next come tools to plan an idea or a client job from start to finish: guided analyses, a revenue plan, web and desktop apps, and a project space you share with your client.",
+    "note": "Planned, subject to change. We don't give dates; each stage builds on the one before."
+  },
+  "mock": {
+    "project": "Café ordering app",
+    "progress": "Business plan progress",
+    "steps": ["Problem and persona", "Competitors", "SWOT → TOWS", "Revenue plan"],
+    "now": "Next",
+    "unknown": "2 assumptions to check",
+    "file": "cafe-ordering.md",
+    "fileHint": "Hand it to an AI",
+    "soon": "Soon"
+  },
+  "principles": {
+    "title": "How it grows",
+    "items": {
+      "choice": {
+        "title": "You make the call",
+        "text": "The app doesn't pick a method or a tool for you. It explains what each option is for, when it's unnecessary and what happens if you skip it; you decide."
+      },
+      "simple": {
+        "title": "Personal use stays simple",
+        "text": "Schedule, plans, chat and the couple space stay as they are. The professional tools only show up when you turn them on."
+      },
+      "yours": {
+        "title": "Your plan is yours",
+        "text": "You'll be able to download your plan as a single file and hand it to wherever you like, including any AI tool."
+      }
+    }
+  },
+  "stages": {
+    "title": "What's coming, stage by stage",
+    "text": "Each stage gives someone something useful; the next one starts only when it's done.",
+    "steps": {
+      "plan": {
+        "label": "Next",
+        "title": "From idea to plan",
+        "text": "Even without a software or business background, build a professional plan one question at a time.",
+        "items": [
+          "Download a plan as a single .md file you can hand to an AI",
+          "Project start guide: planned, Kanban, Scrum, hybrid or discovery; \"Apply my standards\" and \"Quick start\"",
+          "Guided tools: persona, competitor table, SWOT → TOWS, Lean Canvas, SMART goals, user stories, MVP scope, risk matrix",
+          "Questions you answer with \"I don't know\" aren't lost; they're saved as assumptions to check",
+          "Revenue, cost and cash plan, plus a rate calculator for freelancers",
+          "\"How do I get my app built?\" guide: from writing down the need to choosing a developer and accepting the work",
+          "Item numbers, search inside projects and a trash bin"
+        ]
+      },
+      "everywhere": {
+        "label": "Then",
+        "title": "On every screen",
+        "text": "Same account, same plan; on your phone, in the browser and on your computer.",
+        "items": [
+          "Web version: wide screen, keyboard shortcuts, list view",
+          "Desktop app for Windows",
+          "Two-step verification and a list of signed-in sessions"
+        ]
+      },
+      "clients": {
+        "label": "After that",
+        "title": "With your clients and your team",
+        "text": "For people who work for clients and for small teams.",
+        "items": [
+          "Workspaces with their own layout for freelancers, small teams, companies or communities",
+          "Invite people to a project by email; they don't have to be your connections",
+          "Client space: share your work with your client the way you'd share a document",
+          "\"Note to team\" and \"Reply to client\" kept apart; \"See as client\" before you share",
+          "Client requests, the impact of a change and its approval, delivery sign-off",
+          "Weekly status report by email",
+          "Time tracking, client-approved time summaries, payment milestones"
+        ]
+      },
+      "depth": {
+        "label": "Further ahead",
+        "title": "Going deeper as a team",
+        "text": "Tools a team needs as it grows.",
+        "items": [
+          "Separate write-ups for the client, the business and engineering; when one changes, the others ask \"Is this still right?\"",
+          "Build your own workflow",
+          "Sprints, backlog and retrospectives",
+          "File attachments, labels and @mentions on items"
+        ]
+      }
+    }
+  },
+  "paths": {
+    "title": "Which one sounds like you?",
+    "text": "One app, different starting points.",
+    "items": {
+      "builder": {
+        "title": "I can build software, but not the business side",
+        "text": "Pricing, competitors, goals and a revenue plan; each with example-led questions."
+      },
+      "business": {
+        "title": "I have a business, but not the software side",
+        "text": "Write down what you need, define the first version, choose a developer and accept the work."
+      },
+      "freelance": {
+        "title": "I work for clients",
+        "text": "You choose what your client sees; requests, approvals and hours in one place."
+      },
+      "team": {
+        "title": "I have a team, a club or an association",
+        "text": "Roles, a shared schedule and decisions; in your own way of working."
+      }
+    }
+  },
+  "foundation": {
+    "title": "The foundation is already here",
+    "text": "Board, Gantt chart, critical path, review flow, SWOT, page plans and templates are in the app today. The roadmap builds on top of them.",
+    "link": "What's in Projects today?"
+  },
+  "pilot": {
+    "title": "Want to try it early?",
+    "text": "We'd like to try the new tools with a small group first: people who want to plan their own idea, freelancers working with clients, small teams and associations. Write to us and we'll let you know when it's your turn.",
+    "action": "I want to try it early",
+    "subject": "Roadmap: I want to try it early"
+  },
+  "banner": {
+    "eyebrow": "Roadmap",
+    "title": "Projects are growing.",
+    "text": "Next up: tools that turn your idea into a plan step by step, web and desktop apps, and a project space you share with your client.",
+    "link": "See the full roadmap"
+  }
+}

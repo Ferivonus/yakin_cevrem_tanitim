@@ -37,6 +37,10 @@
       "title": "Tüm özellikler: program, planlar, projeler · Yakın Çevrem",
       "description": "Ortak program, boş zaman bulma, buluşma anketleri, ortak yapılacaklar, görevler, projeler, şifreli saklanan sohbet ve sevgili alanı; hepsi tek listede."
     },
+    "roadmap": {
+      "title": "Yol haritası: sırada ne var? · Yakın Çevrem",
+      "description": "Rehberli iş planı araçları, gelir planı, yapay zekâya verilebilir plan dosyası, web ve Windows uygulaması, müşterinle paylaşılan proje alanı. Yakın Çevrem'de neler planlanıyor?"
+    },
     "faq": {
       "title": "Sık sorulan sorular · Yakın Çevrem",
       "description": "Yakın Çevrem ücretsiz mi, iPhone'da var mı, programımı kim görür, mesajlarım güvende mi? Merak edilenlerin cevapları."
@@ -69,6 +73,7 @@
     "trust": "Güven",
     "features": "Tüm özellikler",
     "faq": "SSS",
+    "roadmap": "Yol haritası",
     "pricing": "Paketler",
     "download": "İndir",
     "menu": "Menüyü aç",

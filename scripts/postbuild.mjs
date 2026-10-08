@@ -52,7 +52,7 @@ function seoProblems(html, path) {
 }
 
 const files = htmlFiles(dist)
-const leaked = /\b(?:meta|nav|store|badge|common|audience|footer|shots|home|topics|features|faq|legal)\.[a-zA-Z0-9]+\.[a-zA-Z0-9.]+/
+const leaked = /\b(?:meta|nav|store|badge|common|audience|footer|shots|home|topics|features|faq|legal|roadmap)\.[a-zA-Z0-9]+\.[a-zA-Z0-9.]+/
 const problems = []
 const pages = []
 
