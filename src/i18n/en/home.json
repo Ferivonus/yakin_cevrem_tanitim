@@ -11,11 +11,11 @@
     "fresh": "new"
   },
   "hero": {
-    "eyebrow": "For friends, teams, families and couples",
-    "title": "Your schedule, your plans and your people, in one place.",
-    "titleMark": "in one place.",
-    "text": "Share your week, find free time together, set up the meetup, split the work. All right next to the chat you're already having.",
-    "ctaSecondary": "What's inside?",
+    "eyebrow": "Free planning and schedule app · Android",
+    "title": "Who's free when, who's doing what? One app.",
+    "titleMark": "One app.",
+    "text": "Yakın Çevrem is an app for making plans together with your friends, team, family and partner. Everyone adds their weekly schedule and the app shows when you're all free. Meetups, to-dos, projects and chat live in the same place.",
+    "ctaSecondary": "What's in the app?",
     "sticker": {
       "listTitle": "Flat · Shopping",
       "item": "Bread",
@@ -49,7 +49,7 @@
   },
   "how": {
     "eyebrow": "How it works",
-    "title": "From schedules to plans in three steps",
+    "title": "Set up a meetup in three steps",
     "steps": {
       "add": {
         "title": "Add your week",
@@ -94,7 +94,7 @@
   },
   "who": {
     "eyebrow": "Who with",
-    "title": "One app for everyone in your life",
+    "title": "Who will you use it with?",
     "legend": "Choose who you'll use it with",
     "go": "Go to {page}",
     "tabs": {
@@ -142,12 +142,13 @@
           "Games together"
         ]
       }
-    }
+    },
+    "text": "One app, four ways to use it. Pick one and see what it gives you."
   },
   "topics": {
-    "eyebrow": "What's inside?",
-    "title": "A place for everything",
-    "text": "Six areas, one app. Start with whichever you're curious about.",
+    "eyebrow": "Parts of the app",
+    "title": "What's in the app?",
+    "text": "Six areas, one app. Each has its own page with screenshots; tap the one you are curious about.",
     "cards": {
       "schedule": "Everyone's week side by side, free time in one tap.",
       "plans": "Meetups, date polls and your everyday tasks.",
@@ -158,34 +159,29 @@
     }
   },
   "fresh": {
-    "eyebrow": "Just arrived",
-    "title": "What's new in recent versions?",
-    "text": "The app keeps growing. A few of our favourite recent additions:",
-    "more": "Details",
+    "eyebrow": "Latest updates",
+    "title": "Newly added features",
+    "text": "The app is updated regularly. Five things that arrived in recent versions:",
+    "more": "See it in {page}",
     "items": {
       "tools": {
         "label": "Guided project tools",
-        "title": "From idea to plan, question by question",
         "text": "Persona, SWOT → TOWS, Lean Canvas, MVP scope and five more. You choose the method; the app explains what each tool is for."
       },
       "export": {
         "label": "Export for AI",
-        "title": "Hand your plan to an AI in one file",
         "text": "Turn the project into a Markdown document; names can become roles, and gaps and open questions are listed."
       },
       "live": {
         "label": "Live meetups",
-        "title": "It's started; who's here?",
         "text": "Time elapsed, time left and who has arrived, on everyone's screen. Running late? +30 min. Done? \"End\"."
       },
       "agenda": {
         "label": "Agenda",
-        "title": "Your everyday tasks in one list",
         "text": "Groceries, dated tasks, timed routines like medicine, and a water reminder based on your weight."
       },
       "search": {
         "label": "Search",
-        "title": "Find anything with one search",
         "text": "People, meetups, projects, task numbers, pages and the Agenda; accents and capitals don't matter."
       }
     }
@@ -250,7 +246,7 @@
     "notify": "Tell me when Pro arrives"
   },
   "soon": {
-    "title": "What's next?",
+    "title": "What's coming to the app next?",
     "items": [
       "Income and expense planning for projects, and a \"how do I get my app built?\" guide",
       "An Upcoming view in the Agenda and streaks for routines",
@@ -258,7 +254,7 @@
       "New games with your partner",
       "Voice and video calls (Pro)"
     ],
-    "text": "What's coming to the app next."
+    "text": "Additions arriving soon. Longer-term plans are on the roadmap."
   },
   "web": {
     "eyebrow": "On the way: the web version",
@@ -289,7 +285,7 @@
     }
   },
   "faqTeaser": {
-    "title": "Questions people ask"
+    "title": "Frequently asked questions"
   },
   "finalCta": {
     "title": "\"What are we doing this week?\" Now in one place.",

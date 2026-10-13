@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { computed, ref } from 'vue'
 import AppIcon from '@/components/common/AppIcon.vue'
 import AppBadge from '@/components/common/AppBadge.vue'
 import PhoneFrame from '@/components/common/PhoneFrame.vue'
@@ -7,144 +6,71 @@ import SectionHeading from '@/components/common/SectionHeading.vue'
 import type { IconName } from '@/components/common/icons'
 import type { ShotId } from '@/config/shots'
 import { useT } from '@/i18n/useT'
-import { pathFor, type PageKey } from '@/router/pages'
+import { pathFor } from '@/router/pages'
 
 type FreshId = 'tools' | 'export' | 'live' | 'agenda' | 'search'
 
 const t = useT()
-const items: { id: FreshId; icon: IconName; shot: ShotId; page: PageKey }[] = [
-  { id: 'tools', icon: 'layers', shot: '30', page: 'projects' },
-  { id: 'export', icon: 'sparkle', shot: '31', page: 'projects' },
+const items: { id: FreshId; icon: IconName; shot: ShotId; page: 'plans' | 'projects' | 'features'; wide?: boolean }[] = [
+  { id: 'tools', icon: 'layers', shot: '30', page: 'projects', wide: true },
+  { id: 'export', icon: 'sparkle', shot: '31', page: 'projects', wide: true },
   { id: 'live', icon: 'clock', shot: '32', page: 'plans' },
   { id: 'agenda', icon: 'checklist', shot: '06', page: 'plans' },
   { id: 'search', icon: 'globe', shot: '33', page: 'features' },
 ]
-const active = ref<FreshId>('tools')
-const current = computed(() => items.find((item) => item.id === active.value) ?? items[0])
-
-function onKey(event: KeyboardEvent, index: number) {
-  const step = event.key === 'ArrowDown' || event.key === 'ArrowRight' ? 1 : event.key === 'ArrowUp' || event.key === 'ArrowLeft' ? -1 : 0
-  if (!step) return
-  event.preventDefault()
-  const next = items[(index + step + items.length) % items.length]
-  active.value = next.id
-  document.getElementById(`fresh-tab-${next.id}`)?.focus()
-}
 </script>
 
 <template>
-  <section :id="t('home.ids.fresh')" class="section-y overflow-x-clip">
+  <section :id="t('home.ids.fresh')" class="section-y">
     <div class="wrap">
       <SectionHeading v-reveal :eyebrow="t('home.fresh.eyebrow')" :title="t('home.fresh.title')" :text="t('home.fresh.text')" />
 
-      <div class="mt-12 grid grid-cols-1 items-center gap-10 lg:grid-cols-[minmax(0,1fr)_minmax(0,24rem)] lg:gap-20">
-        <div v-reveal class="min-w-0">
-          <div role="tablist" :aria-label="t('home.fresh.title')" class="-mx-4 flex gap-2 no-scrollbar overflow-x-auto px-4 pb-2 lg:mx-0 lg:grid lg:gap-3 lg:overflow-visible lg:px-0 lg:pb-0">
-            <button
-              v-for="(item, index) in items"
-              :id="`fresh-tab-${item.id}`"
-              :key="item.id"
-              type="button"
-              role="tab"
-              :aria-selected="active === item.id"
-              :aria-controls="`fresh-panel`"
-              :tabindex="active === item.id ? 0 : -1"
-              class="tab group flex shrink-0 items-start gap-4 rounded-card border text-left transition duration-500 ease-[var(--ease-soft)] lg:p-5"
-              :class="active === item.id ? 'is-active border-brand/40 bg-surface shadow-soft' : 'border-transparent hover:bg-surface/70'"
-              @click="active = item.id"
-              @keydown="onKey($event, index)"
-            >
-              <span
-                class="grid size-11 shrink-0 place-items-center rounded-xl transition-colors"
-                :class="active === item.id ? 'bg-brand text-white' : 'bg-brand-soft text-brand-ink'"
-              >
+      <ul class="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-6">
+        <li
+          v-for="(item, index) in items"
+          :key="item.id"
+          v-reveal="(index % 3) * 80"
+          class="fresh-card group relative flex flex-col overflow-hidden rounded-card border border-line/70 transition duration-700 ease-[var(--ease-soft)] hover:-translate-y-1.5 hover:shadow-soft"
+          :class="item.wide ? 'lg:col-span-3' : 'lg:col-span-2'"
+        >
+          <div class="p-6 sm:p-7">
+            <div class="flex items-center gap-3">
+              <span class="grid size-10 shrink-0 place-items-center rounded-xl bg-brand-soft text-brand-ink">
                 <AppIcon :name="item.icon" class="size-5" />
               </span>
-              <span class="min-w-0 pr-2 lg:pr-0">
-                <span class="flex items-center gap-2 font-bold whitespace-nowrap">
-                  {{ t(`home.fresh.items.${item.id}.label`) }}
-                  <AppBadge status="new" class="hidden lg:inline-flex" />
-                </span>
-                <span v-if="active === item.id" class="mt-1 hidden text-muted lg:block">{{ t(`home.fresh.items.${item.id}.text`) }}</span>
-              </span>
-            </button>
-          </div>
-
-          <div class="mt-6 lg:hidden">
-            <h3 class="text-xl font-extrabold tracking-tight">{{ t(`home.fresh.items.${current.id}.title`) }}</h3>
-            <p class="mt-2 text-muted">{{ t(`home.fresh.items.${current.id}.text`) }}</p>
-          </div>
-        </div>
-
-        <div id="fresh-panel" role="tabpanel" :aria-labelledby="`fresh-tab-${current.id}`" class="relative mx-auto w-full max-w-[19rem]">
-          <div class="glow pointer-events-none absolute inset-[-14%] -z-10 rounded-full" aria-hidden="true" />
-          <Transition name="fresh" mode="out-in">
-            <div :key="current.id">
-              <PhoneFrame :shot="current.shot" sizes="(min-width: 960px) 300px, 70vw" />
-              <div class="mt-5 flex items-center justify-between gap-3">
-                <p class="hidden font-bold lg:block">{{ t(`home.fresh.items.${current.id}.title`) }}</p>
-                <RouterLink
-                  :to="pathFor(current.page, t.lang.value)"
-                  class="ml-auto inline-flex shrink-0 items-center gap-1.5 font-bold text-brand-ink hover:underline"
-                >
-                  {{ t('home.fresh.more') }}
-                  <AppIcon name="arrowRight" class="size-4" />
-                </RouterLink>
-              </div>
+              <AppBadge status="new" />
             </div>
-          </Transition>
-        </div>
-      </div>
+            <h3 class="mt-4 text-xl font-extrabold tracking-tight">
+              <RouterLink :to="pathFor(item.page, t.lang.value)" class="after:absolute after:inset-0 after:rounded-card">
+                {{ t(`home.fresh.items.${item.id}.label`) }}
+              </RouterLink>
+            </h3>
+            <p class="mt-1.5 text-muted">{{ t(`home.fresh.items.${item.id}.text`) }}</p>
+            <p class="mt-3 inline-flex items-center gap-1.5 text-sm font-bold text-brand-ink" aria-hidden="true">
+              {{ t('home.fresh.more', { page: t(`nav.${item.page}`) }) }}
+              <AppIcon name="arrowRight" class="size-4 transition-transform duration-500 ease-[var(--ease-soft)] group-hover:translate-x-1" />
+            </p>
+          </div>
+          <div class="shot relative mt-auto h-60 overflow-hidden sm:h-64" aria-hidden="true">
+            <PhoneFrame
+              :shot="item.shot"
+              decorative
+              sizes="230px"
+              class="absolute top-0 left-1/2 w-[13.5rem] -translate-x-1/2 transition-transform duration-700 ease-[var(--ease-soft)] group-hover:-translate-y-2"
+            />
+          </div>
+        </li>
+      </ul>
     </div>
   </section>
 </template>
 
 <style scoped>
-.tab {
-  padding: 0.6rem 0.9rem;
+.fresh-card {
+  background: linear-gradient(170deg, color-mix(in oklab, var(--sky-2) 40%, var(--surface)), var(--surface) 55%);
 }
 
-@media (min-width: 64rem) {
-  .tab {
-    padding: 1.25rem;
-  }
-}
-
-.tab:not(.is-active) {
-  border-color: var(--line);
-}
-
-@media (min-width: 64rem) {
-  .tab:not(.is-active) {
-    border-color: transparent;
-  }
-}
-
-.glow {
-  background: radial-gradient(circle, color-mix(in oklab, var(--sky-2) 75%, transparent), transparent 66%);
-}
-
-.fresh-enter-active,
-.fresh-leave-active {
-  transition:
-    opacity 0.35s var(--ease-soft),
-    transform 0.5s var(--ease-soft);
-}
-
-.fresh-enter-from {
-  opacity: 0;
-  transform: translateY(14px) scale(0.98);
-}
-
-.fresh-leave-to {
-  opacity: 0;
-  transform: translateY(-8px);
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .fresh-enter-active,
-  .fresh-leave-active {
-    transition: none;
-  }
+.shot {
+  mask-image: linear-gradient(to bottom, #000 70%, transparent);
 }
 </style>

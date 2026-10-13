@@ -11,7 +11,7 @@ import { app } from '@/config/app'
 
 const t = useT()
 const route = useRoute()
-const { otherLang, otherLangPath, homePath, downloadPath, topicLinks } = useNav()
+const { otherLang, otherLangPath, homePath, downloadPath, roadmapPath, topicLinks } = useNav()
 const open = ref(false)
 
 watch(() => route.fullPath, () => (open.value = false))
@@ -26,11 +26,11 @@ watch(open, (value) => document.documentElement.classList.toggle('overflow-hidde
       </RouterLink>
 
       <nav :aria-label="t('nav.main')" class="mx-auto hidden lg:block">
-        <ul class="flex items-center gap-1">
+        <ul class="flex items-center gap-0.5 xl:gap-1">
           <li v-for="link in topicLinks" :key="link.key">
             <RouterLink
               :to="link.to"
-              class="rounded-full px-3.5 py-2 text-[0.9375rem] font-semibold transition-colors duration-500"
+              class="rounded-full px-2.5 py-2 text-[0.9375rem] font-semibold whitespace-nowrap transition-colors duration-500 xl:px-3.5"
               :class="
                 link.active
                   ? link.love
@@ -43,11 +43,22 @@ watch(open, (value) => document.documentElement.classList.toggle('overflow-hidde
               {{ link.label }}
             </RouterLink>
           </li>
+          <li class="ml-1.5 border-l border-line pl-2 xl:ml-2 xl:pl-3">
+            <RouterLink
+              :to="roadmapPath"
+              class="inline-flex items-center gap-1.5 rounded-full px-3 py-2 text-[0.9375rem] font-semibold whitespace-nowrap transition-colors duration-500"
+              :class="route.meta.key === 'roadmap' ? 'bg-sun-soft text-sun-ink' : 'text-muted hover:text-ink'"
+              :aria-current="route.meta.key === 'roadmap' ? 'page' : undefined"
+            >
+              <AppIcon name="flag" class="hidden size-4 text-sun-ink xl:block" />
+              {{ t('nav.roadmap') }}
+            </RouterLink>
+          </li>
         </ul>
       </nav>
 
       <div class="flex items-center gap-1.5 sm:gap-2">
-        <span class="hidden sm:block"><ThemeToggle /></span>
+        <span class="hidden sm:block lg:hidden xl:block"><ThemeToggle /></span>
         <RouterLink
           :to="otherLangPath"
           :hreflang="otherLang"
@@ -62,7 +73,7 @@ watch(open, (value) => document.documentElement.classList.toggle('overflow-hidde
           :is="app.playStoreUrl ? 'a' : 'RouterLink'"
           :href="app.playStoreUrl || undefined"
           :to="app.playStoreUrl ? undefined : downloadPath"
-          class="rounded-full bg-brand px-4 py-2 text-sm font-bold text-white shadow-[0_8px_20px_-10px_var(--brand)] transition duration-500 ease-[var(--ease-soft)] hover:-translate-y-0.5 hover:shadow-[0_14px_26px_-12px_var(--brand)]"
+          class="rounded-full bg-brand px-4 py-2 text-sm font-bold whitespace-nowrap text-white shadow-[0_8px_20px_-10px_var(--brand)] transition duration-500 ease-[var(--ease-soft)] hover:-translate-y-0.5 hover:shadow-[0_14px_26px_-12px_var(--brand)]"
         >
           {{ app.playStoreUrl ? t('nav.download') : t('nav.waitlist') }}
         </component>

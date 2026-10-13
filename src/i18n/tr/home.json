@@ -11,11 +11,11 @@
     "fresh": "yeni"
   },
   "hero": {
-    "eyebrow": "Arkadaşlar, ekipler, aileler ve sevgililer için",
-    "title": "Programın, planların ve yakınların tek yerde.",
-    "titleMark": "tek yerde.",
-    "text": "Haftalık programını paylaş, ortak boş zamanı bul, buluşmayı ayarla, işleri dağıt. Hepsi, konuştuğun sohbetin tam yanında.",
-    "ctaSecondary": "Neler var?",
+    "eyebrow": "Ücretsiz plan ve program uygulaması · Android",
+    "title": "Kim ne zaman boş, kim ne yapacak? Tek uygulamada.",
+    "titleMark": "Tek uygulamada.",
+    "text": "Yakın Çevrem; arkadaşların, ekibin, ailen ve sevgilinle birlikte plan yaptığın bir uygulama. Herkes haftalık programını ekler, uygulama ortak boş saatleri gösterir. Buluşma, yapılacak işler, projeler ve sohbet aynı yerde.",
+    "ctaSecondary": "Uygulamada neler var?",
     "sticker": {
       "listTitle": "Ev · Alınacaklar",
       "item": "Ekmek",
@@ -49,7 +49,7 @@
   },
   "how": {
     "eyebrow": "Nasıl çalışıyor",
-    "title": "Üç adımda buluşma",
+    "title": "Üç adımda buluşma ayarla",
     "steps": {
       "add": {
         "title": "Programını ekle",
@@ -94,7 +94,7 @@
   },
   "who": {
     "eyebrow": "Kimlerle",
-    "title": "Hayatındaki herkesle, tek uygulama",
+    "title": "Kiminle kullanacaksın?",
     "legend": "Kimlerle kullanacağını seç",
     "go": "{page} sayfasına git",
     "tabs": {
@@ -142,12 +142,13 @@
           "Birlikte oyunlar"
         ]
       }
-    }
+    },
+    "text": "Aynı uygulama, dört farklı kullanım. Birini seç, sana neler sunduğunu gör."
   },
   "topics": {
-    "eyebrow": "Neler var?",
-    "title": "Her şeyin bir yeri var",
-    "text": "Altı alan, tek uygulama. Hangisini merak ediyorsan oradan başla.",
+    "eyebrow": "Uygulamanın bölümleri",
+    "title": "Uygulamada neler var?",
+    "text": "Altı bölüm, tek uygulama. Her birinin ekran görüntüleriyle anlatıldığı kendi sayfası var; merak ettiğine dokun.",
     "cards": {
       "schedule": "Herkesin haftası yan yana, ortak boşluk tek dokunuşla.",
       "plans": "Buluşmalar, tarih anketleri ve günlük işlerin.",
@@ -158,34 +159,29 @@
     }
   },
   "fresh": {
-    "eyebrow": "Yeni gelenler",
-    "title": "Son sürümlerde neler geldi?",
-    "text": "Uygulama sürekli büyüyor. Son eklenenlerden en sevdiklerimiz:",
-    "more": "Ayrıntılar",
+    "eyebrow": "Son güncellemeler",
+    "title": "Yeni eklenen özellikler",
+    "text": "Uygulama düzenli olarak güncelleniyor. Son sürümlerle gelen beş yenilik:",
+    "more": "{page} sayfasında gör",
     "items": {
       "tools": {
         "label": "Rehberli proje araçları",
-        "title": "Fikrinden plana, soru soru",
         "text": "Persona, SWOT → TOWS, Lean Canvas, MVP kapsamı ve beş araç daha. Yöntemini sen seçersin; uygulama her aracın ne işe yaradığını anlatır."
       },
       "export": {
         "label": "Yapay zekâ için dışa aktarma",
-        "title": "Planını tek dosyayla yapay zekâya ver",
         "text": "Projeyi bir Markdown belgesine çevir; istersen kişi adları rollere dönüşür, eksik ve açık sorular listelenir."
       },
       "live": {
         "label": "Canlı buluşma",
-        "title": "Buluşma başladı, kim geldi?",
         "text": "Geçen süre, kalan zaman ve gelenler herkesin ekranında. Uzarsa +30 dk, bitince \"Bitir\"."
       },
       "agenda": {
         "label": "Gündem",
-        "title": "Günlük işlerin tek listede",
         "text": "Alınacaklar, tarihli işler, ilaç gibi saatli düzenli işler ve kilona göre su hatırlatıcısı."
       },
       "search": {
         "label": "Genel arama",
-        "title": "Her şeyi tek aramayla bul",
         "text": "Kişi, buluşma, proje, iş numarası, sayfa ve Gündem; aksan ve büyük harf fark etmez."
       }
     }
@@ -250,7 +246,7 @@
     "notify": "Pro gelince haber ver"
   },
   "soon": {
-    "title": "Sırada ne var?",
+    "title": "Uygulamaya sırada ne geliyor?",
     "items": [
       "Projeler için gelir-gider planı ve \"uygulamamı nasıl yaptırırım?\" rehberi",
       "Gündem'de Yaklaşan görünümü ve düzenli işlerde seri",
@@ -258,7 +254,7 @@
       "Sevgilinle yeni oyunlar",
       "Sesli ve görüntülü arama (Pro)"
     ],
-    "text": "Uygulamaya sırada gelecek eklemeler."
+    "text": "Yakında gelecek eklemeler. Daha uzun vadeli planlar yol haritasında."
   },
   "web": {
     "eyebrow": "Yolda: web sürümü",
@@ -289,7 +285,7 @@
     }
   },
   "faqTeaser": {
-    "title": "Akla gelenler"
+    "title": "Sık sorulan sorular"
   },
   "finalCta": {
     "title": "Bu hafta ne yapıyoruz? Artık tek yerde.",

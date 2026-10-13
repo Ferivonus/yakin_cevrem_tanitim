@@ -14,7 +14,7 @@ const bubbles = [
 <template>
   <section class="section-y pt-[clamp(2rem,5vw,4rem)]">
     <div class="wrap grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
-      <div v-reveal class="chat mx-auto grid w-full max-w-md gap-3.5" aria-hidden="true">
+      <div v-reveal data-reveal-keep class="chat mx-auto grid w-full max-w-md gap-3.5" aria-hidden="true">
         <div
           v-for="(bubble, index) in bubbles"
           :key="bubble.id"

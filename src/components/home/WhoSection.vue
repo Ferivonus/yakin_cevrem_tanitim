@@ -34,13 +34,12 @@ watch(selected, (id) => {
 <template>
   <section :id="t('home.ids.who')" class="who section-y">
     <div class="wrap">
-      <SectionHeading v-reveal center :eyebrow="t('home.who.eyebrow')" :title="t('home.who.title')" />
+      <SectionHeading v-reveal center :eyebrow="t('home.who.eyebrow')" :title="t('home.who.title')" :text="t('home.who.text')" />
 
       <fieldset class="mt-10 min-w-0">
         <legend class="sr-only">{{ t('home.who.legend') }}</legend>
-        <div class="-mx-4 overflow-x-auto px-4 pb-1 sm:mx-0 sm:px-0">
-          <div class="mx-auto flex w-max gap-1 rounded-full border border-line/70 bg-surface/80 p-1.5 shadow-soft backdrop-blur-md">
-            <span v-for="tab in tabs" :key="tab.id" class="flex">
+        <div class="mx-auto grid max-w-md grid-cols-2 gap-1 rounded-[1.6rem] border border-line/70 bg-surface/80 p-1.5 shadow-soft backdrop-blur-md sm:flex sm:w-max sm:max-w-none sm:rounded-full">
+            <span v-for="tab in tabs" :key="tab.id" class="grid">
               <input
                 :id="t(`home.who.tabs.${tab.id}.hash`)"
                 v-model="selected"
@@ -51,13 +50,12 @@ watch(selected, (id) => {
               />
               <label
                 :for="t(`home.who.tabs.${tab.id}.hash`)"
-                class="cursor-pointer rounded-full px-4 py-2.5 text-[0.9375rem] font-bold whitespace-nowrap text-muted transition-colors duration-500 select-none peer-focus-visible:outline-2 peer-focus-visible:outline-offset-2 peer-focus-visible:outline-brand hover:text-ink sm:px-5"
+                class="cursor-pointer rounded-full px-4 py-2.5 text-center text-[0.9375rem] font-bold whitespace-nowrap text-muted transition-colors duration-500 select-none peer-focus-visible:outline-2 peer-focus-visible:outline-offset-2 peer-focus-visible:outline-brand hover:text-ink sm:px-5"
                 :class="tab.id === 'couple' ? 'peer-checked:bg-love peer-checked:text-white' : 'peer-checked:bg-brand peer-checked:text-white'"
               >
                 {{ t(`home.who.tabs.${tab.id}.label`) }}
               </label>
             </span>
-          </div>
         </div>
       </fieldset>
 
@@ -120,11 +118,9 @@ watch(selected, (id) => {
   opacity: 0;
   visibility: hidden;
   transform: translateY(14px);
-  filter: blur(4px);
   transition:
     opacity 0.45s var(--ease-soft),
     transform 0.6s var(--ease-soft),
-    filter 0.45s var(--ease-soft),
     visibility 0s linear 0.45s;
 }
 
@@ -144,11 +140,9 @@ watch(selected, (id) => {
   opacity: 1;
   visibility: visible;
   transform: none;
-  filter: none;
   transition:
     opacity 0.7s var(--ease-soft) 0.15s,
     transform 0.9s var(--ease-soft) 0.15s,
-    filter 0.7s var(--ease-soft) 0.15s,
     visibility 0s;
 }
 

@@ -3,10 +3,12 @@ import AppIcon from '@/components/common/AppIcon.vue'
 import ThemeToggle from './ThemeToggle.vue'
 import { useT } from '@/i18n/useT'
 import { useNav } from '@/composables/useNav'
+import { useRoute } from 'vue-router'
 import { pathFor } from '@/router/pages'
 
 const t = useT()
-const { otherLang, otherLangPath, topicLinks } = useNav()
+const route = useRoute()
+const { otherLang, otherLangPath, roadmapPath, topicLinks } = useNav()
 </script>
 
 <template>
@@ -33,6 +35,20 @@ const { otherLang, otherLangPath, topicLinks } = useNav()
           </RouterLink>
         </li>
       </ul>
+      <RouterLink
+        :to="roadmapPath"
+        class="roadmap mt-3 flex items-center gap-4 rounded-2xl border border-sun/50 p-3"
+        :aria-current="route.meta.key === 'roadmap' ? 'page' : undefined"
+      >
+        <span class="grid size-11 shrink-0 place-items-center rounded-xl bg-sun-soft text-sun-ink">
+          <AppIcon name="flag" class="size-5.5" />
+        </span>
+        <span class="flex flex-1 flex-col leading-snug">
+          <span class="font-bold text-ink">{{ t('nav.roadmap') }}</span>
+          <span class="text-sm text-muted">{{ t('nav.hint.roadmap') }}</span>
+        </span>
+        <AppIcon name="arrowRight" class="size-5 shrink-0 text-sun-ink" />
+      </RouterLink>
       <div class="mt-4 grid grid-cols-3 gap-2 border-t border-line pt-4 text-center text-sm font-semibold">
         <RouterLink :to="pathFor('features', t.lang.value)" class="rounded-xl px-2 py-3 text-ink active:bg-surface-2">
           {{ t('nav.features') }}
@@ -40,8 +56,8 @@ const { otherLang, otherLangPath, topicLinks } = useNav()
         <RouterLink :to="pathFor('faq', t.lang.value)" class="rounded-xl px-2 py-3 text-ink active:bg-surface-2">
           {{ t('nav.faq') }}
         </RouterLink>
-        <RouterLink :to="pathFor('roadmap', t.lang.value)" class="rounded-xl px-2 py-3 text-ink active:bg-surface-2">
-          {{ t('nav.roadmap') }}
+        <RouterLink :to="pathFor('waitlist', t.lang.value)" class="rounded-xl px-2 py-3 text-ink active:bg-surface-2">
+          {{ t('nav.waitlist') }}
         </RouterLink>
       </div>
       <div class="mt-auto flex items-center gap-2">
@@ -59,3 +75,9 @@ const { otherLang, otherLangPath, topicLinks } = useNav()
     </nav>
   </div>
 </template>
+
+<style scoped>
+.roadmap {
+  background: linear-gradient(160deg, var(--sun-soft), var(--surface) 70%);
+}
+</style>

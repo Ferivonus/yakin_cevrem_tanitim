@@ -92,7 +92,8 @@
       "projects": "Ekibinle iş dağıt",
       "chat": "Planı konuşarak yap",
       "couples": "İkinize özel alan",
-      "trust": "Kim neyi görür"
+      "trust": "Kim neyi görür",
+      "roadmap": "Sırada ne var, neler planlanıyor"
     },
     "themeLight": "Aydınlık temaya geç",
     "themeDark": "Karanlık temaya geç",
@@ -131,7 +132,7 @@
     "couples": "Sevgililer"
   },
   "footer": {
-    "tagline": "Programın, planların ve yakınların tek yerde.",
+    "tagline": "Arkadaşların, ekibin, ailen ve sevgilinle ortak plan ve program uygulaması.",
     "app": "Uygulama",
     "trust": "Güven",
     "help": "Yardım",
@@ -143,7 +144,11 @@
     "contact": "İletişim",
     "madeIn": "Türkiye'de yapıldı.",
     "copyright": "© 2026 Yakın Çevrem",
-    "waitlist": "Erken katılım listesi"
+    "waitlist": "Erken katılım listesi",
+    "next": "Yolda",
+    "roadmap": "Yol haritası",
+    "pro": "Pro paketler",
+    "web": "Web sürümü"
   },
   "langHint": {
     "text": "This site is also available in English.",

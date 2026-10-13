@@ -12,6 +12,7 @@ export function useNav() {
   const otherLangPath = computed(() => pathFor(route.meta.key, otherLang.value))
   const homePath = computed(() => pathFor('home', t.lang.value))
   const downloadPath = computed(() => pathFor('waitlist', t.lang.value))
+  const roadmapPath = computed(() => pathFor('roadmap', t.lang.value))
 
   const topicLinks = computed(() =>
     topics.map((topic) => ({
@@ -31,5 +32,5 @@ export function useNav() {
     query: { interest, from },
   })
 
-  return { otherLang, otherLangPath, homePath, downloadPath, topicLinks, waitlistFor }
+  return { otherLang, otherLangPath, homePath, downloadPath, roadmapPath, topicLinks, waitlistFor }
 }

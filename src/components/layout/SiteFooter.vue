@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import SiteLogo from './SiteLogo.vue'
+import AppIcon from '@/components/common/AppIcon.vue'
 import StoreButton from '@/components/common/StoreButton.vue'
 import { useT } from '@/i18n/useT'
 import { useNav } from '@/composables/useNav'
@@ -13,7 +14,12 @@ const { otherLang, otherLangPath, topicLinks, homePath } = useNav()
 const appLinks = computed(() => [
   ...topicLinks.value.filter((link) => link.key !== 'trust').map(({ to, label }) => ({ to, label })),
   { to: pathFor('features', t.lang.value), label: t('nav.features') },
-  { to: pathFor('roadmap', t.lang.value), label: t('nav.roadmap') },
+])
+
+const nextLinks = computed(() => [
+  { to: pathFor('roadmap', t.lang.value), label: t('footer.roadmap') },
+  { to: pathFor('home', t.lang.value, t('home.ids.pricing')), label: t('footer.pro') },
+  { to: pathFor('home', t.lang.value, t('home.ids.web')), label: t('footer.web') },
   { to: pathFor('waitlist', t.lang.value), label: t('footer.waitlist') },
 ])
 
@@ -36,7 +42,7 @@ const trustLinks = computed(() => [
       <path class="hill-far" d="M0 60C200 20 420 10 640 40s420 50 600 20 160-30 200-24v64H0z" />
       <path class="hill-near" d="M0 76c220-30 460-40 720-14s500 26 720-8v46H0z" />
     </svg>
-    <div class="wrap grid gap-10 py-14 sm:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1fr_1fr]">
+    <div class="wrap grid gap-10 py-14 sm:grid-cols-2 lg:grid-cols-[1.3fr_1fr_1fr_1fr_1fr]">
       <div class="flex flex-col items-start gap-4">
         <RouterLink :to="homePath" :aria-label="t('nav.home')"><SiteLogo /></RouterLink>
         <p class="max-w-64 text-sm text-muted">{{ t('footer.tagline') }}</p>
@@ -48,6 +54,18 @@ const trustLinks = computed(() => [
         <h2 class="mb-3 text-sm font-bold text-ink">{{ t('footer.app') }}</h2>
         <ul class="grid gap-2 text-sm">
           <li v-for="link in appLinks" :key="link.to">
+            <RouterLink :to="link.to" class="text-muted transition-colors hover:text-ink">{{ link.label }}</RouterLink>
+          </li>
+        </ul>
+      </nav>
+
+      <nav :aria-label="t('footer.next')">
+        <h2 class="mb-3 inline-flex items-center gap-1.5 text-sm font-bold text-ink">
+          <AppIcon name="flag" class="size-4 text-sun-ink" />
+          {{ t('footer.next') }}
+        </h2>
+        <ul class="grid gap-2 text-sm">
+          <li v-for="link in nextLinks" :key="link.to">
             <RouterLink :to="link.to" class="text-muted transition-colors hover:text-ink">{{ link.label }}</RouterLink>
           </li>
         </ul>

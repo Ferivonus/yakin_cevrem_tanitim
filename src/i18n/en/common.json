@@ -92,7 +92,8 @@
       "projects": "Split the work with your team",
       "chat": "Talk the plan through",
       "couples": "A space for the two of you",
-      "trust": "Who sees what"
+      "trust": "Who sees what",
+      "roadmap": "What's next and what's planned"
     },
     "themeLight": "Switch to light theme",
     "themeDark": "Switch to dark theme",
@@ -131,7 +132,7 @@
     "couples": "Couples"
   },
   "footer": {
-    "tagline": "Your schedule, your plans and your people, in one place.",
+    "tagline": "A shared planning and schedule app for friends, teams, families and couples.",
     "app": "The app",
     "trust": "Trust",
     "help": "Help",
@@ -143,7 +144,11 @@
     "contact": "Contact",
     "madeIn": "Made in Türkiye.",
     "copyright": "© 2026 Yakın Çevrem",
-    "waitlist": "Early access list"
+    "waitlist": "Early access list",
+    "next": "Coming up",
+    "roadmap": "Roadmap",
+    "pro": "Pro plans",
+    "web": "Web version"
   },
   "langHint": {
     "text": "Bu sitenin Türkçesi de var.",
