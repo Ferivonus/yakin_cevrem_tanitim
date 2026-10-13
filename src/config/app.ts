@@ -11,8 +11,8 @@ export const app = {
 
 // Erken katılım listesi: Vercel ortam değişkenleri. Boşsa form yerine e-posta bağlantısı görünür.
 export const waitlistApi = {
-  url: (import.meta.env._SUPABASE_URL ?? '').replace(/\/+$/, ''),
-  key: import.meta.env._SUPABASE_PUBLISHABLE_KEY ?? '',
+  url: (import.meta.env.SUPABASE_URL ?? '').replace(/\/+$/, ''),
+  key: import.meta.env.SUPABASE_PUBLISHABLE_KEY ?? '',
 } as const
 
 export const legalInfo = {

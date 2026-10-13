@@ -69,10 +69,10 @@ public/               simgeler, paylaşım görselleri (og-*.png), robots.txt
 
 Form, uygulamanın Supabase'indeki `join_waitlist` RPC'sine yazar (tablo `site_waitlist`; okuma kapalı, listeyi Supabase panelinden görürsün). Vercel → Project → Settings → Environment Variables:
 
-| Ad                          | Değer                                                                                                                         |
-| --------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| `_SUPABASE_URL`             | Uygulamanın Supabase adresi (`https://<proje>.supabase.co`)                                                                   |
-| `_SUPABASE_PUBLISHABLE_KEY` | Uygulamanın kullandığı publishable (anon) anahtar; tarayıcıya açık olması güvenlidir, `service_role` anahtarı **asla** konmaz |
+| Ad                         | Değer                                                                                                                         |
+| -------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| `SUPABASE_URL`             | Uygulamanın Supabase adresi (`https://<proje>.supabase.co`)                                                                   |
+| `SUPABASE_PUBLISHABLE_KEY` | Uygulamanın kullandığı publishable (anon) anahtar; tarayıcıya açık olması güvenlidir, `service_role` anahtarı **asla** konmaz |
 
 Değişkenler boşsa sayfa formu göstermez, e-posta bağlantısına düşer. Listeyi görmek: Supabase → SQL Editor → `select * from site_waitlist order by created_at desc;`. Birini silmek: `delete from site_waitlist where email = '...';`. Not: uygulamanın `reset.sql`'i bu tabloyu da siler.
 
