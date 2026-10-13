@@ -3,13 +3,19 @@
     "eyebrow": "Roadmap",
     "title": "From an idea to a professional plan, step by step.",
     "titleMark": "step by step.",
-    "text": "Today Yakın Çevrem is a planning and schedule app for everyone. Next come tools to plan an idea or a client job from start to finish: guided analyses, a revenue plan, web and desktop apps, and a project space you share with your client.",
+    "text": "Yakın Çevrem is a plan and schedule app for everyone; a guided project start, nine planning tools and export for AI are now part of it. Next up: an income plan, web and desktop apps, and a project space you share with your client.",
     "note": "Planned, subject to change. We don't give dates; each stage builds on the one before."
   },
   "mock": {
     "project": "Café ordering app",
+    "today": "In the app today",
     "progress": "Business plan progress",
-    "steps": ["Problem and persona", "Competitors", "SWOT → TOWS", "Revenue plan"],
+    "steps": [
+      "Problem and persona",
+      "Competitors",
+      "SWOT → TOWS",
+      "Revenue plan"
+    ],
     "now": "Next",
     "unknown": "2 assumptions to check",
     "file": "cafe-ordering.md",
@@ -29,7 +35,7 @@
       },
       "yours": {
         "title": "Your plan is yours",
-        "text": "You'll be able to download your plan as a single file and hand it to wherever you like, including any AI tool."
+        "text": "Download your plan as a single Markdown file; give it to whatever you like, including any AI tool."
       }
     }
   },
@@ -40,15 +46,12 @@
       "plan": {
         "label": "Next",
         "title": "From idea to plan",
-        "text": "Even without a software or business background, build a professional plan one question at a time.",
+        "text": "Most of the question-by-question tools are already in the app; next come the money-related ones and a few everyday improvements.",
         "items": [
-          "Download a plan as a single .md file you can hand to an AI",
-          "Project start guide: planned, Kanban, Scrum, hybrid or discovery; \"Apply my standards\" and \"Quick start\"",
-          "Guided tools: persona, competitor table, SWOT → TOWS, Lean Canvas, SMART goals, user stories, MVP scope, risk matrix",
-          "Questions you answer with \"I don't know\" aren't lost; they're saved as assumptions to check",
-          "Revenue, cost and cash plan, plus a rate calculator for freelancers",
-          "\"How do I get my app built?\" guide: from writing down the need to choosing a developer and accepting the work",
-          "Item numbers, search inside projects and a trash bin"
+          "Income, expense and cash-flow plan; rate calculator for freelancers",
+          "\"How do I get my app built?\" guide: from writing down what you need to choosing a developer and signing off the work",
+          "Tools, decisions and comments added to the exported document",
+          "Upcoming view in the Agenda, recurring meetups"
         ]
       },
       "everywhere": {
@@ -112,19 +115,18 @@
   },
   "foundation": {
     "title": "The foundation is already here",
-    "text": "Board, Gantt chart, critical path, review flow, SWOT, page plans and templates are in the app today. The roadmap builds on top of them.",
+    "text": "Board, Gantt timeline, critical path, approvals, page plans and templates; plus a guided start, nine planning tools, task numbers, a trash bin and export for AI are in the app today. The roadmap builds on top of them.",
     "link": "What's in Projects today?"
   },
   "pilot": {
     "title": "Want to try it early?",
     "text": "We'd like to try the new tools with a small group first: people who want to plan their own idea, freelancers working with clients, small teams and associations. Write to us and we'll let you know when it's your turn.",
-    "action": "I want to try it early",
-    "subject": "Roadmap: I want to try it early"
+    "action": "I want to try it early"
   },
   "banner": {
     "eyebrow": "Roadmap",
     "title": "Projects are growing.",
-    "text": "Next up: tools that turn your idea into a plan step by step, web and desktop apps, and a project space you share with your client.",
+    "text": "Guided planning tools and export for AI have arrived. Next up: an income plan, web and desktop apps, and a project space you share with your client.",
     "link": "See the full roadmap"
   }
 }

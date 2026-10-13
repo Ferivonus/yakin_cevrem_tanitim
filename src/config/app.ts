@@ -2,11 +2,17 @@ export const siteUrl = 'https://yakin-cevrem.vercel.app'
 
 export const app = {
   name: 'Yakın Çevrem',
-  version: '6.23.0',
+  version: '6.32.0',
   packageId: 'com.ferivonus.yakincevrem',
   playStoreUrl: '',
   supportEmail: 'destek@yakincevrem.app',
   minimumAge: 16,
+} as const
+
+// Erken katılım listesi: Vercel ortam değişkenleri. Boşsa form yerine e-posta bağlantısı görünür.
+export const waitlistApi = {
+  url: (import.meta.env.VITE_SUPABASE_URL ?? '').replace(/\/+$/, ''),
+  key: import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY ?? '',
 } as const
 
 export const legalInfo = {

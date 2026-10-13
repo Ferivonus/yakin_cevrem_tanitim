@@ -2,17 +2,18 @@
 import AppIcon from '@/components/common/AppIcon.vue'
 import CloudShape from '@/components/sky/CloudShape.vue'
 import { useT } from '@/i18n/useT'
-import { app } from '@/config/app'
+import { useNav } from '@/composables/useNav'
+import { pathFor } from '@/router/pages'
 
-type PlanId = 'free' | 'pro' | 'couple' | 'team'
+type PlanId = 'free' | 'pro' | 'duo' | 'group'
 
 const t = useT()
 
 const plans: { id: PlanId; seats: number | null }[] = [
   { id: 'free', seats: null },
   { id: 'pro', seats: 1 },
-  { id: 'couple', seats: 2 },
-  { id: 'team', seats: 5 },
+  { id: 'duo', seats: 2 },
+  { id: 'group', seats: 5 },
 ]
 
 const stars = [
@@ -26,7 +27,7 @@ const stars = [
   [46, 38, 2.1],
 ] as const
 
-const notifyHref = () => `mailto:${app.supportEmail}?subject=${encodeURIComponent(t('home.pricing.notifySubject'))}`
+const { waitlistFor } = useNav()
 </script>
 
 <template>
@@ -76,10 +77,9 @@ const notifyHref = () => `mailto:${app.supportEmail}?subject=${encodeURIComponen
               <span
                 v-for="seat in plan.seats"
                 :key="seat"
-                class="grid size-8 place-items-center rounded-full border-2 border-white/20"
-                :class="plan.id === 'couple' ? 'bg-love text-white' : 'bg-brand text-white'"
+                class="grid size-8 place-items-center rounded-full border-2 border-white/20 bg-brand text-white"
               >
-                <AppIcon :name="plan.id === 'couple' && seat === 2 ? 'heart' : 'users'" class="size-3.5" />
+                <AppIcon name="users" class="size-3.5" />
               </span>
             </span>
             <span v-else class="grid size-8 place-items-center rounded-full bg-brand-soft text-brand" aria-hidden="true">
@@ -99,7 +99,7 @@ const notifyHref = () => `mailto:${app.supportEmail}?subject=${encodeURIComponen
               <AppIcon
                 name="check"
                 class="mt-1 size-4 shrink-0"
-                :class="plan.id === 'free' ? 'text-success' : plan.id === 'couple' ? 'text-love' : 'text-[#8fd8ff]'"
+                :class="plan.id === 'free' ? 'text-success' : 'text-[#8fd8ff]'"
               />
               <span :class="plan.id === 'free' ? '' : 'text-white/85'">{{ feature }}</span>
             </li>
@@ -107,15 +107,35 @@ const notifyHref = () => `mailto:${app.supportEmail}?subject=${encodeURIComponen
         </li>
       </ul>
 
+      <RouterLink
+        v-reveal
+        :to="pathFor('roadmap', t.lang.value)"
+        class="group mt-6 flex flex-col gap-3 rounded-card border border-white/15 bg-white/[0.04] p-6 transition-colors duration-500 hover:bg-white/[0.08] sm:flex-row sm:items-center sm:justify-between"
+      >
+        <span class="flex items-start gap-4">
+          <span class="grid size-10 shrink-0 place-items-center rounded-full bg-white/10 text-[#9fe3ff]" aria-hidden="true">
+            <AppIcon name="kanban" class="size-5" />
+          </span>
+          <span>
+            <span class="block text-lg font-extrabold">{{ t('home.pricing.work.title') }}</span>
+            <span class="mt-1 block max-w-2xl text-sm text-white/70">{{ t('home.pricing.work.text') }}</span>
+          </span>
+        </span>
+        <span class="inline-flex shrink-0 items-center gap-2 font-bold text-[#9fe3ff]">
+          {{ t('home.pricing.work.link') }}
+          <AppIcon name="arrowRight" class="size-4.5 transition-transform duration-500 group-hover:translate-x-1" />
+        </span>
+      </RouterLink>
+
       <div v-reveal class="mt-10 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
         <p class="max-w-xl text-sm text-white/60">{{ t('home.pricing.note') }}</p>
-        <a
-          :href="notifyHref()"
+        <RouterLink
+          :to="waitlistFor('pro', 'pricing')"
           class="inline-flex shrink-0 items-center gap-2 self-start rounded-full border border-white/25 bg-white/5 px-5 py-3 font-bold backdrop-blur-md transition-colors duration-500 hover:bg-white hover:text-[#0e2433] sm:self-auto"
         >
           <AppIcon name="bell" class="size-4.5" />
           {{ t('home.pricing.notify') }}
-        </a>
+        </RouterLink>
       </div>
     </div>
   </section>

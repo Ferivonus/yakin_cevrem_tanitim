@@ -7,19 +7,19 @@
     },
     "home": {
       "title": "Yakın Çevrem · Group planner and shared schedule app",
-      "description": "Shared schedules, free time, meetups, to-dos, tasks, projects and chat with your friends, team, family and partner, all in one free app."
+      "description": "Shared schedules, free time, meetups, an Agenda, projects and chat with your friends, team, family and partner, in one app. Free."
     },
     "schedule": {
       "title": "Find free time with friends · Yakın Çevrem",
       "description": "Share your week, let the app find free time with your friends and set up a meetup in one tap. You choose who sees what."
     },
     "plans": {
-      "title": "Shared to-do lists and meetup planning · Yakın Çevrem",
-      "description": "Set up meetups with date polls, share to-do lists and keep tasks with reminders, so everyone knows who's doing what."
+      "title": "Make plans with friends and share an Agenda · Yakın Çevrem",
+      "description": "Set up meetups with a date poll, follow them live, and share groceries, chores and medicine times in the Agenda."
     },
     "projects": {
       "title": "Team task app with Kanban and Gantt · Yakın Çevrem",
-      "description": "Assign tasks, send work for review and approve it; Kanban board, Gantt timeline and critical path for small teams, classes and friends."
+      "description": "For small teams: choose a method, plan with guided tools (SWOT, Lean Canvas, MVP), assign and approve tasks; Kanban board, Gantt timeline, critical path and export for AI."
     },
     "chat": {
       "title": "Plan it in the group chat · Yakın Çevrem",
@@ -35,15 +35,19 @@
     },
     "features": {
       "title": "All features: schedules, plans, projects · Yakın Çevrem",
-      "description": "Shared schedules, free time, meetup polls, shared to-dos, tasks, projects, encrypted message storage and a couple space, all in one list."
+      "description": "Shared schedules, finding free time, meetup polls, live meetups, the Agenda, projects and guided tools, chat stored encrypted and the couple space; all in one list."
     },
     "roadmap": {
       "title": "Roadmap: what's coming next · Yakın Çevrem",
-      "description": "Guided business plan tools, a revenue plan, a plan file you can hand to an AI, web and Windows apps, and a project space shared with your client. What's planned for Yakın Çevrem?"
+      "description": "Income plan, web and Windows apps, a project space shared with your client, time tracking. What's planned for Yakın Çevrem?"
     },
     "faq": {
       "title": "Frequently asked questions · Yakın Çevrem",
       "description": "Is Yakın Çevrem free, is it on iPhone, who sees my schedule, are my messages safe? Answers to what people ask."
+    },
+    "waitlist": {
+      "title": "Early access list · Yakın Çevrem",
+      "description": "Be the first to know when Yakın Çevrem lands on Google Play and when Pro and the web version arrive. Join the early access list with your email."
     },
     "privacy": {
       "title": "Privacy policy · Yakın Çevrem",
@@ -84,24 +88,27 @@
     "skip": "Skip to content",
     "hint": {
       "schedule": "Find free time together",
-      "plans": "Meetups, to-dos, tasks",
+      "plans": "Meetups and Agenda",
       "projects": "Split the work with your team",
       "chat": "Talk the plan through",
       "couples": "A space for the two of you",
       "trust": "Who sees what"
     },
     "themeLight": "Switch to light theme",
-    "themeDark": "Switch to dark theme"
+    "themeDark": "Switch to dark theme",
+    "waitlist": "Early access"
   },
   "store": {
     "get": "Get it on Google Play",
     "soon": "Coming soon to Google Play",
     "platform": "Android app",
-    "note": "Free · Turkish and English · Android"
+    "note": "Free · Turkish and English · Android",
+    "notify": "Get notified"
   },
   "badge": {
     "soon": "Coming soon",
-    "pro": "Pro"
+    "pro": "Pro",
+    "new": "New"
   },
   "common": {
     "soonHint": "Planned, subject to change.",
@@ -113,7 +120,8 @@
     "related": "Good to know",
     "everything": "Everything in this area",
     "comingSoon": "On the way",
-    "backHome": "Back to home"
+    "backHome": "Back to home",
+    "inThisPage": "On this page"
   },
   "audience": {
     "everyone": "Everyone",
@@ -134,7 +142,8 @@
     "deleteAccount": "Account deletion",
     "contact": "Contact",
     "madeIn": "Made in Türkiye.",
-    "copyright": "© 2026 Yakın Çevrem"
+    "copyright": "© 2026 Yakın Çevrem",
+    "waitlist": "Early access list"
   },
   "langHint": {
     "text": "Bu sitenin Türkçesi de var.",
@@ -148,7 +157,7 @@
   },
   "shots": {
     "01": {
-      "alt": "Home screen with Emma and Leo's couple card and pending items",
+      "alt": "Home screen with Emma and Leo's couple card and what's waiting",
       "caption": "Everything about you two, on your home screen."
     },
     "02": {
@@ -168,12 +177,16 @@
       "caption": "Friday or Saturday? Let everyone vote."
     },
     "06": {
-      "alt": "Shared to-do list with progress",
-      "caption": "A shared list where you see who did what."
+      "alt": "The Agenda's Today view: medicine times and a shared shopping list",
+      "caption": "What's on today and who did what, in one list."
     },
     "07": {
-      "alt": "Tasks with dates and priorities",
-      "caption": "Your phone reminds you when it's due."
+      "alt": "Timed routines in the Agenda: vitamins and workouts",
+      "caption": "Routines, reminded right on time."
+    },
+    "09": {
+      "alt": "Project overview: progress and the chosen Kanban method with its reason",
+      "caption": "You pick the method; your reason is kept."
     },
     "10": {
       "alt": "Project board with work items and dependencies",
@@ -228,8 +241,28 @@
       "caption": "Make it yours."
     },
     "28": {
-      "alt": "Home screen with your people, an upcoming birthday and meetups",
+      "alt": "Home screen with today's schedule and Agenda",
       "caption": "Your people, your plans, your day; one screen."
+    },
+    "29": {
+      "alt": "The project's Tools page: business plan readiness and stages",
+      "caption": "You decide which tools to use."
+    },
+    "30": {
+      "alt": "SWOT → TOWS tool with threats and strategies linked to SWOT items",
+      "caption": "From SWOT to strategy, question by question."
+    },
+    "31": {
+      "alt": "Exporting the project as Markdown for an AI",
+      "caption": "Hand your plan to an AI in a single file."
+    },
+    "32": {
+      "alt": "A live meetup with time elapsed, time left and who has arrived",
+      "caption": "See who's there while the meetup is on."
+    },
+    "33": {
+      "alt": "Search results for \"present\": a meetup, a task and an Agenda item",
+      "caption": "Find anything with one search."
     }
   }
 }

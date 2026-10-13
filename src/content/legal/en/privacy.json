@@ -12,7 +12,7 @@
       "Account: your email address, first name, last name and username. Your password is stored irreversibly (hashed) by the sign-in service; we cannot see it.",
       "Profile (all optional): photo, about text, birthday, phone number, city, gender, interests, school or work status, favorites and love language result. You choose who can see each of them in Privacy settings; \"prefer not to say\" is always available.",
       "Connections: your close ones, your partner connection, sharing permissions, people you blocked and nicknames you set (only you see your nicknames).",
-      "Plans and content: weekly schedule, status, meetups and poll votes, tasks, to-dos, projects (items, pages, images and notes) and comments.",
+      "Plans and content: weekly schedule, status, meetups and poll votes, tasks, to-dos, projects (items, pages, images, notes, method decisions and analysis tool answers), your personal work standards and comments.",
       "Messages: your direct and group messages, photos you send and reactions. Message texts are stored encrypted with AES-256 on the server.",
       "Couple space: memories and their photos, time capsules, photo days, games, shared lists and plans, daily question answers and relationship dates.",
       "Device and technical data: push notification token, a key generated on your device to encrypt notification previews, app version and last seen time.",

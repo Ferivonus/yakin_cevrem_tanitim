@@ -4,7 +4,7 @@ import MarkedTitle from '@/components/common/MarkedTitle.vue'
 import CloudShape from '@/components/sky/CloudShape.vue'
 import type { IconName } from '@/components/common/icons'
 import { useT } from '@/i18n/useT'
-import { app } from '@/config/app'
+import { useNav } from '@/composables/useNav'
 
 const t = useT()
 
@@ -22,11 +22,11 @@ const week = [
 ]
 const people = ['brand', 'accent', 'success'] as const
 
-const notifyHref = () => `mailto:${app.supportEmail}?subject=${encodeURIComponent(t('home.web.notifySubject'))}`
+const { waitlistFor } = useNav()
 </script>
 
 <template>
-  <section :id="t('home.ids.web')" class="section-y">
+  <section :id="t('home.ids.web')" class="section-y overflow-x-clip">
     <div class="wrap grid grid-cols-1 items-center gap-16 lg:grid-cols-[0.95fr_1.05fr]">
       <div v-reveal>
         <p class="eyebrow mb-3 inline-flex items-center gap-2">
@@ -49,13 +49,13 @@ const notifyHref = () => `mailto:${app.supportEmail}?subject=${encodeURIComponen
         </ul>
 
         <div class="mt-9 flex flex-col gap-4 sm:flex-row sm:items-center">
-          <a
-            :href="notifyHref()"
+          <RouterLink
+            :to="waitlistFor('web', 'web')"
             class="inline-flex shrink-0 items-center gap-2 self-start rounded-full bg-ink px-5 py-3 font-bold text-bg transition duration-500 ease-[var(--ease-soft)] hover:-translate-y-0.5 hover:shadow-soft sm:self-auto"
           >
             <AppIcon name="bell" class="size-4.5" />
             {{ t('home.web.notify') }}
-          </a>
+          </RouterLink>
           <p class="text-sm text-muted">{{ t('home.web.note') }}</p>
         </div>
       </div>

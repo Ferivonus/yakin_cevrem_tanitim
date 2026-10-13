@@ -3,13 +3,19 @@
     "eyebrow": "Yol haritası",
     "title": "Fikrinden profesyonel bir plana, adım adım.",
     "titleMark": "adım adım.",
-    "text": "Yakın Çevrem bugün herkesin plan ve program uygulaması. Sırada, bir fikri ya da bir müşteri işini baştan sona planlayabileceğin araçlar var: rehberli analizler, gelir planı, web ve bilgisayar uygulaması, müşterinle paylaştığın proje alanı.",
+    "text": "Yakın Çevrem bugün herkesin plan ve program uygulaması; rehberli proje başlatma, dokuz analiz aracı ve yapay zekâ için dışa aktarma da artık içinde. Sırada gelir planı, web ve bilgisayar uygulaması ve müşterinle paylaştığın proje alanı var.",
     "note": "Planlanıyor, değişebilir. Tarih vermiyoruz; her aşama bir öncekinin üstüne kurulur."
   },
   "mock": {
     "project": "Kafe sipariş uygulaması",
+    "today": "Bugün uygulamada",
     "progress": "İş planı hazırlığı",
-    "steps": ["Problem ve persona", "Rakipler", "SWOT → TOWS", "Gelir planı"],
+    "steps": [
+      "Problem ve persona",
+      "Rakipler",
+      "SWOT → TOWS",
+      "Gelir planı"
+    ],
     "now": "Sırada",
     "unknown": "2 varsayım doğrulanacak",
     "file": "kafe-siparis.md",
@@ -29,7 +35,7 @@
       },
       "yours": {
         "title": "Planın senin",
-        "text": "Hazırladığın plan tek bir dosya olarak indirilebilecek; istediğin yere, istediğin yapay zekâ aracına verebileceksin."
+        "text": "Hazırladığın planı tek bir Markdown dosyası olarak indirirsin; istediğin yere, istediğin yapay zekâ aracına verebilirsin."
       }
     }
   },
@@ -40,15 +46,12 @@
       "plan": {
         "label": "Sıradaki",
         "title": "Fikrinden plana",
-        "text": "Yazılım ya da işletme bilmesen de soru soru ilerleyerek profesyonel bir plan çıkar.",
+        "text": "Soru soru ilerleyen araçların çoğu artık uygulamada; sırada parayla ilgili olanlar ve günlük kullanımı kolaylaştıran eklemeler var.",
         "items": [
-          "Planı yapay zekâya verilebilir tek bir .md dosyası olarak indirme",
-          "Proje başlatma rehberi: Planlı, Kanban, Scrum, karma ya da keşif; \"Standartlarımı uygula\" ve \"Hızlı başla\"",
-          "Rehberli araçlar: persona, rakip tablosu, SWOT → TOWS, Lean Canvas, SMART hedef, kullanıcı hikâyesi, MVP kapsamı, risk matrisi",
-          "\"Bilmiyorum\" dediğin soru kaybolmaz; doğrulanacak varsayım olarak kaydedilir",
           "Gelir-gider ve nakit planı, freelancer için ücret hesaplayıcı",
           "\"Uygulamamı nasıl yaptırırım?\" rehberi: ihtiyacı yazmaktan yazılımcı seçmeye ve teslim almaya",
-          "İş numaraları, projede arama ve çöp kutusu"
+          "Dışa aktarılan belgeye araçların, kararların ve yorumların eklenmesi",
+          "Gündem'de Yaklaşan görünümü, tekrar eden buluşmalar"
         ]
       },
       "everywhere": {
@@ -112,19 +115,18 @@
   },
   "foundation": {
     "title": "Temeli bugünden hazır",
-    "text": "Pano, Gantt çizelgesi, kritik yol, onay akışı, SWOT, sayfa planı ve şablonlar bugün uygulamada. Yol haritası bunların üstüne kuruluyor.",
+    "text": "Pano, Gantt çizelgesi, kritik yol, onay akışı, sayfa planı ve şablonlar; üstüne rehberli başlatma, dokuz analiz aracı, iş numaraları, çöp kutusu ve yapay zekâ için dışa aktarma bugün uygulamada. Yol haritası bunların üstüne kuruluyor.",
     "link": "Projeler'de bugün neler var?"
   },
   "pilot": {
     "title": "Erken denemek ister misin?",
     "text": "Yeni araçları önce küçük bir grupla denemek istiyoruz: kendi fikrinin planını çıkarmak isteyenler, müşterisiyle çalışan freelancer'lar, küçük ekipler ve dernekler. Bize yaz, sırası gelince haber verelim.",
-    "action": "Erken denemek istiyorum",
-    "subject": "Yol haritası: erken denemek istiyorum"
+    "action": "Erken denemek istiyorum"
   },
   "banner": {
     "eyebrow": "Yol haritası",
     "title": "Projeler büyüyor.",
-    "text": "Sırada fikrini aşama aşama plana dönüştüren araçlar, web ve bilgisayar uygulaması ve müşterinle paylaştığın proje alanı var.",
+    "text": "Rehberli analiz araçları ve yapay zekâ için dışa aktarma geldi. Sırada gelir planı, web ve bilgisayar uygulaması ve müşterinle paylaştığın proje alanı var.",
     "link": "Yol haritasının tamamı"
   }
 }

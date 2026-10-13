@@ -47,11 +47,13 @@ export const topics: Topic[] = [
     heroShot: '04',
     rows: [
       { id: 'poll', shots: ['05'] },
-      { id: 'todos', shots: ['06'] },
-      { id: 'tasks', shots: ['07'] },
+      { id: 'agenda', shots: ['06'] },
+      { id: 'routine', shots: ['07'] },
+      { id: 'live', shots: ['32'] },
     ],
     cards: [
       { id: 'reminders', icon: 'bell' },
+      { id: 'changes', icon: 'clock' },
       { id: 'offline', icon: 'cloudOff' },
     ],
     areas: ['plans'],
@@ -62,11 +64,15 @@ export const topics: Topic[] = [
     icon: 'kanban',
     heroShot: '10',
     rows: [
+      { id: 'start', shots: ['09'] },
+      { id: 'tools', shots: ['29', '30'] },
       { id: 'review', shots: ['13'] },
       { id: 'timeline', shots: ['11'] },
+      { id: 'export', shots: ['31'] },
     ],
     cards: [
       { id: 'roadmap', icon: 'flag' },
+      { id: 'history', icon: 'checklist' },
       { id: 'pages', icon: 'layers' },
       { id: 'templates', icon: 'copy' },
     ],

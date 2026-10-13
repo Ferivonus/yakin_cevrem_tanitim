@@ -5,7 +5,7 @@ import CloudShape from '@/components/sky/CloudShape.vue'
 import { useT } from '@/i18n/useT'
 import { pathFor } from '@/router/pages'
 
-defineProps<{ anchor?: boolean }>()
+defineProps<{ anchor?: boolean; hideFeatures?: boolean }>()
 const t = useT()
 </script>
 
@@ -29,6 +29,7 @@ const t = useT()
       <div class="mt-9 flex flex-col items-center gap-5">
         <StoreButton tone="light" />
         <RouterLink
+          v-if="!hideFeatures"
           :to="pathFor('features', t.lang.value)"
           class="group inline-flex items-center gap-2 font-bold text-white/90 transition-colors duration-500 hover:text-white"
         >

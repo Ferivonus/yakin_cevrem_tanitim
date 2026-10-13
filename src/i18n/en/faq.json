@@ -16,12 +16,12 @@
     "whatFor": {
       "slug": "what-is-it",
       "q": "What is Yakın Çevrem for?",
-      "a": "You share your schedule, meetups, to-dos, tasks and projects with the people around you, and talk about all of it in the same place. Friend group, team, family or partner; whoever you're planning with."
+      "a": "You share your schedule, meetups, Agenda (tasks, lists, routines) and projects with the people around you and talk about all of it in one place. Friends, team, family or partner; whoever you're planning with."
     },
     "free": {
       "slug": "is-it-free",
       "q": "Is it free?",
-      "a": "Yes. Schedule, plans, projects, the couple space and messaging are free. Voice and video calls will come later with the Pro plans (Pro, Couple, Team); what's free stays free."
+      "a": "Yes. Schedule, meetups, the Agenda, projects (including guided tools and export for AI), chat and the couple space are free. Voice and video calls will come later with Pro: for one person, for two, or for up to five. What's free stays free."
     },
     "iphone": {
       "slug": "iphone",
@@ -41,7 +41,7 @@
     "solo": {
       "slug": "on-my-own",
       "q": "Can I use it on my own?",
-      "a": "Yes, for your schedule, tasks and to-dos. But it really shines once you add your people."
+      "a": "Yes; for your schedule, your Agenda, your routines and your projects. But it really shines once you add your people."
     },
     "noPartner": {
       "slug": "no-partner",
@@ -50,18 +50,18 @@
     },
     "difference": {
       "slug": "tasks-todos-projects",
-      "q": "What's the difference between tasks, to-dos and projects?",
-      "a": "To-dos are a quick list: groceries, chores. Tasks have a date and a reminder. Projects are for teamwork: roles, assignments, approvals, a board and a timeline."
+      "q": "What's the difference between the Agenda and projects?",
+      "a": "The Agenda is for everyday things: groceries, chores, dated tasks and timed routines like medicine. Projects are for bigger things you do together: choosing a method, guided planning tools, roles, assigning work, approvals, a board and a timeline."
     },
     "projectTools": {
       "slug": "project-tools",
       "q": "Can it replace project management tools?",
-      "a": "For work with friends, at school or with a small team, yes: roles, approvals, a board, Gantt and critical path are built in. It isn't designed for big company processes. Our roadmap explains what's planned for more professional use."
+      "a": "For things you do with friends, at school or with a small team, yes: roles, approvals, a board, Gantt, critical path, task numbers, guided planning tools and export for AI are ready. It isn't built for big company processes. We describe what's planned for more professional use on the roadmap."
     },
     "roadmap": {
       "slug": "roadmap",
       "q": "What's next, will projects grow?",
-      "a": "Yes. The next stage brings guided tools that turn your idea into a business plan one question at a time (SWOT, Lean Canvas, a revenue plan and more) and a way to download the plan as a file you can hand to an AI. Then web and Windows apps, then a space for working with your clients and your team. All of it is planned and may change; we don't give dates. The revenue plan won't replace financial advice; it reminds you what to think about."
+      "a": "Yes. A guided project start, nine planning tools (like SWOT → TOWS, Lean Canvas and MVP scope) and downloading your plan as a file you can give to an AI are now in the app. Next up are an income and expense plan and a \"how do I get my app built?\" guide; then the web and Windows apps, then a workspace for your clients and team. All planned, may change; we don't give dates. The income plan won't replace financial advice; it will remind you what to think about."
     },
     "freelance": {
       "slug": "freelancer",

@@ -5,6 +5,7 @@ import trFeatures from './tr/features.json'
 import trFaq from './tr/faq.json'
 import trLegal from './tr/legal.json'
 import trRoadmap from './tr/roadmap.json'
+import trWaitlist from './tr/waitlist.json'
 import enCommon from './en/common.json'
 import enHome from './en/home.json'
 import enTopics from './en/topics.json'
@@ -12,6 +13,7 @@ import enFeatures from './en/features.json'
 import enFaq from './en/faq.json'
 import enLegal from './en/legal.json'
 import enRoadmap from './en/roadmap.json'
+import enWaitlist from './en/waitlist.json'
 import type { Lang } from './locales'
 
 const tr = {
@@ -22,6 +24,7 @@ const tr = {
   faq: trFaq,
   legal: trLegal,
   roadmap: trRoadmap,
+  waitlist: trWaitlist,
 }
 
 export type Messages = typeof tr
@@ -34,6 +37,7 @@ const en: Messages = {
   faq: enFaq,
   legal: enLegal,
   roadmap: enRoadmap,
+  waitlist: enWaitlist,
 }
 
 export const messages: Record<Lang, Messages> = { tr, en }

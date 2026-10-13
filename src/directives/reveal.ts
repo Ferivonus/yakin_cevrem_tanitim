@@ -7,7 +7,9 @@ export const reveal: Directive<HTMLElement, number | undefined> = {
   mounted(el, { value }) {
     const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
     const alreadyInView = el.getBoundingClientRect().top < window.innerHeight * 0.9
-    if (reduced || alreadyInView || !('IntersectionObserver' in window)) return
+    // Bölüm bağlantısıyla gelen ya da arka plandaki sekmede içerik animasyonu beklemeden görünür.
+    const skip = window.location.hash !== '' || document.visibilityState === 'hidden'
+    if (reduced || alreadyInView || skip || !('IntersectionObserver' in window)) return
 
     if (value) el.style.setProperty('--reveal-delay', `${value}ms`)
     el.classList.add('reveal-ready')
@@ -17,7 +19,7 @@ export const reveal: Directive<HTMLElement, number | undefined> = {
         el.classList.add('is-visible')
         observer.disconnect()
       },
-      { rootMargin: '0px 0px -10% 0px' },
+      { rootMargin: '0px 0px -5% 0px' },
     )
     observer.observe(el)
     observers.set(el, observer)

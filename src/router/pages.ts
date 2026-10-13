@@ -11,6 +11,7 @@ export const pagePaths = {
   features: { tr: '/ozellikler', en: '/en/features' },
   roadmap: { tr: '/yol-haritasi', en: '/en/roadmap' },
   faq: { tr: '/sss', en: '/en/faq' },
+  waitlist: { tr: '/erken-katilim', en: '/en/early-access' },
   privacy: { tr: '/gizlilik', en: '/en/privacy' },
   terms: { tr: '/kosullar', en: '/en/terms' },
   deleteAccount: { tr: '/hesap-silme', en: '/en/delete-account' },

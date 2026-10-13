@@ -13,6 +13,7 @@ const route = useRoute()
 const doc = computed(() => (route.meta.key === 'terms' ? 'terms' : 'privacy'))
 const sections = computed(() => legalDoc(t.lang.value, doc.value))
 const version = useLegalVersion()
+const siteNote = computed(() => t.list('legal.website.paragraphs').map((p) => p.replace('{email}', app.supportEmail)))
 
 usePageHead()
 </script>
@@ -49,7 +50,7 @@ usePageHead()
 
       <section v-if="doc === 'privacy'" id="site" class="scroll-mt-24 pt-10">
         <h2 class="text-xl font-extrabold tracking-tight">{{ sections.length + 1 }}. {{ t('legal.website.title') }}</h2>
-        <p v-for="paragraph in t.list('legal.website.paragraphs')" :key="paragraph" class="mt-3 text-[1.0625rem] leading-relaxed text-ink/85">
+        <p v-for="paragraph in siteNote" :key="paragraph" class="mt-3 text-[1.0625rem] leading-relaxed text-ink/85">
           {{ paragraph }}
         </p>
       </section>

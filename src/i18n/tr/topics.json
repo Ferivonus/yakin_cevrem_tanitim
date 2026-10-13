@@ -7,34 +7,63 @@
       "week": {
         "title": "Haftan tek ekranda",
         "text": "Ders, iş, spor; bir kez gir, her hafta tekrarlansın. Sevgilinle \"Birlikte\" görünümünde iki programı üst üste gör.",
-        "bullets": ["Tekrarlayan kayıtlar", "Ben · Sevgilim · Birlikte", "Programını kimin göreceğini sen seç"]
+        "bullets": [
+          "Tekrarlayan kayıtlar, gün gün kaydırma",
+          "Ben · Sevgilim · Birlikte",
+          "Programını kimin göreceğini sen seç"
+        ]
       },
       "people": {
         "title": "Yakınların bir dokunuş uzakta",
         "text": "Profilinden mesaj at, dürt, programına bak ya da ortak boş zamanı aç.",
-        "bullets": ["Kullanıcı adıyla ekle", "Anlık durum ve dürtme", "Doğum günü ve özel gün hatırlatmaları"]
+        "bullets": [
+          "Kullanıcı adıyla ekle",
+          "Kalıcı durum ve dürtme",
+          "Doğum günü ve özel gün hatırlatmaları"
+        ]
       }
     }
   },
   "plans": {
     "eyebrow": "Arkadaşlar · Aileler · Ev arkadaşları",
     "title": "Herkesin payı belli",
-    "text": "Buluşmalar, yapılacaklar ve görevler aynı yerde. Kim geliyor, kim ne yapıyor, ne bitti; hepsi tek bakışta.",
+    "text": "Buluşmalar ve günlük işlerin (Gündem) aynı yerde. Kim geliyor, kim ne yapıyor, ilacın saati geldi mi; hepsi tek bakışta.",
     "rows": {
       "poll": {
         "title": "Tarihi ankete aç",
         "text": "Birkaç gün ve yer öner, herkes uyanları işaretlesin; en çok oy alan öne çıkar.",
-        "bullets": ["Tarih ve yer anketi", "Uzaktan katılım bağlantısı", "Takvime ekle"]
+        "bullets": [
+          "Tarih ve yer anketi",
+          "Uzaktan katılım bağlantısı",
+          "Takvime ekle"
+        ]
       },
-      "todos": {
-        "title": "Ortak yapılacaklar",
-        "text": "Alınacaklar, ev işleri, piknik listesi. Paylaştığın kişi de görür, işaretleyen belli olur.",
-        "bullets": ["Paylaşılabilir liste", "Ben · Sevgilim · Birlikte ilerlemesi", "İnternet yokken de işaretlersin"]
+      "agenda": {
+        "title": "Gündem: bugün ne var?",
+        "text": "Gündem, günlük işlerin yeri: tek seferlik işler, alınacaklar ve düzenli işler tek listede. \"Bugün\" görünümü sırası geleni gösterir; paylaştığın kişi de görür, kimin işaretlediği belli olur.",
+        "bullets": [
+          "Liste, miktar, tarih ve öncelik",
+          "Ben · Sevgilim · Birlikte ilerlemesi",
+          "Hazır listeler: alınacaklar, temizlik, seyahat çantası"
+        ]
       },
-      "tasks": {
-        "title": "Tarihli işler için görevler",
-        "text": "Önceliği, tarihi ve ilerlemesi olan işler; zamanı gelince telefonun hatırlatır.",
-        "bullets": ["Öncelik ve ilerleme", "Teslim tarihi hatırlatması", "Kendin için ya da paylaşarak"]
+      "routine": {
+        "title": "Düzenli işler saatinde",
+        "text": "İlaç, vitamin, spor: günü ve saati seç, zamanı gelince telefonun hatırlatsın; yaptığını tek dokunuşla işaretle. İstersen kilona göre su hatırlatıcısı da kur.",
+        "bullets": [
+          "Gün ve saat seçimi",
+          "Saatinde hatırlatma",
+          "Su hatırlatıcısı; kilonu ve boyunu yalnızca sen görürsün"
+        ]
+      },
+      "live": {
+        "title": "Buluşma başladı, kim nerede?",
+        "text": "\"Buluşmayı başlat\"a bas; ne kadardır sürdüğünü, bitişe ne kaldığını ve kimin geldiğini herkes görsün. Uzarsa +30 dk, bitince \"Bitir\".",
+        "bullets": [
+          "\"Geldim\" ve gelenler listesi",
+          "+30 dk / +1 sa uzatma",
+          "Yanlışlıkla bitirdiysen 10 dakika içinde geri al"
+        ]
       }
     },
     "cards": {
@@ -42,32 +71,75 @@
         "title": "Hatırlatmalar",
         "text": "Buluşma, teslim tarihi, doğum günü. Zamanı gelince telefonun söyler."
       },
+      "changes": {
+        "title": "Saat değişirse herkese sorulur",
+        "text": "Saat ya da yer değişince davetliler yeniden yanıtlar; başka bir zaman da önerebilirler."
+      },
       "offline": {
         "title": "İnternet yokken de",
-        "text": "Yazdığın mesaj, eklediğin yapılacak ya da program kaydı kaybolmaz; bağlantı gelince gider."
+        "text": "Ekranlar telefonda saklanır, internet yokken son hâlini görürsün. Yazdığın mesaj, Gündem maddesi ya da program kaydı bağlantı gelince gider."
       }
     }
   },
   "projects": {
     "eyebrow": "Ekipler için",
     "title": "Birlikte yaptığın işler için ciddi bir alan",
-    "text": "Ödev, etkinlik, uygulama, taşınma. Rolleri ver, işleri haftalara böl, hangi iş neyi bekliyor gör.",
+    "text": "Ödev, etkinlik, uygulama, taşınma. Yöntemini seç, fikrini rehberli araçlarla plana dök, işleri haftalara böl, kimin neyi bitirdiğini gör.",
     "rows": {
+      "start": {
+        "title": "Yöntemini sen seçersin",
+        "text": "Proje açarken \"Bu proje ne?\" ve \"Ne kadar belli?\" sorularını cevapla; Planlı, Kanban, Scrum, Karma ya da Keşif arasından karşılaştırarak seç. Seçimin ve gerekçen \"Yöntem ve kararlar\"da durur.",
+        "bullets": [
+          "Beş yöntem yan yana",
+          "Sık kullandığın düzen için \"Standartlarımı uygula\"",
+          "Şablonda hafta ve işleri tek tek seç"
+        ]
+      },
+      "tools": {
+        "title": "Fikrinden plana, soru soru",
+        "text": "Strateji → Araçlar: iş planının 12 aşaması ve dokuz rehberli araç. Hiçbiri zorunlu değil; hangisini kullanacağına sen karar verirsin, uygulama ne işe yaradığını anlatır.",
+        "bullets": [
+          "Persona, rakip matrisi, SWOT → TOWS, risk, Lean Canvas, OKR, kullanıcı hikâyesi, MVP, teknoloji soruları",
+          "\"Bilmiyorum\" dediğin soru doğrulanacak varsayım olur",
+          "Hikâye işe, MVP yol haritasına dönüşür"
+        ]
+      },
       "review": {
         "title": "Biten iş kontrole gelir",
-        "text": "Ekip üyesi işi bitirince \"Kontrole gönder\"ir; başkan onaylar ya da notuyla geri gönderir.",
-        "bullets": ["Başkan · Yönetici · Ekip üyesi · İzleyici", "Bana atanan işler", "Kişi başı iş yükü"]
+        "text": "Ekip üyesi işi bitirince kontrole gönderir; başkan onaylar ya da notuyla geri gönderir.",
+        "bullets": [
+          "Başkan · Yönetici · Ekip üyesi · İzleyici",
+          "Bana atanan işler",
+          "Kişi başı iş yükü"
+        ]
       },
       "timeline": {
         "title": "Çizelge ve kritik yol",
-        "text": "Hangi iş gecikirse her şey kayar, uygulama hesaplar; işler günlere yayılmış halde görünür.",
-        "bullets": ["Liste, Kanban panosu ve Gantt çizelgesi", "İş bağımlılıkları ve gecikme uyarısı", "Hafta sonu ve günlük çalışma saati ayarı"]
+        "text": "Bir iş gecikirse nelerin kayacağını uygulama hesaplar; işleri haftalara ve günlere yayılmış hâlde görürsün.",
+        "bullets": [
+          "Liste, Kanban panosu ve Gantt çizelgesi",
+          "İş bağımlılıkları ve gecikme uyarısı",
+          "Hafta sonu ve günlük çalışma saati ayarı"
+        ]
+      },
+      "export": {
+        "title": "Planını yapay zekâya ver",
+        "text": "Projeyi tek bir Markdown belgesine çevir: tüm proje, strateji, yol haritası ya da ürün tanımı. İstersen kişi adlarının yerine roller yazılır; eksik ve açık sorular listelenir.",
+        "bullets": [
+          "Ekip ya da müşteri için",
+          "Panoya kopyala ya da .md dosyası indir",
+          "Belge yalnızca senin görebildiğin bilgiden üretilir"
+        ]
       }
     },
     "cards": {
       "roadmap": {
-        "title": "Yol haritası ve strateji",
-        "text": "Hafta hafta plan, öncelik, kabul kriterleri; künye, SWOT, riskler."
+        "title": "Yol haritası",
+        "text": "Hafta hafta plan, MoSCoW önceliği, kabul kriterleri ve süre tahmini."
+      },
+      "history": {
+        "title": "İş numarası ve geçmiş",
+        "text": "Her işin numarası olur (KAFE-12); kim neyi ne zaman değiştirdi görünür, silinen iş 30 gün geri alınır."
       },
       "pages": {
         "title": "Sayfa planı ve görseller",
@@ -82,23 +154,31 @@
   "chat": {
     "eyebrow": "Herkes için",
     "title": "Konuşurken plan önünde",
-    "text": "Sohbette buluşmayı, yapılacağı, görevi, proje haftasını ya da program kaydını etiketle; \"hangi cuma?\" diye sormaya gerek kalmaz.",
+    "text": "Sohbette buluşmayı, Gündem maddesini, proje işini ya da program kaydını etiketle; \"hangi cuma?\" diye sormaya gerek kalmaz.",
     "rows": {
       "circles": {
         "title": "Herkes için ayrı sohbet",
-        "text": "Arkadaş grubun, ekibin, ev arkadaşların, sevgilin. Her sohbetin kendi teması olur.",
-        "bullets": ["Tepki, yanıt, düzenleme, herkesten sil", "Fotoğraf, arama, sabitlenmiş mesaj", "Okundu tikleri, yazıyor, son görülme"]
+        "text": "Arkadaş grubun, ekibin, ev arkadaşların, sevgilin. Her sohbetin kendi teması olur; fotoğraflar ve bağlantılar \"Medya ve bağlantılar\"da toplanır.",
+        "bullets": [
+          "Tepki, yanıt, düzenleme, herkesten sil",
+          "Fotoğraf, bağlantı önizlemesi, uygulama içinde video",
+          "Okundu tikleri, yazıyor, son görülme"
+        ]
       },
       "notifications": {
         "title": "Önemli olan kaçmaz",
         "text": "Bildirimler türüne göre renkli: buluşmalar, yakınların, sevgilin, projeler. Sessiz saatleri sen belirlersin.",
-        "bullets": ["Bildirimden yanıtla, sessize al", "Türüne göre aç kapat", "Önizleme cihazının anahtarıyla şifreli"]
+        "bullets": [
+          "Bildirimden yanıtla, sessize al",
+          "Türüne göre aç kapat",
+          "Önizleme cihazının anahtarıyla şifreli"
+        ]
       }
     },
     "cards": {
       "talkAbout": {
         "title": "Hakkında konuş",
-        "text": "Buluşmayı, yapılacağı, görevi, proje haftasını, anıyı ya da bir yorumu mesaja ekle; kartta durumu ve ilerlemesi görünür. İlgili herkesle tek dokunuşla yeni grup bile kurabilirsin."
+        "text": "Buluşmayı, Gündem maddesini, numarasıyla bir işi, proje haftasını, anıyı ya da bir yorumu mesaja ekle; kartta durumu ve ilerlemesi görünür. İlgili herkesle tek dokunuşla yeni grup bile kurabilirsin."
       },
       "theme": {
         "title": "Ortak sohbet teması",
@@ -117,18 +197,30 @@
     "rows": {
       "plans": {
         "title": "\"Bunu mu, bunu mu?\"",
-        "text": "Bu akşam için iki seçenek öner, o seçsin. Ya da \"sen karar ver\".",
-        "bullets": ["İki seçenekli öneri", "Zamanı değiştirerek onay", "Ortak listeler"]
+        "text": "Bu akşam için iki seçenek öner, o seçsin. Ya da \"sen karar ver\". Zamanı belli olan plan Buluşmalar'a pembe kartla düşer.",
+        "bullets": [
+          "İki seçenekli öneri",
+          "Zamanı değiştirerek onay",
+          "Ortak listeler"
+        ]
       },
       "games": {
         "title": "Birlikte oyunlar",
         "text": "Çiz tahmin et, Beni ne kadar tanıyorsun?, Bu mu o mu? ve dahası. Aynı anda oynayın.",
-        "bullets": ["XOX, Dörtlü bağla, Hikâyeyi tamamla", "Canlı çizim ve tepkiler", "Oyun anılarımız"]
+        "bullets": [
+          "XOX, Dörtlü bağla, Hikâyeyi tamamla",
+          "Canlı çizim ve tepkiler",
+          "Oyun anılarımız"
+        ]
       },
       "moments": {
         "title": "Her gün küçük bir an",
         "text": "Günün fotoğraf konusu, günün sorusu, önemli tarihleriniz ve sevgi dili testi.",
-        "bullets": ["Karşılıklı açılan fotoğraflar ve seri", "Tanışma, ilk buluşma ve geri sayım", "Sevgi diline uygun plan fikirleri"]
+        "bullets": [
+          "Karşılıklı açılan fotoğraflar ve seri",
+          "Tanışma, ilk buluşma ve geri sayım",
+          "Sevgi diline uygun plan fikirleri"
+        ]
       }
     },
     "cards": {

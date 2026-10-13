@@ -1,0 +1,55 @@
+{
+  "eyebrow": "Early access",
+  "title": "Be the first to know.",
+  "titleMark": "first to know.",
+  "text": "We'll let you know when the app lands on Google Play, when Pro and the web version arrive, or when there's room to try new tools early. We only write about what you choose.",
+  "form": {
+    "title": "Join the list",
+    "email": "Your email address",
+    "placeholder": "you@example.com",
+    "interests": "What would you like to hear about?",
+    "options": {
+      "app": "When the app is on Google Play",
+      "pro": "Pro: voice and video calls",
+      "web": "The web version",
+      "projects": "New project tools: income plan, client space",
+      "pilot": "I'd like to try new features early"
+    },
+    "consent": "I agree that you use this address only to tell me about the topics I chose; I can have it deleted any time.",
+    "privacy": "This site's privacy note",
+    "submit": "Join the list",
+    "sending": "Sending",
+    "note": "We never share your address or send ads."
+  },
+  "errors": {
+    "email": "Please enter a valid email address.",
+    "consent": "Please tick the box to continue.",
+    "network": "We couldn't send it right now. Try again in a moment or email us."
+  },
+  "success": {
+    "title": "You're on the list!",
+    "text": "We'll write to {email} when there's news on the topics you chose. Meanwhile, have a look at what the app can do.",
+    "again": "Add another address",
+    "explore": "See all features"
+  },
+  "perks": {
+    "title": "When you're on the list",
+    "items": {
+      "first": {
+        "title": "You hear first",
+        "text": "Google Play launch, Pro and the web version; you'll know the day they're ready."
+      },
+      "pilot": {
+        "title": "You try things early",
+        "text": "We test new tools like the income plan and client space with a small group first."
+      },
+      "voice": {
+        "title": "Your ideas count",
+        "text": "Reply to our emails and tell us what you need; the roadmap is shaped by it."
+      }
+    }
+  },
+  "fallback": "The form isn't open right now. You can also join the list by email.",
+  "mailSubject": "Early access list",
+  "remove": "To leave the list, just write to {email}."
+}

@@ -3,13 +3,13 @@ import { computed } from 'vue'
 import AppIcon from '@/components/common/AppIcon.vue'
 import AppBadge from '@/components/common/AppBadge.vue'
 import { useT } from '@/i18n/useT'
-import type { Feature } from '@/config/features'
+import { recentFeatures, type Feature } from '@/config/features'
 
 const props = defineProps<{ items: Feature[] }>()
 const t = useT()
 
-const order = { live: 0, soon: 1, pro: 2 }
-const sorted = computed(() => [...props.items].sort((a, b) => order[a.status] - order[b.status]))
+const rank = (item: Feature) => (item.status === 'live' ? (recentFeatures.has(item.id) ? 0 : 1) : item.status === 'soon' ? 2 : 3)
+const sorted = computed(() => [...props.items].sort((a, b) => rank(a) - rank(b)))
 </script>
 
 <template>
@@ -23,6 +23,7 @@ const sorted = computed(() => [...props.items].sort((a, b) => order[a.status] - 
       <span class="flex flex-1 flex-wrap items-center gap-x-2 gap-y-1" :class="item.status === 'live' ? '' : 'text-muted'">
         {{ t(`features.items.${item.id}`) }}
         <AppBadge v-if="item.status !== 'live'" :status="item.status" />
+        <AppBadge v-else-if="recentFeatures.has(item.id)" status="new" />
       </span>
     </li>
   </ul>

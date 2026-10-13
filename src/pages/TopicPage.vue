@@ -3,6 +3,7 @@ import { computed } from 'vue'
 import { useRoute } from 'vue-router'
 import TopicHero from '@/components/topic/TopicHero.vue'
 import FeatureRow from '@/components/topic/FeatureRow.vue'
+import TopicStory from '@/components/topic/TopicStory.vue'
 import FeatureCards from '@/components/topic/FeatureCards.vue'
 import TrustDocuments from '@/components/topic/TrustDocuments.vue'
 import AreaFeatures from '@/components/topic/AreaFeatures.vue'
@@ -24,13 +25,18 @@ usePageHead()
     <TopicHero :topic="topic" />
 
     <div class="wrap grid gap-[clamp(4.5rem,10vw,8rem)] pb-[clamp(4rem,9vw,7.5rem)]">
-      <FeatureRow
-        v-for="(row, index) in topic.rows"
-        :key="row.id"
-        :topic="topic.key"
-        :row="row"
-        :flip="index % 2 === 1"
-      />
+      <template v-if="topic.rows.length">
+        <TopicStory :topic="topic.key" :rows="topic.rows" class="hidden lg:grid" />
+        <div class="grid gap-[clamp(4.5rem,10vw,8rem)] lg:hidden">
+          <FeatureRow
+            v-for="(row, index) in topic.rows"
+            :key="row.id"
+            :topic="topic.key"
+            :row="row"
+            :flip="index % 2 === 1"
+          />
+        </div>
+      </template>
       <div v-if="topic.cards.length" class="grid gap-6">
         <FeatureCards :topic="topic.key" :cards="topic.cards" />
         <TrustDocuments v-if="topic.key === 'trust'" />

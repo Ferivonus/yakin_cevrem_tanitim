@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import AppIcon from '@/components/common/AppIcon.vue'
 import { useT } from '@/i18n/useT'
-import { app } from '@/config/app'
+import { useNav } from '@/composables/useNav'
 
 const t = useT()
-const mailHref = () => `mailto:${app.supportEmail}?subject=${encodeURIComponent(t('roadmap.pilot.subject'))}`
+const { waitlistFor } = useNav()
 </script>
 
 <template>
@@ -15,13 +15,13 @@ const mailHref = () => `mailto:${app.supportEmail}?subject=${encodeURIComponent(
     <h2 class="mt-5 text-2xl font-extrabold tracking-tight">{{ t('roadmap.pilot.title') }}</h2>
     <p class="mt-2 text-muted">{{ t('roadmap.pilot.text') }}</p>
     <div class="mt-auto pt-6">
-      <a
-        :href="mailHref()"
+      <RouterLink
+        :to="waitlistFor('pilot', 'roadmap')"
         class="inline-flex items-center gap-2 rounded-full bg-ink px-5 py-3 font-bold text-bg transition duration-500 ease-[var(--ease-soft)] hover:-translate-y-0.5 hover:shadow-soft"
       >
-        <AppIcon name="mail" class="size-4.5" />
+        <AppIcon name="sparkle" class="size-4.5" />
         {{ t('roadmap.pilot.action') }}
-      </a>
+      </RouterLink>
     </div>
   </div>
 </template>

@@ -20,6 +20,7 @@ const components = {
   features: () => import('@/pages/FeaturesPage.vue'),
   roadmap: () => import('@/pages/RoadmapPage.vue'),
   faq: () => import('@/pages/FaqPage.vue'),
+  waitlist: () => import('@/pages/WaitlistPage.vue'),
   privacy: () => import('@/pages/LegalPage.vue'),
   terms: () => import('@/pages/LegalPage.vue'),
   deleteAccount: () => import('@/pages/DeleteAccountPage.vue'),

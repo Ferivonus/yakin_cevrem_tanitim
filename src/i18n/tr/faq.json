@@ -16,12 +16,12 @@
     "whatFor": {
       "slug": "ne-ise-yarar",
       "q": "Yakın Çevrem ne işe yarar?",
-      "a": "Programını, buluşmalarını, yapılacaklarını, görevlerini ve projelerini çevrendeki insanlarla paylaşırsın ve hepsini aynı yerde konuşursun. Arkadaş grubu, ekip, aile ya da sevgili; kiminle planlıyorsan."
+      "a": "Programını, buluşmalarını, Gündem'ini (işler, listeler, düzenli işler) ve projelerini çevrendeki insanlarla paylaşırsın ve hepsini aynı yerde konuşursun. Arkadaş grubu, ekip, aile ya da sevgili; kiminle planlıyorsan."
     },
     "free": {
       "slug": "ucretsiz-mi",
       "q": "Ücretsiz mi?",
-      "a": "Evet. Program, planlar, projeler, sevgili alanı ve mesajlaşma ücretsiz. İleride sesli ve görüntülü arama Pro paketlerle (Pro, Couple, Team) gelecek; ücretsiz olanlar ücretsiz kalır."
+      "a": "Evet. Program, buluşmalar, Gündem, projeler (rehberli araçlar ve yapay zekâ için dışa aktarma dahil), sohbet ve sevgili alanı ücretsiz. İleride sesli ve görüntülü arama Pro ile gelecek: tek kişilik, iki kişilik ya da beş kişiye kadar. Ücretsiz olanlar ücretsiz kalır."
     },
     "iphone": {
       "slug": "iphone",
@@ -41,7 +41,7 @@
     "solo": {
       "slug": "tek-basima",
       "q": "Tek başıma kullanabilir miyim?",
-      "a": "Evet; programın, görevlerin ve yapılacakların için. Ama yakınlarını ekleyince asıl işe yarar."
+      "a": "Evet; programın, Gündem'in, düzenli işlerin ve projelerin için. Ama yakınlarını ekleyince asıl işe yarar."
     },
     "noPartner": {
       "slug": "sevgilim-yoksa",
@@ -50,18 +50,18 @@
     },
     "difference": {
       "slug": "gorev-yapilacak-proje",
-      "q": "Görevler, yapılacaklar ve projeler arasında fark ne?",
-      "a": "Yapılacaklar hızlı bir liste: alınacaklar, ev işleri. Görevlerin tarihi ve hatırlatması var. Projeler ekip işi için: roller, iş atama, onay, pano ve çizelge."
+      "q": "Gündem ile projeler arasında fark ne?",
+      "a": "Gündem günlük işlerin yeri: alınacaklar, ev işleri, tarihli işler ve ilaç gibi saatli düzenli işler. Projeler birlikte yapılan büyük işler için: yöntem seçimi, rehberli analiz araçları, roller, iş atama, onay, pano ve çizelge."
     },
     "projectTools": {
       "slug": "proje-araclari",
       "q": "Proje araçlarının yerini tutar mı?",
-      "a": "Arkadaşlarınla, okulda ya da küçük bir ekiple yaptığın işler için evet: roller, onay, pano, Gantt, kritik yol hazır. Büyük şirket süreçleri için tasarlanmadı. Daha profesyonel kullanım için neler planlandığını yol haritasında anlatıyoruz."
+      "a": "Arkadaşlarınla, okulda ya da küçük bir ekiple yaptığın işler için evet: roller, onay, pano, Gantt, kritik yol, iş numaraları, rehberli analiz araçları ve yapay zekâ için dışa aktarma hazır. Büyük şirket süreçleri için tasarlanmadı. Daha profesyonel kullanım için neler planlandığını yol haritasında anlatıyoruz."
     },
     "roadmap": {
       "slug": "yol-haritasi",
       "q": "Sırada ne var, projeler gelişecek mi?",
-      "a": "Evet. Sıradaki aşamada fikrini soru soru iş planına dönüştüren rehberli araçlar (SWOT, Lean Canvas, gelir planı gibi) ve planı yapay zekâya verilebilir bir dosya olarak indirme var. Ardından web ve Windows uygulaması, sonra müşterinle ve ekibinle çalışma alanı geliyor. Hepsi planlanıyor, değişebilir; tarih vermiyoruz. Gelir planı finansal danışmanlık yerine geçmeyecek, düşünmen gereken kalemleri hatırlatacak."
+      "a": "Evet. Rehberli başlatma, dokuz analiz aracı (SWOT → TOWS, Lean Canvas, MVP kapsamı gibi) ve planı yapay zekâya verilebilir bir dosya olarak indirme artık uygulamada. Sırada gelir-gider planı ve \"uygulamamı nasıl yaptırırım?\" rehberi var; ardından web ve Windows uygulaması, sonra müşterinle ve ekibinle çalışma alanı. Hepsi planlanıyor, değişebilir; tarih vermiyoruz. Gelir planı finansal danışmanlık yerine geçmeyecek, düşünmen gereken kalemleri hatırlatacak."
     },
     "freelance": {
       "slug": "freelancer",

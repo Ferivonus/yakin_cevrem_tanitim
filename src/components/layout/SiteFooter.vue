@@ -14,6 +14,7 @@ const appLinks = computed(() => [
   ...topicLinks.value.filter((link) => link.key !== 'trust').map(({ to, label }) => ({ to, label })),
   { to: pathFor('features', t.lang.value), label: t('nav.features') },
   { to: pathFor('roadmap', t.lang.value), label: t('nav.roadmap') },
+  { to: pathFor('waitlist', t.lang.value), label: t('footer.waitlist') },
 ])
 
 const trustLinks = computed(() => [

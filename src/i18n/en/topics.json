@@ -7,34 +7,63 @@
       "week": {
         "title": "Your week on one screen",
         "text": "Classes, work, gym; enter it once and it repeats. With your partner, see both weeks together in the \"Together\" view.",
-        "bullets": ["Repeating entries", "Me · Partner · Together", "You choose who sees your schedule"]
+        "bullets": [
+          "Repeating entries, swipe day by day",
+          "Me · Partner · Together",
+          "You choose who sees your schedule"
+        ]
       },
       "people": {
         "title": "Your people, one tap away",
         "text": "Message, nudge, check their week or find free time from their profile.",
-        "bullets": ["Add by username", "Live status and nudges", "Birthday and special-day reminders"]
+        "bullets": [
+          "Add by username",
+          "A status that stays, and nudges",
+          "Birthday and special day reminders"
+        ]
       }
     }
   },
   "plans": {
     "eyebrow": "Friends · Families · Flatmates",
     "title": "Everyone knows their part",
-    "text": "Meetups, to-dos and tasks in one place. Who's coming, who's doing what, what's done; all at a glance.",
+    "text": "Meetups and your everyday tasks (the Agenda) in one place. Who's coming, who's doing what, is it time for your medicine; all at a glance.",
     "rows": {
       "poll": {
         "title": "Put the date to a vote",
         "text": "Suggest a few days and places; everyone ticks what works and the favourite rises to the top.",
-        "bullets": ["Date and place polls", "Remote join link", "Add to calendar"]
+        "bullets": [
+          "Date and place polls",
+          "Remote join link",
+          "Add to calendar"
+        ]
       },
-      "todos": {
-        "title": "Shared to-dos",
-        "text": "Groceries, chores, the picnic list. Whoever you share with sees it, and you see who ticked what.",
-        "bullets": ["Shareable lists", "Me · Partner · Together progress", "Tick things off even offline"]
+      "agenda": {
+        "title": "Agenda: what's on today?",
+        "text": "The Agenda is where everyday things live: one-off tasks, shopping lists and routines in one list. The \"Today\" view shows what's due; whoever you share with sees it too, and you can tell who ticked what.",
+        "bullets": [
+          "Lists, quantities, dates and priorities",
+          "Me · Partner · Together progress",
+          "Ready-made lists: groceries, cleaning, travel bag"
+        ]
       },
-      "tasks": {
-        "title": "Tasks for things with a deadline",
-        "text": "Jobs with a priority, a date and progress; your phone reminds you when it's time.",
-        "bullets": ["Priority and progress", "Deadline reminders", "Just for you, or shared"]
+      "routine": {
+        "title": "Routines, right on time",
+        "text": "Medicine, vitamins, workouts: pick the day and time, your phone reminds you, and one tap marks it done. Add a water reminder based on your weight if you like.",
+        "bullets": [
+          "Choose days and times",
+          "Reminded on time",
+          "Water reminder; only you see your weight and height"
+        ]
+      },
+      "live": {
+        "title": "It's started; where is everyone?",
+        "text": "Tap \"Start the meetup\" and everyone sees how long it's been going, how long is left and who has arrived. Running late? +30 min. Done? \"End\".",
+        "bullets": [
+          "\"I'm here\" and who came",
+          "Extend by +30 min / +1 h",
+          "Ended it by mistake? Undo within 10 minutes"
+        ]
       }
     },
     "cards": {
@@ -42,32 +71,75 @@
         "title": "Reminders",
         "text": "Meetups, deadlines, birthdays. Your phone tells you when it's time."
       },
+      "changes": {
+        "title": "Time changed? Everyone is asked",
+        "text": "When the time or place changes, guests answer again; they can suggest another time too."
+      },
       "offline": {
-        "title": "Works offline too",
-        "text": "Messages, to-dos and schedule entries you add offline aren't lost; they're sent when you're back."
+        "title": "Even without internet",
+        "text": "Screens are kept on your phone, so offline you still see the latest state. Messages, Agenda items and schedule entries go out when you're back online."
       }
     }
   },
   "projects": {
     "eyebrow": "For teams",
-    "title": "A proper workspace for the things you build together",
-    "text": "Assignments, events, apps, moving house. Hand out roles, split the work into weeks, see what's waiting on what.",
+    "title": "A serious space for things you do together",
+    "text": "Homework, events, apps, moving house. Pick your method, turn your idea into a plan with guided tools, split work into weeks and see who finished what.",
     "rows": {
+      "start": {
+        "title": "You choose the method",
+        "text": "When you start a project, answer \"What is this project?\" and \"How clear is it?\", then compare Planned, Kanban, Scrum, Hybrid and Discovery and pick one. Your choice and your reason stay under \"Method and decisions\".",
+        "bullets": [
+          "Five methods side by side",
+          "\"Apply my standards\" for the setup you always use",
+          "Pick a template's weeks and tasks one by one"
+        ]
+      },
+      "tools": {
+        "title": "From idea to plan, question by question",
+        "text": "Strategy → Tools: the 12 stages of a business plan and nine guided tools. None is mandatory; you decide which to use, and the app explains what each one is for.",
+        "bullets": [
+          "Persona, competitor matrix, SWOT → TOWS, risk, Lean Canvas, OKR, user stories, MVP, technology questions",
+          "\"I don't know\" becomes an assumption to check",
+          "Stories become tasks, the MVP goes onto the roadmap"
+        ]
+      },
       "review": {
         "title": "Finished work comes to you",
-        "text": "Members \"Send for review\" when they're done; the lead approves it or sends it back with a note.",
-        "bullets": ["Lead · Manager · Member · Viewer", "Assigned to me", "Workload per person"]
+        "text": "When a member finishes a task they send it for review; the lead approves it or sends it back with a note.",
+        "bullets": [
+          "Lead · Manager · Member · Viewer",
+          "Assigned to me",
+          "Workload per person"
+        ]
       },
       "timeline": {
         "title": "Timeline and critical path",
-        "text": "The app works out which task would delay everything and lays the work out across the days.",
-        "bullets": ["List, Kanban board and Gantt timeline", "Dependencies and delay warnings", "Weekend and working-hours settings"]
+        "text": "If one task slips, the app works out what moves with it; you see the work laid out across weeks and days.",
+        "bullets": [
+          "List, Kanban board and Gantt timeline",
+          "Task dependencies and delay warnings",
+          "Weekend and working-hours settings"
+        ]
+      },
+      "export": {
+        "title": "Hand your plan to an AI",
+        "text": "Turn the project into a single Markdown document: the whole project, the strategy, the roadmap or the product definition. Names can be swapped for roles, and gaps and open questions are listed.",
+        "bullets": [
+          "For your team or your client",
+          "Copy to clipboard or download a .md file",
+          "Built only from what you can see"
+        ]
       }
     },
     "cards": {
       "roadmap": {
-        "title": "Roadmap and strategy",
-        "text": "Week-by-week plans, priorities, acceptance criteria; brief, SWOT, risks."
+        "title": "Roadmap",
+        "text": "Week-by-week plan, MoSCoW priority, acceptance criteria and estimates."
+      },
+      "history": {
+        "title": "Task numbers and history",
+        "text": "Every task gets a number (CAFE-12); see who changed what and when, and bring a deleted task back within 30 days."
       },
       "pages": {
         "title": "Page plans and designs",
@@ -82,23 +154,31 @@
   "chat": {
     "eyebrow": "For everyone",
     "title": "The plan is right there while you talk",
-    "text": "Tag the meetup, to-do, task, project week or schedule entry in chat; no more \"which Friday?\".",
+    "text": "Tag the meetup, an Agenda item, a project task or a schedule entry in chat; no more \"which Friday?\".",
     "rows": {
       "circles": {
-        "title": "A chat for every circle",
-        "text": "Friends, team, flatmates, partner. Every chat gets its own theme.",
-        "bullets": ["Reactions, replies, edits, delete for everyone", "Photos, search, pinned messages", "Read ticks, typing, last seen"]
+        "title": "A chat for everyone",
+        "text": "Your friends, your team, your flatmates, your partner. Every chat has its own theme; photos and links gather in \"Media and links\".",
+        "bullets": [
+          "React, reply, edit, delete for everyone",
+          "Photos, link previews, videos inside the app",
+          "Read ticks, typing, last seen"
+        ]
       },
       "notifications": {
         "title": "Nothing important slips by",
         "text": "Notifications are colour-coded by type: meetups, your people, your partner, projects. You set the quiet hours.",
-        "bullets": ["Reply from the notification, mute", "Turn types on and off", "Previews encrypted with your device's key"]
+        "bullets": [
+          "Reply from the notification, mute",
+          "Turn types on and off",
+          "Previews encrypted with your device's key"
+        ]
       }
     },
     "cards": {
       "talkAbout": {
-        "title": "Talk about it",
-        "text": "Attach the meetup, to-do, task, project week, memory or a comment to a message; its status and progress show on the card. You can even start a group with everyone involved in one tap."
+        "title": "Talk about",
+        "text": "Attach a meetup, an Agenda item, a task by its number, a project week, a memory or a comment to your message; the card shows its status and progress. You can even start a new group with everyone involved in one tap."
       },
       "theme": {
         "title": "A shared chat theme",
@@ -116,19 +196,31 @@
     "text": "Add someone as your partner and a space just for the two of you opens on top of everything else.",
     "rows": {
       "plans": {
-        "title": "\"This or that?\"",
-        "text": "Suggest two options for tonight and let them choose. Or just \"you decide\".",
-        "bullets": ["Two-option suggestions", "Approve with a new time", "Shared lists"]
+        "title": "\"This one or that one?\"",
+        "text": "Suggest two options for tonight and let them choose. Or say \"you decide\". Once a plan has a time, it shows up in Meetups with a pink card.",
+        "bullets": [
+          "Two-option suggestions",
+          "Approve with a different time",
+          "Shared lists"
+        ]
       },
       "games": {
         "title": "Play together",
         "text": "Draw and guess, How well do you know me?, This or that and more. Play at the same time.",
-        "bullets": ["Tic-tac-toe, Connect four, Finish the story", "Live drawing and reactions", "Our game memories"]
+        "bullets": [
+          "Tic-tac-toe, Connect four, Finish the story",
+          "Live drawing and reactions",
+          "Our game memories"
+        ]
       },
       "moments": {
         "title": "A small moment every day",
         "text": "A daily photo theme, a daily question, your important dates and a love-language quiz.",
-        "bullets": ["Photos revealed together, with streaks", "First met, first date and countdowns", "Plan ideas for your love languages"]
+        "bullets": [
+          "Photos revealed together, with streaks",
+          "First met, first date and countdowns",
+          "Plan ideas for your love languages"
+        ]
       }
     },
     "cards": {

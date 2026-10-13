@@ -6,13 +6,15 @@
     "pricing": "paketler",
     "faq": "sss",
     "download": "indir",
-    "web": "web"
+    "web": "web",
+    "try": "dene",
+    "fresh": "yeni"
   },
   "hero": {
     "eyebrow": "Arkadaşlar, ekipler, aileler ve sevgililer için",
     "title": "Programın, planların ve yakınların tek yerde.",
     "titleMark": "tek yerde.",
-    "text": "Haftalık programını paylaş, ortak boş zamanı bul, buluşmayı ayarla, işleri dağıt. Hepsini konuştuğun sohbetin tam yanında.",
+    "text": "Haftalık programını paylaş, ortak boş zamanı bul, buluşmayı ayarla, işleri dağıt. Hepsi, konuştuğun sohbetin tam yanında.",
     "ctaSecondary": "Neler var?",
     "sticker": {
       "listTitle": "Ev · Alınacaklar",
@@ -51,17 +53,44 @@
     "steps": {
       "add": {
         "title": "Programını ekle",
-        "text": "Ders, iş, spor; haftan bir kez girilir."
+        "text": "Ders, iş, spor; haftanı bir kez gir, her hafta tekrarlansın."
       },
       "find": {
         "title": "Ortak boşluğu bul",
         "text": "Uygulama herkesin boş olduğu saatleri gösterir."
       },
       "plan": {
-        "title": "Planla, oylayın",
+        "title": "Planla ya da ankete aç",
         "text": "Tek dokunuşla buluşma ya da tarih anketi."
       }
     }
+  },
+  "try": {
+    "eyebrow": "Kendin dene",
+    "title": "Ortak boşluğu birlikte bulalım",
+    "text": "Kimlerle buluşacağını seç; herkesin boş olduğu saatler yeşile döner. Birine dokun, buluşma hazır.",
+    "people": "Kimler gelsin?",
+    "me": "Sen",
+    "names": {
+      "a": "Deniz",
+      "b": "Elif",
+      "c": "Can"
+    },
+    "slots": {
+      "morning": "Sabah",
+      "afternoon": "Öğle",
+      "evening": "Akşam"
+    },
+    "free": "{n} ortak boşluk; birine dokun",
+    "none": "Bu grubun bu hafta ortak boşluğu yok. Birini çıkarmayı dene.",
+    "cell": "{day} {slot}",
+    "busy": "dolu",
+    "open": "boş, buluşma kur",
+    "planned": "Buluşma hazır: {when}",
+    "invited": "{people} davet edildi; yanıtlar burada görünecek.",
+    "reset": "Baştan dene",
+    "cta": "Bunu gerçek programlarınla yap",
+    "note": "Bu küçük bir deneme; uygulamada programlar herkesin gerçek haftasıyla dolar ve kimin neyi göreceğini sen seçersin."
   },
   "who": {
     "eyebrow": "Kimlerle",
@@ -84,7 +113,7 @@
         "label": "Ekibinle",
         "hash": "kimlerle-ekip",
         "title": "Kim neyi bitirdi, hep belli",
-        "text": "Projeye ekibini ekle, işleri ata. Biten iş kontrole gider, başkan onaylar. Pano, çizelge ve \"Bana atanan işler\" hazır.",
+        "text": "Projeye ekibini ekle, yöntemini seç, işleri ata. Biten iş kontrole gider, başkan onaylar. Pano, çizelge ve rehberli analiz araçları hazır.",
         "chips": [
           "Ödev ve okul projeleri",
           "Kulüp ve gönüllü ekipler",
@@ -95,10 +124,10 @@
         "label": "Ailenle",
         "hash": "kimlerle-aile",
         "title": "Evin işleri paylaşılsın",
-        "text": "Alınacaklar listesi, sırayla yapılan işler, hatırlatmalar. Kim üstlendi, kim bitirdi, herkes görür.",
+        "text": "Alınacaklar, ev işleri, ilacın saati. Gündem'de kim üstlendi, kim bitirdi, herkes görür; saati gelince telefon hatırlatır.",
         "chips": [
           "Alınacaklar",
-          "Ev işleri",
+          "Düzenli işler ve ilaç",
           "Ev arkadaşları"
         ]
       },
@@ -106,7 +135,7 @@
         "label": "Sevgilinle",
         "hash": "kimlerle-sevgili",
         "title": "İkinizin ortak defteri",
-        "text": "Ortak yapılacaklar ve planlar; üstüne yalnızca ikinize özel bir alan: anılar, oyunlar, günün sorusu.",
+        "text": "Ortak planlar ve günlük işler; üstüne yalnızca ikinize özel bir alan: anılar, oyunlar, günün sorusu.",
         "chips": [
           "Bunu mu, bunu mu?",
           "Anılar",
@@ -121,78 +150,115 @@
     "text": "Altı alan, tek uygulama. Hangisini merak ediyorsan oradan başla.",
     "cards": {
       "schedule": "Herkesin haftası yan yana, ortak boşluk tek dokunuşla.",
-      "plans": "Buluşma, anket, yapılacak ve görev.",
-      "projects": "Rol, iş atama, onay, pano ve çizelge.",
+      "plans": "Buluşmalar, tarih anketleri ve günlük işlerin.",
+      "projects": "Yöntem, rehberli araçlar, pano, onay ve çizelge.",
       "chat": "Planı sohbette etiketle, herkes aynı şeyi konuşsun.",
       "couples": "Ortak planlar, anılar, oyunlar; ikinize özel.",
       "trust": "Kim neyi görür, sen seçersin."
     }
   },
+  "fresh": {
+    "eyebrow": "Yeni gelenler",
+    "title": "Son sürümlerde neler geldi?",
+    "text": "Uygulama sürekli büyüyor. Son eklenenlerden en sevdiklerimiz:",
+    "more": "Ayrıntılar",
+    "items": {
+      "tools": {
+        "label": "Rehberli proje araçları",
+        "title": "Fikrinden plana, soru soru",
+        "text": "Persona, SWOT → TOWS, Lean Canvas, MVP kapsamı ve beş araç daha. Yöntemini sen seçersin; uygulama her aracın ne işe yaradığını anlatır."
+      },
+      "export": {
+        "label": "Yapay zekâ için dışa aktarma",
+        "title": "Planını tek dosyayla yapay zekâya ver",
+        "text": "Projeyi bir Markdown belgesine çevir; istersen kişi adları rollere dönüşür, eksik ve açık sorular listelenir."
+      },
+      "live": {
+        "label": "Canlı buluşma",
+        "title": "Buluşma başladı, kim geldi?",
+        "text": "Geçen süre, kalan zaman ve gelenler herkesin ekranında. Uzarsa +30 dk, bitince \"Bitir\"."
+      },
+      "agenda": {
+        "label": "Gündem",
+        "title": "Günlük işlerin tek listede",
+        "text": "Alınacaklar, tarihli işler, ilaç gibi saatli düzenli işler ve kilona göre su hatırlatıcısı."
+      },
+      "search": {
+        "label": "Genel arama",
+        "title": "Her şeyi tek aramayla bul",
+        "text": "Kişi, buluşma, proje, iş numarası, sayfa ve Gündem; aksan ve büyük harf fark etmez."
+      }
+    }
+  },
   "pricing": {
     "eyebrow": "Paketler",
-    "title": "Bugün her şey ücretsiz. Pro, aramalarla geliyor.",
-    "text": "Program, planlar, projeler, sevgili alanı ve mesajlaşma ücretsiz kalır. Pro sesli ve görüntülü aramayı ekler; ister kendin için al, ister sevgilinle ya da ekibinle.",
+    "title": "Bugün her şey ücretsiz. Pro, aramalarla gelecek.",
+    "text": "Bugün uygulamada olan her şey ücretsiz ve ücretsiz kalacak. Pro yalnızca sesli ve görüntülü arama ekleyecek: kendin için al ya da aboneliği yakınlarınla paylaş.",
     "priceSoon": "Fiyat yakında",
     "free": "Ücretsiz",
     "now": "Şimdi",
     "plans": {
       "free": {
-        "name": "Normal",
+        "name": "Temel",
         "tagline": "Herkes için, bugünden",
         "seats": "Herkes",
         "features": [
-          "Program ve ortak boş zaman",
-          "Buluşmalar, anketler, yapılacaklar ve görevler",
-          "Projeler: pano, çizelge ve onay",
-          "Birebir ve grup sohbeti",
-          "Sevgili alanı, anılar ve oyunlar"
+          "Program, ortak boş zaman ve buluşmalar",
+          "Gündem: işler, listeler, düzenli işler",
+          "Projeler: pano, çizelge, rehberli araçlar",
+          "Yapay zekâ için dışa aktarma",
+          "Sohbet ve sevgili alanı"
         ]
       },
       "pro": {
         "name": "Pro",
         "tagline": "Kendin için",
-        "seats": "1 kişi · 1 Pro üyelik",
+        "seats": "1 kişi",
         "features": [
-          "Normal'deki her şey",
+          "Temel'deki her şey",
           "Sesli arama",
           "Görüntülü arama"
         ]
       },
-      "couple": {
-        "name": "Couple",
-        "tagline": "Sen ve sevgilin",
-        "seats": "2 kişi · 2 Pro üyelik",
+      "duo": {
+        "name": "Pro İkili",
+        "tagline": "Sen ve bir yakının",
+        "seats": "2 kişi",
         "features": [
-          "İki kişilik Pro: biri alır, ikiniz de kullanırsınız",
-          "Sesli ve görüntülü arama ikinizde de",
-          "Uzaktayken bile yan yana"
+          "Biri alır, ikiniz de Pro olursunuz",
+          "Sevgilin, kardeşin ya da ev arkadaşın",
+          "Uzaktayken bile yüz yüze"
         ]
       },
-      "team": {
-        "name": "Team",
-        "tagline": "Ekibin, grubun, ailen",
-        "seats": "5 kişi · 5 Pro üyelik",
+      "group": {
+        "name": "Pro Grup",
+        "tagline": "Ailen ya da ekibin",
+        "seats": "5 kişiye kadar",
         "features": [
-          "Beş kişilik Pro, tek paket",
-          "Sesli ve görüntülü arama beş kişinin hepsinde",
-          "Arkadaş grubu, proje ekibi ya da aile için"
+          "Beş kişiye kadar Pro, tek abonelik",
+          "Sesli ve görüntülü arama herkeste",
+          "Aile, proje ekibi ya da arkadaş grubu için"
         ]
       }
     },
-    "note": "Fiyatlar Pro uygulamaya geldiğinde açıklanacak. Planlanıyor, değişebilir.",
-    "notify": "Pro gelince haber ver",
-    "notifySubject": "Pro gelince haber ver"
+    "work": {
+      "title": "Ekipler ve freelancer'lar için",
+      "text": "Müşteri alanı, saat kaydı ve ekip alanı yol haritasında. Bunların ücretli olup olmayacağına henüz karar vermedik; karar verdiğimizde burada açıkça yazacağız.",
+      "link": "Yol haritasına bak"
+    },
+    "note": "Pro henüz uygulamada yok. Fiyatını, deneme süresini ve nasıl alınacağını Pro gelince duyuracağız; planlanıyor, değişebilir.",
+    "notify": "Pro gelince haber ver"
   },
   "soon": {
     "title": "Sırada ne var?",
     "items": [
-      "Sohbette çoklu fotoğraf ve galeri",
-      "Sesli ve görüntülü arama (Pro)",
-      "Grup sohbetinde anket",
-      "Yakınlarını bir bağlantıyla davet etme",
-      "Sevgilinle yeni oyunlar"
+      "Projeler için gelir-gider planı ve \"uygulamamı nasıl yaptırırım?\" rehberi",
+      "Gündem'de Yaklaşan görünümü ve düzenli işlerde seri",
+      "Tekrar eden buluşmalar; biten buluşmadan tek dokunuşla anıya",
+      "Sevgilinle yeni oyunlar",
+      "Sesli ve görüntülü arama (Pro)"
     ],
-    "text": "Uygulamaya gelecek küçük ama sevilecek eklemeler; her biri yakınlarınla plan yapmayı biraz daha kolaylaştırmak için."
+    "text": "Uygulamaya sırada gelecek eklemeler."
   },
   "web": {
     "eyebrow": "Yolda: web sürümü",
@@ -215,7 +281,6 @@
     },
     "note": "Planlanıyor; tarih ve kapsam değişebilir. Şu an uygulama yalnızca Android'de.",
     "notify": "Web gelince haber ver",
-    "notifySubject": "Web sürümü gelince haber ver",
     "mock": {
       "url": "yakin-cevrem.vercel.app",
       "title": "Bu hafta",

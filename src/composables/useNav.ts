@@ -11,7 +11,7 @@ export function useNav() {
   const otherLang = computed(() => (t.lang.value === 'tr' ? 'en' : 'tr'))
   const otherLangPath = computed(() => pathFor(route.meta.key, otherLang.value))
   const homePath = computed(() => pathFor('home', t.lang.value))
-  const downloadPath = computed(() => pathFor('home', t.lang.value, t('home.ids.download')))
+  const downloadPath = computed(() => pathFor('waitlist', t.lang.value))
 
   const topicLinks = computed(() =>
     topics.map((topic) => ({
@@ -25,5 +25,11 @@ export function useNav() {
     })),
   )
 
-  return { otherLang, otherLangPath, homePath, downloadPath, topicLinks }
+  // Erken katılım sayfası; ilgi alanı formda seçili gelir, kaynak listede hangi düğmeden gelindiğini söyler.
+  const waitlistFor = (interest: string, from: string) => ({
+    path: pathFor('waitlist', t.lang.value),
+    query: { interest, from },
+  })
+
+  return { otherLang, otherLangPath, homePath, downloadPath, topicLinks, waitlistFor }
 }

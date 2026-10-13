@@ -64,7 +64,7 @@ watch(open, (value) => document.documentElement.classList.toggle('overflow-hidde
           :to="app.playStoreUrl ? undefined : downloadPath"
           class="rounded-full bg-brand px-4 py-2 text-sm font-bold text-white shadow-[0_8px_20px_-10px_var(--brand)] transition duration-500 ease-[var(--ease-soft)] hover:-translate-y-0.5 hover:shadow-[0_14px_26px_-12px_var(--brand)]"
         >
-          {{ t('nav.download') }}
+          {{ app.playStoreUrl ? t('nav.download') : t('nav.waitlist') }}
         </component>
         <button
           type="button"

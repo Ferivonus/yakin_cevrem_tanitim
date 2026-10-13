@@ -2,8 +2,10 @@
 import HeroSection from '@/components/home/HeroSection.vue'
 import ProblemSection from '@/components/home/ProblemSection.vue'
 import HowItWorksSection from '@/components/home/HowItWorksSection.vue'
+import TryFreeTime from '@/components/home/TryFreeTime.vue'
 import WhoSection from '@/components/home/WhoSection.vue'
 import TopicsSection from '@/components/home/TopicsSection.vue'
+import FreshSection from '@/components/home/FreshSection.vue'
 import PricingSection from '@/components/home/PricingSection.vue'
 import SoonSection from '@/components/home/SoonSection.vue'
 import WebSection from '@/components/home/WebSection.vue'
@@ -20,8 +22,10 @@ useAppStructuredData()
   <HeroSection />
   <ProblemSection />
   <HowItWorksSection />
+  <TryFreeTime />
   <WhoSection />
   <TopicsSection />
+  <FreshSection />
   <PricingSection />
   <SoonSection />
   <WebSection />

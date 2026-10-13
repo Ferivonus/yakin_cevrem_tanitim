@@ -12,7 +12,7 @@
       "Hesap: e-posta adresin, adın, soyadın ve kullanıcı adın. Şifren giriş hizmetinde geri çevrilemez biçimde (özetlenmiş) saklanır; biz göremeyiz.",
       "Profil (hepsi isteğe bağlı): fotoğraf, hakkımda yazısı, doğum günü, telefon numarası, yaşadığın il, cinsiyet, ilgi alanları, okul ya da iş durumu, favoriler ve sevgi dili sonucu. Her birinin kimlere görüneceğini Gizlilik ayarlarından seçersin; \"belirtmek istemiyorum\" seçeneği her zaman vardır.",
       "Bağlantılar: yakınların, sevgili bağlantın, paylaşım izinlerin, engellediğin kişiler ve koyduğun lakaplar (lakapları yalnızca sen görürsün).",
-      "Planlar ve içerik: haftalık program, anlık durum, buluşmalar ve anket oyları, görevler, yapılacaklar, projeler (işler, sayfalar, görseller ve notlar) ve yorumlar.",
+      "Planlar ve içerik: haftalık program, anlık durum, buluşmalar ve anket oyları, görevler, yapılacaklar, projeler (işler, sayfalar, görseller, notlar, yöntem kararları ve analiz araçlarının cevapları), kişisel çalışma standartların ve yorumlar.",
       "Mesajlar: birebir ve grup mesajların, gönderdiğin fotoğraflar ve tepkiler. Mesaj metinleri sunucuda AES-256 ile şifreli saklanır.",
       "Sevgili alanı: anılar ve fotoğrafları, zaman kapsülleri, fotoğraf günleri, oyunlar, ortak listeler ve planlar, günün sorusu cevapları ve ilişki tarihleri.",
       "Cihaz ve teknik bilgiler: bildirim (push) anahtarı, bildirim önizlemesini şifrelemek için cihazında üretilen anahtar, uygulama sürümü ve son görülme zamanı.",

@@ -6,8 +6,10 @@
   "website": {
     "title": "This website",
     "paragraphs": [
-      "This website doesn't use cookies, contains no advertising or tracking tools and collects no data through forms.",
-      "A small entry is kept in your browser only to remember that you closed the language suggestion bar; it is never sent to us.",
+      "This website doesn't use cookies and contains no advertising or tracking tools.",
+      "If you join the early access list, we keep your email address, the topics you chose, your language and the date you joined. We use them only to tell you about those topics and never share them. The address is stored in Yakın Çevrem's database (Supabase) and is not linked to an app account.",
+      "To leave the list or have your address deleted, just write to {email}; we'll do it within 30 days at the latest.",
+      "Your browser keeps small records only to remember that you closed the language suggestion and which theme you chose; they are never sent to us.",
       "The hosting provider (Vercel) may keep short-lived server logs for security and operation."
     ]
   },

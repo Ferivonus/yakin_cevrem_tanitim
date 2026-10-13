@@ -6,13 +6,15 @@
     "pricing": "pricing",
     "faq": "faq",
     "download": "download",
-    "web": "web"
+    "web": "web",
+    "try": "try",
+    "fresh": "new"
   },
   "hero": {
     "eyebrow": "For friends, teams, families and couples",
     "title": "Your schedule, your plans and your people, in one place.",
     "titleMark": "in one place.",
-    "text": "Share your week, find free time together, set up the meetup, split the work. All right next to the chat where you talk about it.",
+    "text": "Share your week, find free time together, set up the meetup, split the work. All right next to the chat you're already having.",
     "ctaSecondary": "What's inside?",
     "sticker": {
       "listTitle": "Flat · Shopping",
@@ -51,17 +53,44 @@
     "steps": {
       "add": {
         "title": "Add your week",
-        "text": "Classes, work, gym; enter it once."
+        "text": "Classes, work, gym; enter your week once and it repeats."
       },
       "find": {
         "title": "Find the gap",
         "text": "See when everyone is free."
       },
       "plan": {
-        "title": "Plan it, vote on it",
+        "title": "Plan it or put it to a vote",
         "text": "One tap for a meetup or a date poll."
       }
     }
+  },
+  "try": {
+    "eyebrow": "Try it",
+    "title": "Let's find a free slot together",
+    "text": "Pick who's coming; the times everyone is free turn green. Tap one and the meetup is set.",
+    "people": "Who's coming?",
+    "me": "You",
+    "names": {
+      "a": "Noah",
+      "b": "Olivia",
+      "c": "Mia"
+    },
+    "slots": {
+      "morning": "Morning",
+      "afternoon": "Midday",
+      "evening": "Evening"
+    },
+    "free": "{n} shared free slots; tap one",
+    "none": "This group has no shared free time this week. Try leaving someone out.",
+    "cell": "{day} {slot}",
+    "busy": "busy",
+    "open": "free, set up a meetup",
+    "planned": "Meetup set: {when}",
+    "invited": "{people} invited; their replies will show up here.",
+    "reset": "Start over",
+    "cta": "Do this with your real schedules",
+    "note": "This is a small demo; in the app, schedules fill up with everyone's real week, and you choose who sees what."
   },
   "who": {
     "eyebrow": "Who with",
@@ -84,7 +113,7 @@
         "label": "With your team",
         "hash": "who-team",
         "title": "Always know who did what",
-        "text": "Add your team, assign the work. Finished work goes for review and the lead approves. Board, timeline and \"Assigned to me\" included.",
+        "text": "Add your team to a project, pick your method, assign the work. Finished work goes for review and the lead approves it. Board, timeline and guided planning tools are ready.",
         "chips": [
           "School assignments",
           "Clubs and volunteer groups",
@@ -95,10 +124,10 @@
         "label": "With family",
         "hash": "who-family",
         "title": "Share the household load",
-        "text": "Shopping lists, chores, reminders. Everyone sees who took what and who's done.",
+        "text": "Groceries, chores, medicine time. In the Agenda everyone sees who took what and who finished it; your phone reminds you when it's time.",
         "chips": [
-          "Shopping lists",
-          "Chores",
+          "Groceries",
+          "Routines and medicine",
           "Flatmates"
         ]
       },
@@ -106,7 +135,7 @@
         "label": "With your partner",
         "hash": "who-partner",
         "title": "Your shared notebook",
-        "text": "Shared to-dos and plans, plus a space just for you two: memories, games, a daily question.",
+        "text": "Shared plans and everyday tasks; plus a space just for you two: memories, games, the daily question.",
         "chips": [
           "This or that?",
           "Memories",
@@ -121,78 +150,115 @@
     "text": "Six areas, one app. Start with whichever you're curious about.",
     "cards": {
       "schedule": "Everyone's week side by side, free time in one tap.",
-      "plans": "Meetups, polls, to-dos and tasks.",
-      "projects": "Roles, assignments, approvals, board and timeline.",
+      "plans": "Meetups, date polls and your everyday tasks.",
+      "projects": "Method, guided tools, board, approvals and timeline.",
       "chat": "Tag the plan in chat so everyone's on the same page.",
       "couples": "Shared plans, memories and games, just for you two.",
       "trust": "You choose who sees what."
     }
   },
+  "fresh": {
+    "eyebrow": "Just arrived",
+    "title": "What's new in recent versions?",
+    "text": "The app keeps growing. A few of our favourite recent additions:",
+    "more": "Details",
+    "items": {
+      "tools": {
+        "label": "Guided project tools",
+        "title": "From idea to plan, question by question",
+        "text": "Persona, SWOT → TOWS, Lean Canvas, MVP scope and five more. You choose the method; the app explains what each tool is for."
+      },
+      "export": {
+        "label": "Export for AI",
+        "title": "Hand your plan to an AI in one file",
+        "text": "Turn the project into a Markdown document; names can become roles, and gaps and open questions are listed."
+      },
+      "live": {
+        "label": "Live meetups",
+        "title": "It's started; who's here?",
+        "text": "Time elapsed, time left and who has arrived, on everyone's screen. Running late? +30 min. Done? \"End\"."
+      },
+      "agenda": {
+        "label": "Agenda",
+        "title": "Your everyday tasks in one list",
+        "text": "Groceries, dated tasks, timed routines like medicine, and a water reminder based on your weight."
+      },
+      "search": {
+        "label": "Search",
+        "title": "Find anything with one search",
+        "text": "People, meetups, projects, task numbers, pages and the Agenda; accents and capitals don't matter."
+      }
+    }
+  },
   "pricing": {
-    "eyebrow": "Plans",
-    "title": "Everything is free today. Pro is coming with calls.",
-    "text": "Schedule, plans, projects, the couple space and messaging stay free. Pro adds voice and video calls; get it for yourself, with your partner or with your team.",
+    "eyebrow": "Pricing",
+    "title": "Everything is free today. Pro will add calls.",
+    "text": "Everything in the app today is free and will stay free. Pro will only add voice and video calls: get it for yourself or share the subscription with your people.",
     "priceSoon": "Price coming soon",
     "free": "Free",
     "now": "Now",
     "plans": {
       "free": {
-        "name": "Normal",
-        "tagline": "For everyone, from today",
+        "name": "Basic",
+        "tagline": "For everyone, today",
         "seats": "Everyone",
         "features": [
-          "Schedules and free time together",
-          "Meetups, polls, to-dos and tasks",
-          "Projects: board, timeline and approvals",
-          "One-to-one and group chat",
-          "Couple space, memories and games"
+          "Schedule, shared free time and meetups",
+          "Agenda: tasks, lists, routines",
+          "Projects: board, timeline, guided tools",
+          "Export for AI",
+          "Chat and the couple space"
         ]
       },
       "pro": {
         "name": "Pro",
-        "tagline": "For yourself",
-        "seats": "1 person · 1 Pro membership",
+        "tagline": "Just for you",
+        "seats": "1 person",
         "features": [
-          "Everything in Normal",
+          "Everything in Basic",
           "Voice calls",
           "Video calls"
         ]
       },
-      "couple": {
-        "name": "Couple",
-        "tagline": "You and your partner",
-        "seats": "2 people · 2 Pro memberships",
+      "duo": {
+        "name": "Pro Duo",
+        "tagline": "You and someone close",
+        "seats": "2 people",
         "features": [
-          "Pro for two: one of you buys, both of you use it",
-          "Voice and video calls for both of you",
-          "Close even when you're apart"
+          "One of you buys, both of you get Pro",
+          "Your partner, sibling or flatmate",
+          "Face to face, even when apart"
         ]
       },
-      "team": {
-        "name": "Team",
-        "tagline": "Your team, group or family",
-        "seats": "5 people · 5 Pro memberships",
+      "group": {
+        "name": "Pro Group",
+        "tagline": "Your family or team",
+        "seats": "Up to 5 people",
         "features": [
-          "Pro for five, in one plan",
-          "Voice and video calls for all five",
-          "For a friend group, a project team or a family"
+          "Pro for up to five people, one subscription",
+          "Voice and video calls for everyone",
+          "For a family, a project team or a group of friends"
         ]
       }
     },
-    "note": "Prices will be announced when Pro arrives in the app. Planned, subject to change.",
-    "notify": "Tell me when Pro arrives",
-    "notifySubject": "Tell me when Pro arrives"
+    "work": {
+      "title": "For teams and freelancers",
+      "text": "A client space, time tracking and a team workspace are on the roadmap. We haven't decided yet whether they will be paid; when we do, we'll say so clearly here.",
+      "link": "See the roadmap"
+    },
+    "note": "Pro isn't in the app yet. We'll announce the price, trial and how to get it when Pro arrives; planned, may change.",
+    "notify": "Tell me when Pro arrives"
   },
   "soon": {
     "title": "What's next?",
     "items": [
-      "Multiple photos and a gallery in chat",
-      "Voice and video calls (Pro)",
-      "Polls in group chats",
-      "Invite your people with a link",
-      "New games with your partner"
+      "Income and expense planning for projects, and a \"how do I get my app built?\" guide",
+      "An Upcoming view in the Agenda and streaks for routines",
+      "Recurring meetups; turn a finished meetup into a memory in one tap",
+      "New games with your partner",
+      "Voice and video calls (Pro)"
     ],
-    "text": "Small additions on their way to the app, each one to make planning with your people a little easier."
+    "text": "What's coming to the app next."
   },
   "web": {
     "eyebrow": "On the way: the web version",
@@ -215,7 +281,6 @@
     },
     "note": "Planned; timing and scope may change. Right now the app is Android-only.",
     "notify": "Tell me when web is ready",
-    "notifySubject": "Tell me when the web version is ready",
     "mock": {
       "url": "yakin-cevrem.vercel.app",
       "title": "This week",

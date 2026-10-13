@@ -7,6 +7,8 @@ import { dateLocale } from '@/i18n/locales'
 
 const t = useT()
 const done = 2
+// Gelir planı henüz uygulamada yok; diğer adımların araçları var.
+const soonStep = 3
 const share = 0.6
 const percent = computed(() => new Intl.NumberFormat(dateLocale[t.lang.value], { style: 'percent' }).format(share))
 </script>
@@ -24,7 +26,7 @@ const percent = computed(() => new Intl.NumberFormat(dateLocale[t.lang.value], {
           </span>
           {{ t('roadmap.mock.project') }}
         </span>
-        <span class="rounded-full bg-sun-soft px-2.5 py-0.5 text-[0.6875rem] font-bold text-sun-ink">{{ t('roadmap.mock.soon') }}</span>
+        <span class="rounded-full bg-success/15 px-2.5 py-0.5 text-[0.6875rem] font-bold text-success">{{ t('roadmap.mock.today') }}</span>
       </div>
 
       <div class="mt-5">
@@ -52,6 +54,9 @@ const percent = computed(() => new Intl.NumberFormat(dateLocale[t.lang.value], {
           </span>
           <span class="flex-1 text-sm font-semibold" :class="index > done ? 'text-muted' : ''">{{ step }}</span>
           <span v-if="index === done" class="text-xs font-bold text-brand-ink">{{ t('roadmap.mock.now') }}</span>
+          <span v-else-if="index === soonStep" class="rounded-full bg-sun-soft px-2 py-0.5 text-[0.6875rem] font-bold text-sun-ink">
+            {{ t('roadmap.mock.soon') }}
+          </span>
         </li>
       </ol>
 

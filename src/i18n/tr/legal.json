@@ -6,8 +6,10 @@
   "website": {
     "title": "Bu web sitesi",
     "paragraphs": [
-      "Bu web sitesi çerez kullanmaz, reklam ya da izleme aracı içermez ve form aracılığıyla veri toplamaz.",
-      "Yalnızca dil önerisi şeridini kapattığını hatırlamak için tarayıcında küçük bir kayıt tutulur; bu kayıt bize gönderilmez.",
+      "Bu web sitesi çerez kullanmaz, reklam ya da izleme aracı içermez.",
+      "Erken katılım listesine yazılırsan e-posta adresini, seçtiğin konuları, dilini ve kayıt tarihini saklarız. Bunları yalnızca o konularda sana haber vermek için kullanırız, kimseyle paylaşmayız. Adres Yakın Çevrem'in veritabanında (Supabase) tutulur ve uygulamadaki bir hesaba bağlanmaz.",
+      "Listeden çıkmak ya da adresini sildirmek için {email} adresine yazman yeterli; talebini en geç 30 gün içinde yerine getiririz.",
+      "Yalnızca dil önerisi şeridini kapattığını ve tema seçimini hatırlamak için tarayıcında küçük kayıtlar tutulur; bunlar bize gönderilmez.",
       "Sitenin barındırıldığı hizmet sağlayıcı (Vercel), güvenlik ve işletim amacıyla kısa süreli sunucu kayıtları tutabilir."
     ]
   },

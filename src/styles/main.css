@@ -98,6 +98,15 @@
   }
 }
 
+/* Yatay kaydırılan şeritlerde (sekmeler, adımlar) çubuk gizli; kaydırma ve klavye çalışır. */
+@utility no-scrollbar {
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
 @utility section-y {
   padding-block: clamp(4rem, 9vw, 7.5rem);
 }
@@ -201,8 +210,8 @@
 
 .reveal-ready {
   opacity: 0;
-  transform: translateY(26px);
-  filter: blur(6px);
+  transform: translateY(20px);
+  filter: blur(4px);
 }
 
 .reveal-ready.is-visible {
@@ -210,9 +219,9 @@
   transform: none;
   filter: none;
   transition:
-    opacity 1s var(--ease-soft),
-    transform 1.2s var(--ease-soft),
-    filter 1s var(--ease-soft);
+    opacity 0.75s var(--ease-soft),
+    transform 0.95s var(--ease-soft),
+    filter 0.65s var(--ease-soft);
   transition-delay: var(--reveal-delay, 0ms);
 }
 

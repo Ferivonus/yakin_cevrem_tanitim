@@ -19,7 +19,7 @@ const steps: { id: 'add' | 'find' | 'plan'; shot: ShotId }[] = [
       <SectionHeading v-reveal center :eyebrow="t('home.how.eyebrow')" :title="t('home.how.title')" />
 
       <ol
-        class="-mx-4 mt-12 flex snap-x snap-mandatory gap-4 overflow-x-auto px-4 pb-4 sm:mx-0 sm:grid sm:grid-cols-3 sm:gap-6 sm:overflow-visible sm:px-0 sm:pb-0 lg:gap-10"
+        class="-mx-4 mt-12 flex snap-x snap-mandatory gap-4 no-scrollbar overflow-x-auto px-4 pb-4 sm:mx-0 sm:grid sm:grid-cols-3 sm:gap-6 sm:overflow-visible sm:px-0 sm:pb-0 lg:gap-10"
       >
         <li
           v-for="(step, index) in steps"

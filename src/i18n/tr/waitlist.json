@@ -1,0 +1,55 @@
+{
+  "eyebrow": "Erken katılım",
+  "title": "Haberi ilk sen al.",
+  "titleMark": "ilk sen al.",
+  "text": "Uygulama Google Play'e çıktığında, Pro ve web sürümü geldiğinde ya da yeni araçları denemek için yer açıldığında sana haber verelim. Yalnızca seçtiğin konularda yazarız.",
+  "form": {
+    "title": "Listeye katıl",
+    "email": "E-posta adresin",
+    "placeholder": "ornek@eposta.com",
+    "interests": "Neler için haber almak istersin?",
+    "options": {
+      "app": "Uygulama Google Play'e çıkınca",
+      "pro": "Pro: sesli ve görüntülü arama",
+      "web": "Web sürümü",
+      "projects": "Yeni proje araçları: gelir planı, müşteri alanı",
+      "pilot": "Yeni özellikleri erken denemek istiyorum"
+    },
+    "consent": "Bu adresi yalnızca seçtiğim konularda haber vermek için kullanmanızı kabul ediyorum; istediğim zaman sildirebilirim.",
+    "privacy": "Bu sitenin gizlilik notu",
+    "submit": "Listeye katıl",
+    "sending": "Gönderiliyor",
+    "note": "Adresini kimseyle paylaşmayız, reklam göndermeyiz."
+  },
+  "errors": {
+    "email": "Geçerli bir e-posta adresi yaz.",
+    "consent": "Devam etmek için onay kutusunu işaretle.",
+    "network": "Şu an gönderemedik. Biraz sonra yeniden dene ya da bize e-postayla yaz."
+  },
+  "success": {
+    "title": "Listedesin!",
+    "text": "Seçtiğin konularda bir gelişme olunca {email} adresine yazacağız. O zamana kadar uygulamanın neler yaptığına göz atabilirsin.",
+    "again": "Başka bir adres ekle",
+    "explore": "Tüm özelliklere bak"
+  },
+  "perks": {
+    "title": "Listede olunca",
+    "items": {
+      "first": {
+        "title": "İlk sen duyarsın",
+        "text": "Google Play'e çıkış, Pro ve web sürümü; hazır olduğu gün haber gelir."
+      },
+      "pilot": {
+        "title": "Erken denersin",
+        "text": "Gelir planı ve müşteri alanı gibi yeni araçları önce küçük bir grupla deniyoruz."
+      },
+      "voice": {
+        "title": "Fikrin yön verir",
+        "text": "Gelen e-postaya yanıt verip ne istediğini yazabilirsin; yol haritası bununla şekilleniyor."
+      }
+    }
+  },
+  "fallback": "Form şu an açık değil. E-postayla yazarak da listeye katılabilirsin.",
+  "mailSubject": "Erken katılım listesi",
+  "remove": "Listeden çıkmak istersen {email} adresine yazman yeterli."
+}

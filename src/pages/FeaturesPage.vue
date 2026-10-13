@@ -10,8 +10,10 @@ import { useT } from '@/i18n/useT'
 import { usePageHead } from '@/composables/usePageHead'
 import { featureAreas } from '@/config/features'
 import { pathFor } from '@/router/pages'
+import type { ShotId } from '@/config/shots'
 
 const t = useT()
+const personalShots: ShotId[] = ['33', '27']
 usePageHead()
 </script>
 
@@ -33,6 +35,7 @@ usePageHead()
       </nav>
 
       <div class="mt-6 flex flex-col gap-2 text-sm text-muted sm:flex-row sm:gap-6">
+        <p class="flex items-center gap-2"><AppBadge status="new" /> {{ t('features.page.legendNew') }}</p>
         <p class="flex items-center gap-2"><AppBadge status="soon" /> {{ t('features.page.legendSoon') }}</p>
         <p class="flex items-center gap-2"><AppBadge status="pro" /> {{ t('features.page.legendPro') }}</p>
         <RouterLink
@@ -72,7 +75,9 @@ usePageHead()
 
           <div class="mt-4" :class="area.id === 'personal' ? 'grid items-start gap-8 md:grid-cols-[1fr_12rem]' : ''">
             <FeatureList :items="area.items" />
-            <PhoneFrame v-if="area.id === 'personal'" shot="27" caption sizes="200px" class="mx-auto w-44 md:w-full" />
+            <div v-if="area.id === 'personal'" class="flex justify-center gap-4 md:flex-col md:gap-8">
+              <PhoneFrame v-for="shot in personalShots" :key="shot" :shot="shot" caption sizes="200px" class="w-1/2 max-w-40 md:w-full md:max-w-none" />
+            </div>
           </div>
 
           <RouterLink
@@ -87,5 +92,5 @@ usePageHead()
       </div>
     </div>
   </div>
-  <FinalCta />
+  <FinalCta hide-features />
 </template>

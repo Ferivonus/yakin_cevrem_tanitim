@@ -7,19 +7,19 @@
     },
     "home": {
       "title": "Yakın Çevrem · Ortak program ve plan yapma uygulaması",
-      "description": "Arkadaşlarınla, ekibinle, ailenle ve sevgilinle ortak program, boş zaman, buluşma, yapılacaklar, görevler, projeler ve sohbet tek uygulamada. Ücretsiz."
+      "description": "Arkadaşlarınla, ekibinle, ailenle ve sevgilinle ortak program, boş zaman, buluşma, Gündem, projeler ve sohbet tek uygulamada. Ücretsiz."
     },
     "schedule": {
       "title": "Ortak boş zaman bulma ve paylaşılan program · Yakın Çevrem",
       "description": "Haftalık programını paylaş, arkadaşlarınla ortak boş zamanı uygulama bulsun, tek dokunuşla buluşma ayarla. Kimin ne göreceğini sen seç."
     },
     "plans": {
-      "title": "Arkadaşlarla plan yapma ve ortak yapılacaklar · Yakın Çevrem",
-      "description": "Tarih anketiyle buluşma ayarla, ortak yapılacaklar listesini paylaş, hatırlatmalı görevlerle kimin ne yapacağı belli olsun."
+      "title": "Arkadaşlarla plan yapma ve ortak Gündem · Yakın Çevrem",
+      "description": "Tarih anketiyle buluşma ayarla, buluşmayı canlı takip et; alınacakları, ev işlerini ve ilaç saatini Gündem'de paylaş."
     },
     "projects": {
       "title": "Proje ekibi görev takibi: Kanban ve Gantt · Yakın Çevrem",
-      "description": "Küçük ekipler için görev atama, kontrole gönderme ve onay; Kanban panosu, Gantt çizelgesi ve kritik yol. Okulda, işte ya da arkadaşlarınla."
+      "description": "Küçük ekipler için yöntem seçimi, rehberli analiz araçları (SWOT, Lean Canvas, MVP), görev atama ve onay; Kanban panosu, Gantt çizelgesi, kritik yol ve yapay zekâ için dışa aktarma."
     },
     "chat": {
       "title": "Grup sohbetinde plan yapma · Yakın Çevrem",
@@ -35,15 +35,19 @@
     },
     "features": {
       "title": "Tüm özellikler: program, planlar, projeler · Yakın Çevrem",
-      "description": "Ortak program, boş zaman bulma, buluşma anketleri, ortak yapılacaklar, görevler, projeler, şifreli saklanan sohbet ve sevgili alanı; hepsi tek listede."
+      "description": "Ortak program, boş zaman bulma, buluşma anketleri, canlı buluşma, Gündem, projeler ve rehberli araçlar, şifreli saklanan sohbet ve sevgili alanı; hepsi tek listede."
     },
     "roadmap": {
       "title": "Yol haritası: sırada ne var? · Yakın Çevrem",
-      "description": "Rehberli iş planı araçları, gelir planı, yapay zekâya verilebilir plan dosyası, web ve Windows uygulaması, müşterinle paylaşılan proje alanı. Yakın Çevrem'de neler planlanıyor?"
+      "description": "Gelir planı, web ve Windows uygulaması, müşterinle paylaşılan proje alanı, saat kaydı. Yakın Çevrem'de neler planlanıyor?"
     },
     "faq": {
       "title": "Sık sorulan sorular · Yakın Çevrem",
       "description": "Yakın Çevrem ücretsiz mi, iPhone'da var mı, programımı kim görür, mesajlarım güvende mi? Merak edilenlerin cevapları."
+    },
+    "waitlist": {
+      "title": "Erken katılım listesi · Yakın Çevrem",
+      "description": "Yakın Çevrem Google Play'e çıktığında, Pro ve web sürümü geldiğinde ilk sen duy. Erken katılım listesine e-postanla yazıl."
     },
     "privacy": {
       "title": "Gizlilik politikası · Yakın Çevrem",
@@ -84,24 +88,27 @@
     "skip": "İçeriğe geç",
     "hint": {
       "schedule": "Ortak boş zamanı bul",
-      "plans": "Buluşma, yapılacak, görev",
+      "plans": "Buluşma ve Gündem",
       "projects": "Ekibinle iş dağıt",
       "chat": "Planı konuşarak yap",
       "couples": "İkinize özel alan",
       "trust": "Kim neyi görür"
     },
     "themeLight": "Aydınlık temaya geç",
-    "themeDark": "Karanlık temaya geç"
+    "themeDark": "Karanlık temaya geç",
+    "waitlist": "Erken katıl"
   },
   "store": {
     "get": "Google Play'den indir",
     "soon": "Yakında Google Play'de",
     "platform": "Android uygulaması",
-    "note": "Ücretsiz · Türkçe ve İngilizce · Android"
+    "note": "Ücretsiz · Türkçe ve İngilizce · Android",
+    "notify": "Çıkınca haber al"
   },
   "badge": {
     "soon": "Yakında",
-    "pro": "Pro"
+    "pro": "Pro",
+    "new": "Yeni"
   },
   "common": {
     "soonHint": "Planlanıyor, değişebilir.",
@@ -113,7 +120,8 @@
     "related": "Merak edilenler",
     "everything": "Bu alanda her şey",
     "comingSoon": "Yolda olanlar",
-    "backHome": "Ana sayfaya dön"
+    "backHome": "Ana sayfaya dön",
+    "inThisPage": "Bu sayfada"
   },
   "audience": {
     "everyone": "Herkes",
@@ -134,7 +142,8 @@
     "deleteAccount": "Hesap silme",
     "contact": "İletişim",
     "madeIn": "Türkiye'de yapıldı.",
-    "copyright": "© 2026 Yakın Çevrem"
+    "copyright": "© 2026 Yakın Çevrem",
+    "waitlist": "Erken katılım listesi"
   },
   "langHint": {
     "text": "This site is also available in English.",
@@ -168,12 +177,16 @@
       "caption": "Cuma mı cumartesi mi? Herkes oylasın."
     },
     "06": {
-      "alt": "Paylaşılan yapılacaklar listesi ve ilerleme",
-      "caption": "Ortak liste, kim ne yaptı belli."
+      "alt": "Gündem'in Bugün görünümü: ilaç saatleri ve paylaşılan alışveriş listesi",
+      "caption": "Bugün ne var, kim ne yaptı; tek listede."
     },
     "07": {
-      "alt": "Tarihli ve öncelikli görevler",
-      "caption": "Tarihi gelen işi telefonun hatırlatır."
+      "alt": "Gündem'de saatli düzenli işler: vitamin ve spor",
+      "caption": "Düzenli işler saatinde hatırlatılır."
+    },
+    "09": {
+      "alt": "Projenin genel bakışı: ilerleme ve seçilen Kanban yöntemiyle gerekçesi",
+      "caption": "Yöntemini sen seçersin, gerekçen kayıtlı kalır."
     },
     "10": {
       "alt": "Proje panosunda yapılacak işler ve bağımlılıklar",
@@ -228,8 +241,28 @@
       "caption": "Sana göre ayarla."
     },
     "28": {
-      "alt": "Ana sayfada yakınlar, yaklaşan doğum günü ve buluşmalar",
+      "alt": "Ana sayfada bugünün programı ve Gündem'i",
       "caption": "Yakınların, planların, bugünün; tek ekranda."
+    },
+    "29": {
+      "alt": "Projenin Araçlar sayfası: iş planı hazırlığı ve aşamalar",
+      "caption": "Hangi aracı kullanacağına sen karar verirsin."
+    },
+    "30": {
+      "alt": "SWOT → TOWS aracında tehditler ve SWOT maddelerine bağlı stratejiler",
+      "caption": "SWOT'tan stratejiye, soru soru."
+    },
+    "31": {
+      "alt": "Projeyi yapay zekâ için Markdown olarak dışa aktarma ekranı",
+      "caption": "Planını tek bir dosyayla yapay zekâya ver."
+    },
+    "32": {
+      "alt": "Süren buluşmada geçen süre, kalan süre ve gelenler",
+      "caption": "Buluşma sürerken kimin geldiği belli."
+    },
+    "33": {
+      "alt": "Genel aramada \"sunum\" için buluşma, iş ve Gündem sonuçları",
+      "caption": "Her şeyi tek aramayla bul."
     }
   }
 }

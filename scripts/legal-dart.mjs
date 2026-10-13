@@ -1,7 +1,7 @@
 import { readFileSync } from 'node:fs'
 import { resolve } from 'node:path'
 
-export const appDir = resolve(process.env.APP_DIR ?? '../../yakin_cevrem')
+export const appDir = resolve(process.env.APP_DIR ?? '../..')
 export const docs = { privacy: 'legal_privacy.dart', terms: 'legal_terms.dart' }
 
 const placeholders = {
