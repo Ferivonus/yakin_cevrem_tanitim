@@ -44,19 +44,19 @@ public/               simgeler, paylaşım görselleri (og-*.png), robots.txt
 
 ## Sayfalar
 
-| Türkçe | İngilizce | İçerik |
-|---|---|---|
-| `/` | `/en` | Vitrin: nasıl çalışır, "Kendin dene" (ortak boşluk denemesi), kimlerle, neler var, yeni gelenler, paketler, sırada ne var, SSS |
-| `/program` | `/en/schedule` | Haftalık program, ortak boş zaman, yakınlar |
-| `/planlar` | `/en/plans` | Buluşmalar, anket, canlı buluşma, Gündem |
-| `/projeler` | `/en/projects` | Yöntem seçimi, rehberli araçlar, pano, onay, çizelge, yapay zekâ için dışa aktarma |
-| `/sohbet` | `/en/chat` | Sohbet, "hakkında konuş", bildirimler |
-| `/sevgilinle` | `/en/couples` | Sevgili alanı |
-| `/guven` | `/en/trust` | Gizlilik ve kontrol |
-| `/ozellikler` | `/en/features` | Bütün özellikler, durumlarıyla (var · yakında · Pro) |
-| `/yol-haritasi` | `/en/roadmap` | Gelecek aşamalar (tarihsiz) |
-| `/erken-katilim` | `/en/early-access` | Erken katılım listesi (e-posta formu) |
-| `/sss`, `/gizlilik`, `/kosullar`, `/hesap-silme` | `/en/faq`, `/en/privacy`, `/en/terms`, `/en/delete-account` | |
+| Türkçe                                           | İngilizce                                                   | İçerik                                                                                                                         |
+| ------------------------------------------------ | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| `/`                                              | `/en`                                                       | Vitrin: nasıl çalışır, "Kendin dene" (ortak boşluk denemesi), kimlerle, neler var, yeni gelenler, paketler, sırada ne var, SSS |
+| `/program`                                       | `/en/schedule`                                              | Haftalık program, ortak boş zaman, yakınlar                                                                                    |
+| `/planlar`                                       | `/en/plans`                                                 | Buluşmalar, anket, canlı buluşma, Gündem                                                                                       |
+| `/projeler`                                      | `/en/projects`                                              | Yöntem seçimi, rehberli araçlar, pano, onay, çizelge, yapay zekâ için dışa aktarma                                             |
+| `/sohbet`                                        | `/en/chat`                                                  | Sohbet, "hakkında konuş", bildirimler                                                                                          |
+| `/sevgilinle`                                    | `/en/couples`                                               | Sevgili alanı                                                                                                                  |
+| `/guven`                                         | `/en/trust`                                                 | Gizlilik ve kontrol                                                                                                            |
+| `/ozellikler`                                    | `/en/features`                                              | Bütün özellikler, durumlarıyla (var · yakında · Pro)                                                                           |
+| `/yol-haritasi`                                  | `/en/roadmap`                                               | Gelecek aşamalar (tarihsiz)                                                                                                    |
+| `/erken-katilim`                                 | `/en/early-access`                                          | Erken katılım listesi (e-posta formu)                                                                                          |
+| `/sss`, `/gizlilik`, `/kosullar`, `/hesap-silme` | `/en/faq`, `/en/privacy`, `/en/terms`, `/en/delete-account` |                                                                                                                                |
 
 ## İçerik kuralları
 
@@ -69,10 +69,10 @@ public/               simgeler, paylaşım görselleri (og-*.png), robots.txt
 
 Form, uygulamanın Supabase'indeki `join_waitlist` RPC'sine yazar (tablo `site_waitlist`; okuma kapalı, listeyi Supabase panelinden görürsün). Vercel → Project → Settings → Environment Variables:
 
-| Ad | Değer |
-|---|---|
-| `VITE_SUPABASE_URL` | Uygulamanın Supabase adresi (`https://<proje>.supabase.co`) |
-| `VITE_SUPABASE_PUBLISHABLE_KEY` | Uygulamanın kullandığı publishable (anon) anahtar; tarayıcıya açık olması güvenlidir, `service_role` anahtarı **asla** konmaz |
+| Ad                          | Değer                                                                                                                         |
+| --------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| `_SUPABASE_URL`             | Uygulamanın Supabase adresi (`https://<proje>.supabase.co`)                                                                   |
+| `_SUPABASE_PUBLISHABLE_KEY` | Uygulamanın kullandığı publishable (anon) anahtar; tarayıcıya açık olması güvenlidir, `service_role` anahtarı **asla** konmaz |
 
 Değişkenler boşsa sayfa formu göstermez, e-posta bağlantısına düşer. Listeyi görmek: Supabase → SQL Editor → `select * from site_waitlist order by created_at desc;`. Birini silmek: `delete from site_waitlist where email = '...';`. Not: uygulamanın `reset.sql`'i bu tabloyu da siler.
 
