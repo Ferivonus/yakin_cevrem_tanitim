@@ -289,6 +289,31 @@
   },
   "finalCta": {
     "title": "Bu hafta ne yapıyoruz? Artık tek yerde.",
-    "text": "Yakınların zaten orada. Planların da orada olsun."
+    "text": "Yakınların zaten orada. Planların da orada olsun.",
+    "points": [
+      "Bugün olan her şey ücretsiz ve ücretsiz kalacak",
+      "Türkçe ve İngilizce",
+      "Önce Android; web sürümü yolda"
+    ]
+  },
+  "marquee": {
+    "label": "Uygulamada bugün olanlardan bazıları",
+    "items": [
+      "Haftalık program",
+      "Ortak boş zaman",
+      "Tarih anketi",
+      "Canlı buluşma",
+      "Gündem",
+      "Düzenli işler",
+      "Kanban panosu",
+      "Gantt çizelgesi",
+      "SWOT → TOWS",
+      "Yapay zekâ için dışa aktarma",
+      "Grup sohbeti",
+      "Genel arama",
+      "Günün fotoğrafı",
+      "Ortak oyunlar",
+      "Kim neyi görür, sen seç"
+    ]
   }
 }

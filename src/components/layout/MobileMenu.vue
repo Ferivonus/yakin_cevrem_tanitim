@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { computed } from 'vue'
 import AppIcon from '@/components/common/AppIcon.vue'
 import ThemeToggle from './ThemeToggle.vue'
 import { useT } from '@/i18n/useT'
@@ -9,10 +10,15 @@ import { pathFor } from '@/router/pages'
 const t = useT()
 const route = useRoute()
 const { otherLang, otherLangPath, roadmapPath, topicLinks } = useNav()
+
+const icons = { features: 'layers', pricing: 'sparkle', faq: 'chat', waitlist: 'bell' } as const
+const moreLinks = computed(() =>
+  (['features', 'pricing', 'faq', 'waitlist'] as const).map((key) => ({ key, icon: icons[key], to: pathFor(key, t.lang.value) })),
+)
 </script>
 
 <template>
-  <div class="fixed inset-x-0 top-16 bottom-0 z-40 overflow-y-auto border-t border-line bg-bg lg:hidden">
+  <div class="fixed inset-x-0 bottom-0 z-40 overflow-y-auto border-t border-line bg-bg lg:hidden">
     <nav :aria-label="t('nav.main')" class="wrap flex min-h-full flex-col py-4">
       <ul class="grid gap-1">
         <li v-for="link in topicLinks" :key="link.key">
@@ -49,15 +55,16 @@ const { otherLang, otherLangPath, roadmapPath, topicLinks } = useNav()
         </span>
         <AppIcon name="arrowRight" class="size-5 shrink-0 text-sun-ink" />
       </RouterLink>
-      <div class="mt-4 grid grid-cols-3 gap-2 border-t border-line pt-4 text-center text-sm font-semibold">
-        <RouterLink :to="pathFor('features', t.lang.value)" class="rounded-xl px-2 py-3 text-ink active:bg-surface-2">
-          {{ t('nav.features') }}
-        </RouterLink>
-        <RouterLink :to="pathFor('faq', t.lang.value)" class="rounded-xl px-2 py-3 text-ink active:bg-surface-2">
-          {{ t('nav.faq') }}
-        </RouterLink>
-        <RouterLink :to="pathFor('waitlist', t.lang.value)" class="rounded-xl px-2 py-3 text-ink active:bg-surface-2">
-          {{ t('nav.waitlist') }}
+      <div class="mt-4 grid grid-cols-2 gap-2 border-t border-line pt-4 text-sm font-semibold">
+        <RouterLink
+          v-for="link in moreLinks"
+          :key="link.key"
+          :to="link.to"
+          class="flex items-center gap-2.5 rounded-xl border border-line/70 px-3.5 py-3 text-ink active:bg-surface-2"
+          :aria-current="route.meta.key === link.key ? 'page' : undefined"
+        >
+          <AppIcon :name="link.icon" class="size-4.5 shrink-0 text-brand-ink" />
+          {{ t(`nav.${link.key}`) }}
         </RouterLink>
       </div>
       <div class="mt-auto flex items-center gap-2">

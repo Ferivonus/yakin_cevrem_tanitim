@@ -9,6 +9,7 @@ export const pagePaths = {
   couples: { tr: '/sevgilinle', en: '/en/couples' },
   trust: { tr: '/guven', en: '/en/trust' },
   features: { tr: '/ozellikler', en: '/en/features' },
+  pricing: { tr: '/paketler', en: '/en/pricing' },
   roadmap: { tr: '/yol-haritasi', en: '/en/roadmap' },
   faq: { tr: '/sss', en: '/en/faq' },
   waitlist: { tr: '/erken-katilim', en: '/en/early-access' },

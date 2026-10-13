@@ -9,7 +9,7 @@ export const app = {
   minimumAge: 16,
 } as const
 
-// Erken katılım listesi: Vercel ortam değişkenleri. Boşsa form yerine e-posta bağlantısı görünür.
+// Erken katılım listesi: yerelde .env, Vercel'de ortam değişkenleri. Boşsa form yerine e-posta bağlantısı görünür.
 export const waitlistApi = {
   url: (import.meta.env.SUPABASE_URL ?? '').replace(/\/+$/, ''),
   key: import.meta.env.SUPABASE_PUBLISHABLE_KEY ?? '',

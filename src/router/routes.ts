@@ -18,6 +18,7 @@ const components = {
   couples: () => import('@/pages/TopicPage.vue'),
   trust: () => import('@/pages/TopicPage.vue'),
   features: () => import('@/pages/FeaturesPage.vue'),
+  pricing: () => import('@/pages/PricingPage.vue'),
   roadmap: () => import('@/pages/RoadmapPage.vue'),
   faq: () => import('@/pages/FaqPage.vue'),
   waitlist: () => import('@/pages/WaitlistPage.vue'),

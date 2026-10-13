@@ -19,7 +19,7 @@ usePageHead('notFound')
         <p class="lead mt-3">{{ t('notFound.text') }}</p>
         <RouterLink
           :to="pathFor('home', t.lang.value)"
-          class="mt-8 inline-flex items-center gap-2 rounded-full bg-brand px-6 py-3 font-bold text-white transition hover:brightness-110"
+          class="btn mt-8 inline-flex items-center gap-2 rounded-full bg-brand px-6 py-3 font-bold text-white transition hover:brightness-110"
         >
           {{ t('common.backHome') }}
           <AppIcon name="arrowRight" class="size-4.5" />

@@ -289,6 +289,31 @@
   },
   "finalCta": {
     "title": "\"What are we doing this week?\" Now in one place.",
-    "text": "Your people are already there. Let your plans be too."
+    "text": "Your people are already there. Let your plans be too.",
+    "points": [
+      "Everything in it today is free and stays free",
+      "Turkish and English",
+      "Android first; web version on the way"
+    ]
+  },
+  "marquee": {
+    "label": "Some of what's in the app today",
+    "items": [
+      "Weekly schedule",
+      "Shared free time",
+      "Date polls",
+      "Live meetups",
+      "Agenda",
+      "Routines",
+      "Kanban board",
+      "Gantt chart",
+      "SWOT → TOWS",
+      "Export for AI",
+      "Group chat",
+      "Global search",
+      "Photo of the day",
+      "Games together",
+      "You choose who sees what"
+    ]
   }
 }

@@ -2,6 +2,7 @@
 import SiteHeader from '@/components/layout/SiteHeader.vue'
 import SiteFooter from '@/components/layout/SiteFooter.vue'
 import LanguageHint from '@/components/layout/LanguageHint.vue'
+import ShotViewer from '@/components/common/ShotViewer.vue'
 import { useT } from '@/i18n/useT'
 
 const t = useT()
@@ -26,4 +27,5 @@ const t = useT()
     </RouterView>
   </main>
   <SiteFooter />
+  <ShotViewer />
 </template>

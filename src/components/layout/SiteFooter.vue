@@ -18,7 +18,7 @@ const appLinks = computed(() => [
 
 const nextLinks = computed(() => [
   { to: pathFor('roadmap', t.lang.value), label: t('footer.roadmap') },
-  { to: pathFor('home', t.lang.value, t('home.ids.pricing')), label: t('footer.pro') },
+  { to: pathFor('pricing', t.lang.value), label: t('footer.pro') },
   { to: pathFor('home', t.lang.value, t('home.ids.web')), label: t('footer.web') },
   { to: pathFor('waitlist', t.lang.value), label: t('footer.waitlist') },
 ])

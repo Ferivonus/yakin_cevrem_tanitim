@@ -37,6 +37,10 @@
       "title": "Tüm özellikler: program, planlar, projeler · Yakın Çevrem",
       "description": "Ortak program, boş zaman bulma, buluşma anketleri, canlı buluşma, Gündem, projeler ve rehberli araçlar, şifreli saklanan sohbet ve sevgili alanı; hepsi tek listede."
     },
+    "pricing": {
+      "title": "Paketler: Temel ücretsiz, Pro yolda · Yakın Çevrem",
+      "description": "Yakın Çevrem'de bugün olan her şey ücretsiz ve ücretsiz kalacak. Pro, Pro İkili ve Pro Grup sesli ve görüntülü aramayla gelecek; fiyatlar henüz belli değil."
+    },
     "roadmap": {
       "title": "Yol haritası: sırada ne var? · Yakın Çevrem",
       "description": "Gelir planı, web ve Windows uygulaması, müşterinle paylaşılan proje alanı, saat kaydı. Yakın Çevrem'de neler planlanıyor?"
@@ -75,6 +79,7 @@
     "chat": "Sohbet",
     "couples": "Sevgilinle",
     "trust": "Güven",
+    "explore": "Özellikler",
     "features": "Tüm özellikler",
     "faq": "SSS",
     "roadmap": "Yol haritası",
@@ -93,7 +98,8 @@
       "chat": "Planı konuşarak yap",
       "couples": "İkinize özel alan",
       "trust": "Kim neyi görür",
-      "roadmap": "Sırada ne var, neler planlanıyor"
+      "roadmap": "Sırada ne var, neler planlanıyor",
+      "features": "Var olan ve yoldaki her şey, tek listede"
     },
     "themeLight": "Aydınlık temaya geç",
     "themeDark": "Karanlık temaya geç",
@@ -269,5 +275,13 @@
       "alt": "Genel aramada \"sunum\" için buluşma, iş ve Gündem sonuçları",
       "caption": "Her şeyi tek aramayla bul."
     }
+  },
+  "viewer": {
+    "label": "Ekran görüntüsü",
+    "open": "{alt} (büyüt)",
+    "close": "Kapat",
+    "prev": "Önceki görsel",
+    "next": "Sonraki görsel",
+    "count": "{current} / {total}"
   }
 }

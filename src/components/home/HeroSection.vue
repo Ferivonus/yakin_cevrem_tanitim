@@ -26,7 +26,7 @@ const statusInitial = computed(() => t('home.hero.sticker.statusName').charAt(0)
           <StoreButton />
           <a
             :href="`#${t('home.ids.inside')}`"
-            class="group inline-flex items-center gap-2 rounded-2xl px-4 py-3.5 font-bold text-brand-ink transition-colors duration-500 hover:bg-surface/70"
+            class="btn group inline-flex items-center gap-2 rounded-2xl px-4 py-3.5 font-bold text-brand-ink transition-colors duration-500 hover:bg-surface/70"
           >
             {{ t('home.hero.ctaSecondary') }}
             <AppIcon name="arrowDown" class="size-4.5 transition-transform duration-500 ease-[var(--ease-soft)] group-hover:translate-y-0.5" />

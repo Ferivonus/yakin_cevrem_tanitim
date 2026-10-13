@@ -27,7 +27,7 @@ const { waitlistFor } = useNav()
 
 <template>
   <section :id="t('home.ids.web')" class="section-y overflow-x-clip">
-    <div class="wrap grid grid-cols-1 items-center gap-16 lg:grid-cols-[0.95fr_1.05fr]">
+    <div class="wrap grid grid-cols-1 items-center gap-16 lg:grid-cols-[1.05fr_0.95fr]">
       <div v-reveal>
         <p class="eyebrow mb-3 inline-flex items-center gap-2">
           <AppIcon name="monitor" class="size-4" />
@@ -51,7 +51,7 @@ const { waitlistFor } = useNav()
         <div class="mt-9 flex flex-col gap-4 sm:flex-row sm:items-center">
           <RouterLink
             :to="waitlistFor('web', 'web')"
-            class="inline-flex shrink-0 items-center gap-2 self-start rounded-full bg-ink px-5 py-3 font-bold text-bg transition duration-500 ease-[var(--ease-soft)] hover:-translate-y-0.5 hover:shadow-soft sm:self-auto"
+            class="btn inline-flex shrink-0 items-center gap-2 self-start rounded-full bg-ink px-5 py-3 font-bold text-bg transition duration-500 ease-[var(--ease-soft)] hover:-translate-y-0.5 hover:shadow-soft sm:self-auto"
           >
             <AppIcon name="bell" class="size-4.5" />
             {{ t('home.web.notify') }}
@@ -60,7 +60,7 @@ const { waitlistFor } = useNav()
         </div>
       </div>
 
-      <div v-reveal="120" class="relative isolate mx-2 sm:mx-8 lg:mx-0" aria-hidden="true">
+      <div v-reveal="120" class="relative isolate mx-2 sm:mx-8 lg:order-first lg:mx-0" aria-hidden="true">
         <div class="web-sky absolute -inset-5 -z-10 rounded-[2.5rem] sm:-inset-9" />
         <CloudShape class="float-slower absolute -top-9 -left-4 -z-10 w-32 sm:-left-12 sm:w-48" />
         <CloudShape class="float-slow absolute -right-3 -bottom-10 -z-10 w-28 sm:-right-10 sm:w-44" />

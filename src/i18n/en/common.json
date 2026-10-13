@@ -37,6 +37,10 @@
       "title": "All features: schedules, plans, projects · Yakın Çevrem",
       "description": "Shared schedules, finding free time, meetup polls, live meetups, the Agenda, projects and guided tools, chat stored encrypted and the couple space; all in one list."
     },
+    "pricing": {
+      "title": "Plans: Basic is free, Pro is on the way · Yakın Çevrem",
+      "description": "Everything in Yakın Çevrem today is free and will stay free. Pro, Pro Duo and Pro Group will add voice and video calls; prices aren't set yet."
+    },
     "roadmap": {
       "title": "Roadmap: what's coming next · Yakın Çevrem",
       "description": "Income plan, web and Windows apps, a project space shared with your client, time tracking. What's planned for Yakın Çevrem?"
@@ -75,6 +79,7 @@
     "chat": "Chat",
     "couples": "Couples",
     "trust": "Trust",
+    "explore": "Features",
     "features": "All features",
     "faq": "FAQ",
     "roadmap": "Roadmap",
@@ -93,7 +98,8 @@
       "chat": "Talk the plan through",
       "couples": "A space for the two of you",
       "trust": "Who sees what",
-      "roadmap": "What's next and what's planned"
+      "roadmap": "What's next and what's planned",
+      "features": "Everything that's live and on the way, in one list"
     },
     "themeLight": "Switch to light theme",
     "themeDark": "Switch to dark theme",
@@ -269,5 +275,13 @@
       "alt": "Search results for \"present\": a meetup, a task and an Agenda item",
       "caption": "Find anything with one search."
     }
+  },
+  "viewer": {
+    "label": "Screenshot",
+    "open": "{alt} (enlarge)",
+    "close": "Close",
+    "prev": "Previous image",
+    "next": "Next image",
+    "count": "{current} / {total}"
   }
 }

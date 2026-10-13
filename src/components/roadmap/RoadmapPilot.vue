@@ -17,7 +17,7 @@ const { waitlistFor } = useNav()
     <div class="mt-auto pt-6">
       <RouterLink
         :to="waitlistFor('pilot', 'roadmap')"
-        class="inline-flex items-center gap-2 rounded-full bg-ink px-5 py-3 font-bold text-bg transition duration-500 ease-[var(--ease-soft)] hover:-translate-y-0.5 hover:shadow-soft"
+        class="btn inline-flex items-center gap-2 rounded-full bg-ink px-5 py-3 font-bold text-bg transition duration-500 ease-[var(--ease-soft)] hover:-translate-y-0.5 hover:shadow-soft"
       >
         <AppIcon name="sparkle" class="size-4.5" />
         {{ t('roadmap.pilot.action') }}

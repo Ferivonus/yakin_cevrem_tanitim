@@ -5,6 +5,7 @@ import AppBadge from '@/components/common/AppBadge.vue'
 import PhoneFrame from '@/components/common/PhoneFrame.vue'
 import SectionHeading from '@/components/common/SectionHeading.vue'
 import FeatureList from '@/components/features/FeatureList.vue'
+import FeaturesToc from '@/components/features/FeaturesToc.vue'
 import FinalCta from '@/components/common/FinalCta.vue'
 import { useT } from '@/i18n/useT'
 import { usePageHead } from '@/composables/usePageHead'
@@ -23,7 +24,7 @@ usePageHead()
     <div class="wrap pt-12 pb-[clamp(4rem,9vw,7.5rem)] sm:pt-16">
       <SectionHeading tag="h1" :eyebrow="t('features.page.eyebrow')" :title="t('features.page.title')" :text="t('features.page.text')" />
 
-      <nav :aria-label="t('features.page.toc')" class="mt-8 flex flex-wrap gap-2">
+      <nav :aria-label="t('features.page.toc')" class="mt-8 flex flex-wrap gap-2 lg:hidden">
         <a
           v-for="area in featureAreas"
           :key="area.id"
@@ -47,48 +48,51 @@ usePageHead()
         </RouterLink>
       </div>
 
-      <div class="mt-14 grid gap-6">
-        <section
-          v-for="area in featureAreas"
-          :id="area.id"
-          :key="area.id"
-          v-reveal
-          class="scroll-mt-24 rounded-[1.75rem] border p-6 sm:p-9"
-          :class="area.id === 'couple' ? 'theme-love border-love-petal bg-bg' : 'border-line bg-surface'"
-        >
-          <header class="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
-            <div>
-              <h2 class="text-2xl font-extrabold tracking-tight sm:text-[1.75rem]">{{ t(`features.areas.${area.id}.title`) }}</h2>
-              <p class="mt-1 text-muted">{{ t(`features.areas.${area.id}.text`) }}</p>
-            </div>
-            <div class="flex shrink-0 flex-wrap items-center gap-2">
-              <span class="text-xs font-bold text-muted">{{ t('common.forWhom') }}:</span>
-              <span
-                v-for="audience in area.audiences"
-                :key="audience"
-                class="rounded-full bg-brand-soft px-2.5 py-1 text-xs font-bold text-brand-ink"
-              >
-                {{ t(`audience.${audience}`) }}
-              </span>
-            </div>
-          </header>
-
-          <div class="mt-4" :class="area.id === 'personal' ? 'grid items-start gap-8 md:grid-cols-[1fr_12rem]' : ''">
-            <FeatureList :items="area.items" />
-            <div v-if="area.id === 'personal'" class="flex justify-center gap-4 md:flex-col md:gap-8">
-              <PhoneFrame v-for="shot in personalShots" :key="shot" :shot="shot" caption sizes="200px" class="w-1/2 max-w-40 md:w-full md:max-w-none" />
-            </div>
-          </div>
-
-          <RouterLink
-            v-if="area.page"
-            :to="pathFor(area.page, t.lang.value)"
-            class="mt-6 inline-flex items-center gap-2 font-bold text-brand-ink hover:underline hover:underline-offset-4"
+      <div class="mt-14 lg:grid lg:grid-cols-[12rem_minmax(0,1fr)] lg:gap-10 xl:gap-14">
+        <FeaturesToc class="hidden lg:block" />
+        <div class="grid gap-6">
+          <section
+            v-for="area in featureAreas"
+            :id="area.id"
+            :key="area.id"
+            v-reveal
+            class="scroll-mt-24 rounded-[1.75rem] border p-6 sm:p-9"
+            :class="area.id === 'couple' ? 'theme-love border-love-petal bg-bg' : 'border-line bg-surface'"
           >
-            {{ t('common.details') }}
-            <AppIcon name="arrowRight" class="size-4.5" />
-          </RouterLink>
-        </section>
+            <header class="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+              <div>
+                <h2 class="text-2xl font-extrabold tracking-tight sm:text-[1.75rem]">{{ t(`features.areas.${area.id}.title`) }}</h2>
+                <p class="mt-1 text-muted">{{ t(`features.areas.${area.id}.text`) }}</p>
+              </div>
+              <div class="flex shrink-0 flex-wrap items-center gap-2">
+                <span class="text-xs font-bold text-muted">{{ t('common.forWhom') }}:</span>
+                <span
+                  v-for="audience in area.audiences"
+                  :key="audience"
+                  class="rounded-full bg-brand-soft px-2.5 py-1 text-xs font-bold text-brand-ink"
+                >
+                  {{ t(`audience.${audience}`) }}
+                </span>
+              </div>
+            </header>
+
+            <div class="mt-4" :class="area.id === 'personal' ? 'grid items-start gap-8 md:grid-cols-[1fr_12rem]' : ''">
+              <FeatureList :items="area.items" />
+              <div v-if="area.id === 'personal'" class="flex justify-center gap-4 md:flex-col md:gap-8">
+                <PhoneFrame v-for="shot in personalShots" :key="shot" :shot="shot" caption sizes="200px" class="w-1/2 max-w-40 md:w-full md:max-w-none" />
+              </div>
+            </div>
+
+            <RouterLink
+              v-if="area.page"
+              :to="pathFor(area.page, t.lang.value)"
+              class="mt-6 inline-flex items-center gap-2 font-bold text-brand-ink hover:underline hover:underline-offset-4"
+            >
+              {{ t('common.details') }}
+              <AppIcon name="arrowRight" class="size-4.5" />
+            </RouterLink>
+          </section>
+        </div>
       </div>
     </div>
   </div>

@@ -11,7 +11,7 @@ const t = useT()
 
 <template>
   <section class="grid gap-6 lg:grid-cols-[1fr_1.6fr] lg:gap-16">
-    <div v-reveal>
+    <div v-reveal class="lg:sticky lg:top-28 lg:self-start">
       <h2 class="h-section">{{ t('common.related') }}</h2>
       <RouterLink
         :to="pathFor('faq', t.lang.value)"

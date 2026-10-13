@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, nextTick, onMounted, ref } from 'vue'
+import { computed, nextTick, onMounted, ref, useId } from 'vue'
 import { useRoute } from 'vue-router'
 import AppIcon from '@/components/common/AppIcon.vue'
 import { useT } from '@/i18n/useT'
@@ -14,8 +14,10 @@ import {
   type WaitlistInterest,
 } from '@/composables/useWaitlist'
 
+const props = defineProps<{ source?: string }>()
 const t = useT()
 const route = useRoute()
+const id = useId()
 
 const email = ref('')
 const interests = ref<WaitlistInterest[]>(['app'])
@@ -48,7 +50,7 @@ async function submit() {
   // Botların doldurduğu gizli alan: sessizce başarı gösterilir, istek gitmez.
   if (trap.value) return finish()
   state.value = 'sending'
-  const source = typeof route.query.from === 'string' ? route.query.from : 'waitlist'
+  const source = props.source ?? (typeof route.query.from === 'string' ? route.query.from : 'waitlist')
   const result = await joinWaitlist(email.value, interests.value, t.lang.value, source)
   if (result === 'ok') return finish()
   state.value = 'idle'
@@ -85,12 +87,12 @@ function again() {
         <div class="mt-8 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
           <RouterLink
             :to="pathFor('features', t.lang.value)"
-            class="inline-flex items-center gap-2 rounded-full bg-brand px-5 py-3 font-bold text-white transition hover:-translate-y-0.5"
+            class="btn inline-flex items-center gap-2 rounded-full bg-brand px-5 py-3 font-bold text-white transition hover:-translate-y-0.5"
           >
             {{ t('waitlist.success.explore') }}
             <AppIcon name="arrowRight" class="size-4.5" />
           </RouterLink>
-          <button type="button" class="rounded-full px-5 py-3 font-bold text-brand-ink hover:bg-brand-soft" @click="again">
+          <button type="button" class="btn rounded-full px-5 py-3 font-bold text-brand-ink hover:bg-brand-soft" @click="again">
             {{ t('waitlist.success.again') }}
           </button>
         </div>
@@ -99,7 +101,7 @@ function again() {
       <div v-else-if="!enabled" key="fallback" class="py-4">
         <h2 class="text-xl font-extrabold tracking-tight">{{ t('waitlist.form.title') }}</h2>
         <p class="mt-3 text-muted">{{ t('waitlist.fallback') }}</p>
-        <a :href="mailHref" class="mt-6 inline-flex items-center gap-2 rounded-full bg-brand px-5 py-3 font-bold text-white">
+        <a :href="mailHref" class="btn mt-6 inline-flex items-center gap-2 rounded-full bg-brand px-5 py-3 font-bold text-white">
           <AppIcon name="mail" class="size-4.5" />
           {{ app.supportEmail }}
         </a>
@@ -108,9 +110,9 @@ function again() {
       <form v-else key="form" novalidate @submit.prevent="submit">
         <h2 class="text-xl font-extrabold tracking-tight">{{ t('waitlist.form.title') }}</h2>
 
-        <label for="waitlist-email" class="mt-6 block text-sm font-bold">{{ t('waitlist.form.email') }}</label>
+        <label :for="`${id}-email`" class="mt-6 block text-sm font-bold">{{ t('waitlist.form.email') }}</label>
         <input
-          id="waitlist-email"
+          :id="`${id}-email`"
           v-model="email"
           type="email"
           inputmode="email"
@@ -118,7 +120,7 @@ function again() {
           required
           :placeholder="t('waitlist.form.placeholder')"
           :aria-invalid="error === 'email'"
-          :aria-describedby="error === 'email' ? 'waitlist-error' : undefined"
+          :aria-describedby="error === 'email' ? `${id}-error` : undefined"
           class="mt-2 h-13 w-full rounded-2xl border bg-bg px-4 text-[1.0625rem] outline-none transition-colors placeholder:text-muted/70 focus:border-brand focus:ring-4 focus:ring-brand/15"
           :class="error === 'email' ? 'border-love' : 'border-line'"
         />
@@ -158,7 +160,7 @@ function again() {
           <label>Website <input v-model="trap" type="text" tabindex="-1" autocomplete="off" /></label>
         </div>
 
-        <p v-if="error" id="waitlist-error" class="mt-4 rounded-xl bg-love/10 px-4 py-3 text-sm font-semibold text-love-deep" role="alert">
+        <p v-if="error" :id="`${id}-error`" class="mt-4 rounded-xl bg-love/10 px-4 py-3 text-sm font-semibold text-love-deep" role="alert">
           {{ t(`waitlist.errors.${error}`) }}
           <a v-if="error === 'network'" :href="mailHref" class="underline">{{ app.supportEmail }}</a>
         </p>

@@ -7,6 +7,8 @@ import { pathFor } from '@/router/pages'
 
 type PlanId = 'free' | 'pro' | 'duo' | 'group'
 
+defineProps<{ page?: boolean }>()
+
 const t = useT()
 
 const plans: { id: PlanId; seats: number | null }[] = [
@@ -31,7 +33,7 @@ const { waitlistFor } = useNav()
 </script>
 
 <template>
-  <section :id="t('home.ids.pricing')" class="pricing section-y relative isolate overflow-hidden text-white">
+  <section :id="page ? undefined : t('home.ids.pricing')" class="pricing section-y relative isolate overflow-hidden text-white">
     <div class="glow pointer-events-none absolute inset-0 -z-10" aria-hidden="true">
       <span
         v-for="([x, y, delay], index) in stars"
@@ -45,7 +47,7 @@ const { waitlistFor } = useNav()
     <div class="wrap relative">
       <div v-reveal class="max-w-2xl">
         <p class="eyebrow mb-3 !text-[#9fe3ff]">{{ t('home.pricing.eyebrow') }}</p>
-        <h2 class="h-section">{{ t('home.pricing.title') }}</h2>
+        <component :is="page ? 'h1' : 'h2'" :class="page ? 'h-display' : 'h-section'">{{ t('home.pricing.title') }}</component>
         <p class="lead mt-4 !text-white/70">{{ t('home.pricing.text') }}</p>
       </div>
 
@@ -131,7 +133,7 @@ const { waitlistFor } = useNav()
         <p class="max-w-xl text-sm text-white/60">{{ t('home.pricing.note') }}</p>
         <RouterLink
           :to="waitlistFor('pro', 'pricing')"
-          class="inline-flex shrink-0 items-center gap-2 self-start rounded-full border border-white/25 bg-white/5 px-5 py-3 font-bold backdrop-blur-md transition-colors duration-500 hover:bg-white hover:text-[#0e2433] sm:self-auto"
+          class="btn inline-flex shrink-0 items-center gap-2 self-start rounded-full border border-white/25 bg-white/5 px-5 py-3 font-bold backdrop-blur-md transition-colors duration-500 hover:bg-white hover:text-[#0e2433] sm:self-auto"
         >
           <AppIcon name="bell" class="size-4.5" />
           {{ t('home.pricing.notify') }}

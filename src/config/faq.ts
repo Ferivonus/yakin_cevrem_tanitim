@@ -12,3 +12,4 @@ export const faqGroups: { id: FaqGroupId; items: FaqId[] }[] = [
 ]
 
 export const homeFaq: FaqId[] = ['whatFor', 'free', 'noPartner', 'visibility', 'iphone']
+export const pricingFaq: FaqId[] = ['free', 'freelance', 'roadmap', 'web']

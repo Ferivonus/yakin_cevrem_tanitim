@@ -1,17 +1,23 @@
 <script setup lang="ts">
+import { computed } from 'vue'
 import AppIcon from './AppIcon.vue'
 import StoreButton from './StoreButton.vue'
+import WaitlistForm from '@/components/waitlist/WaitlistForm.vue'
 import CloudShape from '@/components/sky/CloudShape.vue'
 import { useT } from '@/i18n/useT'
+import { useRoute } from 'vue-router'
 import { pathFor } from '@/router/pages'
+import { app } from '@/config/app'
 
 defineProps<{ anchor?: boolean; hideFeatures?: boolean }>()
 const t = useT()
+const route = useRoute()
+const source = computed(() => `cta-${route.meta.key}`)
 </script>
 
 <template>
   <section :id="anchor ? t('home.ids.download') : undefined" class="wrap pb-[clamp(4rem,9vw,7.5rem)]">
-    <div v-reveal class="cta relative isolate overflow-hidden rounded-[2.25rem] px-6 py-16 text-center text-white sm:px-12 sm:py-24">
+    <div v-reveal class="cta relative isolate overflow-hidden rounded-[2.25rem] px-5 py-14 text-white sm:px-12 sm:py-20 lg:px-16">
       <div class="pointer-events-none absolute inset-0 -z-10" aria-hidden="true">
         <CloudShape class="cta-cloud drift absolute top-[8%] -left-8 w-[clamp(8rem,18vw,14rem)] opacity-35" />
         <CloudShape class="cta-cloud drift-slow absolute top-[14%] right-[4%] w-[clamp(5rem,10vw,8rem)] opacity-30" />
@@ -22,20 +28,33 @@ const t = useT()
           <path d="M11.3 13.7L21 4" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" />
         </svg>
       </div>
-      <h2 class="mx-auto max-w-3xl text-[clamp(1.875rem,4.5vw,3.25rem)] leading-[1.1] font-bold tracking-tight text-balance">
-        {{ t('home.finalCta.title') }}
-      </h2>
-      <p class="mx-auto mt-4 max-w-xl text-lg text-white/85">{{ t('home.finalCta.text') }}</p>
-      <div class="mt-9 flex flex-col items-center gap-5">
-        <StoreButton tone="light" />
-        <RouterLink
-          v-if="!hideFeatures"
-          :to="pathFor('features', t.lang.value)"
-          class="group inline-flex items-center gap-2 font-bold text-white/90 transition-colors duration-500 hover:text-white"
-        >
-          {{ t('common.allFeatures') }}
-          <AppIcon name="arrowRight" class="size-4.5 transition-transform duration-500 ease-[var(--ease-soft)] group-hover:translate-x-1" />
-        </RouterLink>
+      <div class="grid grid-cols-1 items-center gap-10 lg:grid-cols-[1.05fr_1fr] lg:gap-14">
+        <div class="text-center lg:text-left">
+          <h2 class="mx-auto max-w-3xl text-[clamp(1.875rem,4.5vw,3.25rem)] leading-[1.1] font-bold tracking-tight text-balance lg:mx-0">
+            {{ t('home.finalCta.title') }}
+          </h2>
+          <p class="mx-auto mt-4 max-w-xl text-lg text-white/85 lg:mx-0">{{ t('home.finalCta.text') }}</p>
+          <ul class="mx-auto mt-7 grid w-max max-w-full gap-2.5 text-left lg:mx-0">
+            <li v-for="point in t.list('home.finalCta.points')" :key="point" class="flex items-start gap-2.5 font-semibold text-white/90">
+              <span class="mt-0.5 grid size-5.5 shrink-0 place-items-center rounded-full bg-white/15">
+                <AppIcon name="check" class="size-3.5" />
+              </span>
+              {{ point }}
+            </li>
+          </ul>
+          <div v-if="app.playStoreUrl || !hideFeatures" class="mt-9 flex flex-col items-center gap-5 sm:flex-row sm:justify-center lg:justify-start">
+            <StoreButton v-if="app.playStoreUrl" tone="light" />
+            <RouterLink
+              v-if="!hideFeatures"
+              :to="pathFor('features', t.lang.value)"
+              class="group inline-flex items-center gap-2 font-bold text-white/90 transition-colors duration-500 hover:text-white"
+            >
+              {{ t('common.allFeatures') }}
+              <AppIcon name="arrowRight" class="size-4.5 transition-transform duration-500 ease-[var(--ease-soft)] group-hover:translate-x-1" />
+            </RouterLink>
+          </div>
+        </div>
+        <WaitlistForm v-if="!app.playStoreUrl" :source="source" class="mx-auto w-full max-w-lg text-left text-ink" />
       </div>
     </div>
   </section>

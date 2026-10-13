@@ -148,6 +148,18 @@
   letter-spacing: -0.01em;
 }
 
+/* Düğme gibi görünen bağlantılar: metni seçilmez, basınca hafifçe içe göçer. */
+@utility btn {
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  cursor: pointer;
+
+  &:active {
+    scale: 0.97;
+  }
+}
+
 @utility float-slow {
   animation: float 7s var(--ease-breeze) infinite alternate;
 }
@@ -205,6 +217,16 @@
   summary,
   label {
     -webkit-tap-highlight-color: transparent;
+  }
+
+  button,
+  summary {
+    user-select: none;
+    -webkit-user-select: none;
+  }
+
+  img {
+    -webkit-user-drag: none;
   }
 }
 

@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import HeroSection from '@/components/home/HeroSection.vue'
+import FeatureMarquee from '@/components/home/FeatureMarquee.vue'
 import ProblemSection from '@/components/home/ProblemSection.vue'
 import HowItWorksSection from '@/components/home/HowItWorksSection.vue'
 import TryFreeTime from '@/components/home/TryFreeTime.vue'
@@ -20,6 +21,7 @@ useAppStructuredData()
 
 <template>
   <HeroSection />
+  <FeatureMarquee />
   <ProblemSection />
   <HowItWorksSection />
   <TryFreeTime />

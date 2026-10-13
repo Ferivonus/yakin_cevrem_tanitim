@@ -28,7 +28,7 @@ onMounted(() => {
         <SectionHeading tag="h1" :eyebrow="t('faq.page.eyebrow')" :title="t('faq.page.title')" :text="t('faq.page.text')" />
         <a
           :href="`mailto:${app.supportEmail}`"
-          class="mt-6 inline-flex items-center gap-2 rounded-full border border-line bg-surface px-5 py-3 font-bold transition-colors hover:border-brand hover:text-brand-ink"
+          class="btn mt-6 inline-flex items-center gap-2 rounded-full border border-line bg-surface px-5 py-3 font-bold transition-colors hover:border-brand hover:text-brand-ink"
         >
           <AppIcon name="mail" class="size-5" />
           {{ t('faq.page.contact') }}

@@ -42,7 +42,7 @@ usePageHead()
           <AppIcon name="download" class="mt-0.5 size-5 shrink-0 text-brand-ink" />
           {{ t('legal.deleteAccount.tip') }}
         </p>
-        <a :href="mailHref" class="inline-flex shrink-0 items-center gap-2 self-start rounded-full border border-line bg-surface px-5 py-3 font-bold hover:border-brand hover:text-brand-ink">
+        <a :href="mailHref" class="btn inline-flex shrink-0 items-center gap-2 self-start rounded-full border border-line bg-surface px-5 py-3 font-bold hover:border-brand hover:text-brand-ink">
           <AppIcon name="mail" class="size-5" />
           {{ app.supportEmail }}
         </a>
